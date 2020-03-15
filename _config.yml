@@ -15,8 +15,16 @@ title: Home
 url: "http://sachaker.github.io"
 imgurl: "https://sachaker.github.io/img"
 
+header_pages:
+- about
+- projects
+- research
+- other
+
 github_username:  sachaker
-linkedin: https://www.linkedin.com/in/sacha-mcelligott-136a78a9/
+minima:
+  social_links:
+    linkedin: https://www.linkedin.com/in/sacha-mcelligott-136a78a9/
 
 excerpt_separator: <!--exc-->
 
