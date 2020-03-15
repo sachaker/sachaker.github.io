@@ -17,9 +17,9 @@ permalink: /other/
 *Examples of past work*
 
 <p float="left">
-  <img src="{{site.imgurl}}/art1.jpg" height="50%" />
-  <img src="{{site.imgurl}}/art2.png" height="50%" />
-  <img src="{{site.imgurl}}/art3.jpg" height="50%" />
+  <img src="{{site.imgurl}}/art1.jpg" height="20%" />
+  <img src="{{site.imgurl}}/art2.png" height="20%" />
+  <img src="{{site.imgurl}}/art3.jpg" height="20%" />
 </p>
 
 ### Cooking
