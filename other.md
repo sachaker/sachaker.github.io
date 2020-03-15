@@ -8,8 +8,8 @@ permalink: /other/
 *What I'm currently reading:*
 <p float="left">
   <img src="https://github.com/sachaker/sachaker.github.io/blob/master/img/book1.jpg" height="200" />
-  <img src="https://github.com/sachaker/sachaker.github.io/blob/master/img/book2.jpg" height="200" />
   <img src="https://github.com/sachaker/sachaker.github.io/blob/master/img/book3.jpg" height="200" />
+  <img src="https://github.com/sachaker/sachaker.github.io/blob/master/img/book2.jpg" height="200" />
 </p>
 
 ### Movies
