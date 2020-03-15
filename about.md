@@ -15,4 +15,4 @@ I was born in London to a musician and a photographer, and moved to San Francisc
 I hope you enjoy the site, it's been a fun project on its own to build it from the ground up.
 
 
-<src="{{site.imgurl}}/S.png" alt="" style="width:5%;height:5%;">
+<src="{{site.imgurl}}/S.png;" style="width:5%;height:5%;">
