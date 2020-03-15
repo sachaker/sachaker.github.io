@@ -4,25 +4,15 @@ title: About Me
 permalink: /about/
 ---
 
-<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/myBrain.gif" width="33%" />
+<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/me.png" width="33%" />
 
-My name is Sacha McElligott and I'm a graduate student at UC Berkeley in the
-[Helen Wills Neuroscience Institute](http://neuroscience.berkeley.edu/)
-working in the
-[Redwood Center for Theoretical Neuroscience](http://redwood.berkeley.edu/).
+My name is Sacha McElligott and I graduated from NYU in January 2019 with a BS Neural Science with a joint minor in Comp Sci and Math. Shortly after, I was named a 2019 recipient of the National Science Foundation's Graduate Research Fellowship, but did not accept and continued my research at UCL under Dr. Michael Häusser. 
 
-My research interests include sampling approaches to Bayesian inference,
-sensory neural circuits, and statistical learning theory.
-My research is supported by the National Science Foundation's
-Graduate Research Fellowship.
 
-I grew up in Southern Illinois, in a town called
-[Kankakee](http://www.thisamericanlife.org/radio-archives/episode/554/not-it),
-and attended high school at the
-[Illinois Math and Science Academy](https://www.imsa.edu)
-in Aurora, IL, graduating in 2009.
-I completed my undergraduate degree in Biology with a minor in
-Computational Neuroscience at the University of Chicago in 2013.
+I was born in London to a musician and a photographer, and moved to San Francisco with my mom when I was 6. I have always been fascinated by unknowns and challenges. For a long time I didn't know what I wanted to pursue professionally and as a young adolescent I went to the [Paul Green School of Rock](https://en.wikipedia.org/wiki/Paul_Green_(musician)#The_Paul_Green_School_of_Rock_Music), played concerts with [my band](https://youtu.be/U6tYGmJI9ZY?t=133), focused heavily on [my art](https://github.com/sachaker/sachaker.github.io/blob/master/art.md), skied, and filmed skateboarders in SF.
+       
+       
+I hope you enjoy the site, it's been a fun project on its own to build it from the ground up.
 
-Check out [my research](../research)
-or some of my [side projects](../projects)!
+
+<src="{{site.imgurl}}/S.png" alt="" style="width:5%;height:5%;">
