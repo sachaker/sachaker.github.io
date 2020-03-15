@@ -23,7 +23,7 @@ permalink: /other/
 </p>
 
 ### Cooking
-*Some of the meals I've cooked this past year*
+*Some of the meals I've cooked this year*
 <p float="left">
   <img src="{{site.imgurl}}/cook1.jpg" height="10%" />
   <img src="{{site.imgurl}}/cook2.jpg" height="10%" />
