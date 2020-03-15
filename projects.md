@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 ## [Analyzing Rideshare Data](https://medium.com/@skm440/analyzing-rideshare-data-a7c83f95cd65)
-
+![Rideshare Heatmap](https://github.com/sachaker/sachaker.github.io/blob/master/img/map.gif)
 During the summer of 2019, I explored the possibility of developing an app that would help rideshare drivers receive bigger payouts for their rides. Since drivers are constantly shifting between rideshare services (always trying to maximize their profits based on surge prices, percent payouts, and general pricing models for each service), I thought to build an app that would put this maximization problem into a quantitative framework. Given the time of day, the driver's location, and other factors (like the weather), which service would be most likely to be most profitable? While the idea had potential, my analysis of the data ultimately proved there to be too much variance for the service be reliable.
 
 ## [DeepLabCut: Modified Labeling System](https://github.com/sachaker/deeplabcut_texteam/blob/master/Protocols/alternateLabelingGUI.md)
