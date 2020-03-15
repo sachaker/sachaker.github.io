@@ -4,94 +4,14 @@ title: My Projects
 permalink: /projects/
 ---
 
-## Applied Statistics for Neuroscience
+## [Analyzing Rideshare Data](https://medium.com/@skm440/analyzing-rideshare-data-a7c83f95cd65)
 
-I developed a course in statistics
-aimed at graduate students in neuroscience
-who need to add quantitative skills,
-like probability and programming,
-to their toolbox.
-It is taught yearly at UC Berkeley
-and is
-[available online](https://github.com/charlesfrye/AppliedStatisticsForNeuroscience)
-as a collection of Jupyter notebooks.
+During the summer of 2019, I explored the possibility of developing an app that would help rideshare drivers receive bigger payouts for their rides. Since drivers are constantly shifting between rideshare services (always trying to maximize their profits based on surge prices, percent payouts, and general pricing models for each service), I thought to build an app that would put this maximization problem into a quantitative framework. Given the time of day, the driver's location, and other factors (like the weather), which service would be most likely to be most profitable? While the idea had potential, my analysis of the data ultimately proved there to be too much variance for the service be reliable.
 
-## Predicting Soil Properties from Infrared Spectra
-
-{:.gallery}
-[![soil_banner_crop]](https://github.com/kkamdin/soil_property_prediction_cdips2017)
-{: style="text-align: center"}
-
-As part of the
-[CDIPS Data Science Workshop](http://cdips.physics.berkeley.edu/dsw/),
-I worked with a team to develop a collection of tutorial
-Jupyter notebooks, which we deployed to the web using
-[Binder](https://mybinder.org/).
-Follow
-[this link](https://github.com/kkamdin/soil_property_prediction_cdips2017)
-to the GitHub page to learn more.
-
-## emojify.io
-
-{:.gallery}
-[![emojify]](http://emojify.io)
-{: style="text-align: center"}
-
-At [emojify.io](http://emojify.io), you can create "fractals" made out of emojis.
-The underlying statistical model is based on the
-["dead leaves" model of natural scenes](http://stat.fsu.edu/~anuj/pdf/papers/JMIV03.pdf),
-which combine *occlusion* and *scale invariance*.
-Occlusion means that objects placed on the canvas cover up, or occlude,
-objects that are behind them.
-Scale invariance means that the relationships between pixels do not change as you zoom in or out.
-
-The SVG image specification is an excellent match for this image model.
-Objects are placed on a canvas, and the objects that are placed later
-occlude objects placed before.
-Scale-invariance can be had on the cheap thanks to the "scalable"
-part of "scalable vector graphics".
-
-Since emojis are SVG objects, it was easy to extend this image model
-away from the simple geometric shapes usually used in research.
-
-Shout out to my friend [Derek Johnston](github.com/dcjohnston/),
-who wrote the web-facing components of the app.
-
-## Foundational Neuroscience Blog
-
-{:.gallery}
-[![qualBlog]](http://charlesfrye.github.io/FoundationalNeuroscience)
-{: style="text-align: center"}
-
-As part of my qualifying exam, I was required to know the answers
-to about 100 questions on the foundations of neuroscience.
-In order to focus my studying, I decided to write
-[a blog](http://charlesfrye.github.io/FoundationalNeuroscience)
-detailing my answers to all of the questions.
-
-I made it through about 40 by the time the exam rolled around.
-Check it out if you're interested in molecular or cellular neurobiology,
-computational neuroscience, and the connections between the two.
-
-The image above shows the output cable of a neuron, also known as an *axon*,
-as it grows towards its target. Each differently-colored object represents
-a different kind of signaling that can change the behavior of the axon as it grows.
-Check out [the blog post](site.url/FoundationalNeuroscience/34) for more information!
-
-## 1992 Philadelphia Eagles
-
-{:.gallery}
-[![broLove]](http://magicafternoon.com/album/bro-love)
-
-One evening in 2013, some talented musicians and also me
-recorded an
-[improvisational album of electro-acoustic music](http://magicafternoon.com/album/bro-love)
-as "The 1992 Philadelphia Eagles".
-I'm the clarinet.
+## [DeepLabCut: Modified Labeling System](https://github.com/sachaker/deeplabcut_texteam/blob/master/Protocols/alternateLabelingGUI.md)
+The DLC labeling process for whiskers can be laborious and repetitive. This alternative to DeepLabCut's point-and-click labeling allows for rapid labeling of contiguous structures, like whiskers. In this new system, the user drags the cursor along each structure, after which the spline is discretized into a pre-set number of nodes with equal increments along the path. This modification increased our throughput from labeling a frame every minute (at least) to labeling a frame every few seconds. I was very pleased when the [original authors](http://www.mousemotorlab.org/deeplabcut) of the software at Harvard asked if they could include my code in their latest, official version.
 
 
-[emojify]: {{site.imgurl}}/emojiTest3.png
-[qualBlog]: {{site.imgurl}}/qualBlog.png
-[broLove]: {{site.imgurl}}/broLove.jpg
-[soil_banner_crop]: {{site.imgurl}}/soil_banner_crop.png
-[stats_for_neuro]: {{site.imgurl}}/stats_for_neuro.png
+
+## [Discovering a new protein in Alzheimer's disease](https://github.com/sachaker/oldWebsite/blob/master/NYU_CNS_Honors_Thesis.pdf)
+We discovered a new protein involved in Alzheimer's disease!
