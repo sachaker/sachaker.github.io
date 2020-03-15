@@ -13,16 +13,20 @@ permalink: /other/
   <img src="{{site.imgurl}}/book2.jpg" height="200" />
 </p>
 
+
 ### Movies
 *What I've seen in the past ~8 months*
 
+
 ### Art
 *Examples of past work*
+
 <p float="left">
-  <img src="https://github.com/sachaker/sachaker.github.io/blob/master/img/art1.jpg" height="400" />
-  <img src="https://github.com/sachaker/sachaker.github.io/blob/master/img/art2.png" height="400" />
-  <img src="https://github.com/sachaker/sachaker.github.io/blob/master/img/art3.jpg" height="400" />
+  <img src="{{site.imgurl}}/art1.jpg" height="400" />
+  <img src="{{site.imgurl}}/art2.png" height="400" />
+  <img src="{{site.imgurl}}/art3.jpg" height="400" />
 </p>
+
 
 ### Cooking
 *Some of the meals I've cooked this past year*
