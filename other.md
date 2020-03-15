@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My other interests...
+title: Other interests
 permalink: /other/
 ---
 
