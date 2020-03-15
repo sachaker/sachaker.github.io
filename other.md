@@ -17,13 +17,21 @@ permalink: /other/
 *Examples of past work*
 
 <p float="left">
-  <img src="{{site.imgurl}}/art1.jpg" height="400" />
-  <img src="{{site.imgurl}}/art2.png" height="400" />
-  <img src="{{site.imgurl}}/art3.jpg" height="400" />
+  <img src="{{site.imgurl}}/art1.jpg" height="50%" />
+  <img src="{{site.imgurl}}/art2.png" height="50%" />
+  <img src="{{site.imgurl}}/art3.jpg" height="50%" />
 </p>
 
 ### Cooking
 *Some of the meals I've cooked this past year*
+<p float="left">
+  <img src="{{site.imgurl}}/cook1.jpg" height="40%" />
+  <img src="{{site.imgurl}}/cook2.jpg" height="40%" />
+  <img src="{{site.imgurl}}/cook3.jpg" height="40%" />
+  <img src="{{site.imgurl}}/cook4.jpg" height="40%" />
+  <img src="{{site.imgurl}}/cook5.jpg" height="40%" />
+  <img src="{{site.imgurl}}/cook6.jpg" height="40%" />
+</p>
 
 ### Movies
 *What I've seen in the past ~9 months, starting with most recent*
