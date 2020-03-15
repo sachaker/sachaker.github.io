@@ -5,19 +5,20 @@ permalink: /other/
 ---
 
 ### Books
+*What I'm currently reading:*
 <p float="left">
-  <img src="./img/book1.png" width="100" />
-  <img src="./img/book2.png" width="100" />
+  <img src="https://github.com/sachaker/sachaker.github.io/blob/master/img/book1.jpg" height="200" />
+  <img src="https://github.com/sachaker/sachaker.github.io/blob/master/img/book2.jpg" height="200" />
+  <img src="https://github.com/sachaker/sachaker.github.io/blob/master/img/book3.jpg" height="200" />
 </p>
 
-[Surely You're Joking, Mr. Feynman!](https://www.amazon.com/Surely-Feynman-Adventures-Curious-Character/dp/0393316041)
-
-[Make Your Own Neural Network](https://www.amazon.com/Make-Your-Own-Neural-Network/dp/1530826608/ref=sr_1_1?keywords=make+your+own+neural+network&qid=1584312750&s=books&sr=1-1)
-
 ### Movies
+*What I've seen in the past ~8 months*
 
 ### Art
+*Examples of past work
 
 ### Cooking
+*Some of the meals I've cooked this past year*
 
 ### Random
