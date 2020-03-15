@@ -4,9 +4,9 @@ title: About Me
 permalink: /about/
 ---
 
-<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/me.jpg" width="33%" />
+<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/myBrain.gif" width="33%" />
 
-My name is Charles Frye and I'm a graduate student at UC Berkeley in the
+My name is Sacha McElligott and I'm a graduate student at UC Berkeley in the
 [Helen Wills Neuroscience Institute](http://neuroscience.berkeley.edu/)
 working in the
 [Redwood Center for Theoretical Neuroscience](http://redwood.berkeley.edu/).
