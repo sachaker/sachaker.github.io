@@ -11,14 +11,12 @@ email: sacha@nyu.edu
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title: TBD!
+# title: TBD!
 url: "http://sachaker.github.io"
-qualurl: "FoundationalNeuroscience"
 imgurl: "https://sachaker.github.io/img"
 
 github_username:  sachaker
 
-DBL: "https://dl.dropboxusercontent.com/u/16348658"
 excerpt_separator: <!--exc-->
 
 # Build settings
