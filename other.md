@@ -40,6 +40,7 @@ permalink: /other/
 
 [![](http://img.youtube.com/vi/siSj-uT4kuo/0.jpg)](http://www.youtube.com/watch?v=siSj-uT4kuot=125 "DNA Lounge")
 
+[![](http://img.youtube.com/vi/U6tYGmJI9ZY/0.jpg)](http://www.youtube.com/watch?v=U6tYGmJI9ZY "DNA Lounge")
 
 ### Movies
 *What I've seen in the past ~9 months, starting with most recent*
