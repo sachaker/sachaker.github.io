@@ -41,7 +41,7 @@ permalink: /other/
 
 
 ### Music
-*Videos from my musical days*
+*Videos from my musical days (on drums in these videos)*
 
 [![](http://img.youtube.com/vi/1g3i80eVR8A/0.jpg)](http://www.youtube.com/watch?v=1g3i80eVR8At=244 "DNA Lounge")
 
