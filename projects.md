@@ -1,8 +1,7 @@
 ---
 layout: gallery
-title: Projects
+title: iii. Projects
 permalink: /projects/
-navigation_weight: 1
 ---
 
 ## [Analyzing rideshare data](https://medium.com/@skm440/analyzing-rideshare-data-a7c83f95cd65)
