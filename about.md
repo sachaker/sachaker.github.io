@@ -20,4 +20,4 @@ I hope you enjoy the site, making it has been a fun project on its own.
 <img style="float: center; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/sig.PNG" width="40%" />
 
 
-<iframe src= "https://www.docdroid.net/kJ5eNvJ/mcelligott-resume.pdf" height="100%" width="100%"> </iframe>
+<iframe src= "https://www.docdroid.net/kJ5eNvJ/mcelligott-resume.pdf" height="700px"> </iframe>
