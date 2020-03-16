@@ -19,6 +19,7 @@ imgurl: "https://sachaker.github.io/img"
 
 header_pages:
 - about.md
+- projects.md
 
 github_username:  sachaker
 
