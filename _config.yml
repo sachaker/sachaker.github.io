@@ -19,10 +19,10 @@ imgurl: "https://sachaker.github.io/img"
 
 # list of links in navbar
 navbar-links:
-  About: "about.md"
-  Projects: "projects.md"
-  Resume: "resume.md"
-  Other interests: "other.md"
+  About: "about"
+  Projects: "projects"
+  Resume: "resume"
+  Other interests: "other"
 
 github_username:  sachaker
 
