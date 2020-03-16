@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: home
 title: Home
-permalink: //
+permalink: ' '
 list_title: ' '
 ---
 
