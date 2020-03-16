@@ -6,7 +6,7 @@ permalink: /about/
 
 <img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/sacha.png" width="33%" />
 
-My name is Sacha McElligott and I graduated from NYU in January 2019 with a BS Neural Science with a joint minor in Comp Sci and Math. Shortly after, I was named a 2019 recipient of the National Science Foundation's [Graduate Research Fellowship](https://en.wikipedia.org/wiki/NSF-GRFP), but did not accept and continued my research at UCL under Dr. Michael Häusser. 
+My name is Sacha McElligott and I graduated from NYU in January 2019 with a BS Neural Science with a joint minor in Comp Sci and Math. Shortly after, I was named a 2019 recipient of the National Science Foundation's [Graduate Research Fellowship](https://en.wikipedia.org/wiki/NSF-GRFP), but did not accept and continued my research at UCL under [Dr. Michael Häusser](https://www.google.com/search?q=michael+hausser&oq=michael+hausser&aqs=chrome..69i57.1759j0j1&sourceid=chrome&ie=UTF-8). 
 
 
 
