@@ -11,9 +11,13 @@ email: sacha@nyu.edu
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title: Home
-url: "http://sachaker.github.io"
+#title: Home
+#url: "http://sachaker.github.io"
 imgurl: "https://sachaker.github.io/img"
+
+title: About
+  - url: /about.md
+
 
 header_pages:
 - about
