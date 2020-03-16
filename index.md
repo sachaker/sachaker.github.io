@@ -1,6 +1,5 @@
 ---
-layout: home
-title: Home
+layout: home 
 permalink: //
 list_title: ' '
 ---
