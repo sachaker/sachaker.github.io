@@ -25,12 +25,12 @@ permalink: /other/
 ### Cooking
 *Some of the meals I've cooked this year*
 <p float="left">
-  <img src="{{site.imgurl}}/cook1.JPG" height="10%" />
-  <img src="{{site.imgurl}}/cook2.JPG" height="10%" />
-  <img src="{{site.imgurl}}/cook3.JPG" height="10%" />
-  <img src="{{site.imgurl}}/cook4.JPG" height="10%" />
-  <img src="{{site.imgurl}}/cook5.JPG" height="10%" />
-  <img src="{{site.imgurl}}/cook6.JPG" height="10%" />
+  <img src="{{site.imgurl}}/cook1.JPG" height="200px" />
+  <img src="{{site.imgurl}}/cook2.JPG" height="200px%" />
+  <img src="{{site.imgurl}}/cook3.JPG" height="200px%" />
+  <img src="{{site.imgurl}}/cook4.JPG" height="200px%" />
+  <img src="{{site.imgurl}}/cook5.JPG" height="200px%" />
+  <img src="{{site.imgurl}}/cook6.JPG" height="200px%" />
 </p>
 
 ### Music
