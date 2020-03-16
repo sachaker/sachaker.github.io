@@ -1,7 +1,7 @@
 ---
 layout: home 
+title: Home
 permalink: //
-list_title: ' '
 ---
 
 # Welcome!
