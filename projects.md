@@ -17,7 +17,7 @@ The DLC labeling process for whiskers can be laborious and repetitive. This alte
 ## [Discovering a new protein in Alzheimer's disease](https://github.com/sachaker/oldWebsite/blob/master/NYU_CNS_Honors_Thesis.pdf)
 We discovered a new protein involved in Alzheimer's disease!
 
-## [Modeling information transfer in high-noise neural systems](https://github.com/sachaker/sachaker.github.io/blob/master/files/neuronalTelephone.html)
+## [Modeling information transfer in high-noise neural systems](neuronalTelephone.html)
 
 <a href="https://github.com/sachaker/sachaker.github.io/blob/master/files/neuronalTelephone.html">
 <img style="float: right; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/rotate.gif" width="30%"/>
