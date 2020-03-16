@@ -8,9 +8,9 @@ permalink: /other/
 *What I'm currently reading*
 
 <p float="left">
-  <img src="{{site.imgurl}}/book1.jpg" height="350" />
-  <img src="{{site.imgurl}}/book3.jpg" height="350" />
-  <img src="{{site.imgurl}}/book2.jpg" height="350" />
+  <img src="{{site.imgurl}}/book1.jpg" height="250" />
+  <img src="{{site.imgurl}}/book3.jpg" height="250" />
+  <img src="{{site.imgurl}}/book2.jpg" height="250" />
 </p>
 
 
@@ -34,9 +34,9 @@ permalink: /other/
 *Examples of past work*
 
 <p float="left">
-  <img src="{{site.imgurl}}/art1.jpg" height="475px" />
-  <img src="{{site.imgurl}}/art2.png" height="475px" />
-  <img src="{{site.imgurl}}/art3.jpg" height="475px" />
+  <img src="{{site.imgurl}}/art1.jpg" height="575px" />
+  <img src="{{site.imgurl}}/art2.png" height="575px" />
+  <img src="{{site.imgurl}}/art3.jpg" height="575px" />
 </p>
 
 
