@@ -1,0 +1,265 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>neuronalTelephone</title><meta name="generator" content="MATLAB 9.4"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2018-12-06"><meta name="DC.source" content="neuronalTelephone.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#2">Variable Initialization</a></li><li><a href="#3">Generate Living Neurons</a></li><li><a href="#4">Generate Connections</a></li><li><a href="#5">Visualization</a></li></ul></div><pre class="codeinput">clear;
+close <span class="string">all</span>;
+clc;
+</pre><h2 id="2">Variable Initialization</h2><p>Time variables</p><pre class="codeinput">sweepNum = 1;
+totalTime = 500;
+deltaT = 0.05;
+Rec_length = round(totalTime/deltaT);
+
+<span class="comment">% Size of Population</span>
+numNeurons = 200;
+
+<span class="comment">% Positional Info</span>
+coords = [];
+xBounds = [-5,5];
+yBounds = [0,4];
+
+<span class="comment">% Physiological Info</span>
+voltage = [];
+spikes = [];
+connection = zeros(numNeurons,numNeurons);
+axons = [];
+spikeMatrix = zeros(sweepNum, totalTime, numNeurons);
+eTrain = zeros(Rec_length, numNeurons);
+summedSpikeTrace = zeros(numNeurons,Rec_length); <span class="comment">% will have the summed spike trains going into each neuron</span>
+
+<span class="comment">% Analysis Info</span>
+corrs = [];
+</pre><h2 id="3">Generate Living Neurons</h2><pre class="codeinput"><span class="keyword">for</span> i = 1:numNeurons
+    <span class="comment">% Generate position of neuron</span>
+    x = normrnd((xBounds(1)+xBounds(2))/2,1.5);
+    y = normrnd((yBounds(1)+yBounds(2))/2,1);
+    z = normrnd((yBounds(1)+yBounds(2))/2,1);
+    coords = [coords; [x,y,z]];
+
+    <span class="comment">% Generate activity of neuron</span>
+    <span class="comment">%V = HHspike(0.01);</span>
+    V = synBarrage(100, totalTime, sweepNum, deltaT);
+    <span class="comment">% Add to array of voltages</span>
+    voltage = [voltage; V];
+    [~,spikeTrace] = countSpikes(V);
+    spikes = [spikes; spikeTrace];
+<span class="keyword">end</span>
+</pre><h2 id="4">Generate Connections</h2><pre class="codeinput"><span class="keyword">for</span> j = 1:numNeurons-1
+
+
+    <span class="keyword">for</span> i = 1:numNeurons-1
+        <span class="comment">% Generate Connections</span>
+        prob = normrnd(0.5,0.25);
+        <span class="keyword">if</span> (i==j) || (connection(i,j)==1)
+            dist = 100000000; <span class="comment">% don't let it synapse onto itself or let back-propogation</span>
+        <span class="keyword">end</span>
+        dist = pdist([coords(j,:); coords(i,:)],<span class="string">'Euclidean'</span>); <span class="comment">% get Euclidean distance</span>
+        <span class="keyword">if</span> ((1/(2*dist))*prob &gt; 0.5) &amp;&amp; ((1/dist) ~= Inf) <span class="comment">% if the generated probability times a distance weighting factor is over 0.5...</span>
+            connection(j,i) = 1; <span class="comment">% ...there is a connection</span>
+
+            summedSpikeTrace(j,:) = summedSpikeTrace(j,:) + spikes(i,:); <span class="comment">% add up the spikes</span>
+            <span class="comment">% slower and unnecessary but easier for me to keep track of coordinates</span>
+            x1 = coords(j,1);
+            y1 = coords(j,2);
+            z1 = coords(j,3);
+            x2 = coords(i,1);
+            y2 = coords(i,2);
+            z2 = coords(i,3);
+
+            axons = [axons; [x1 x2],[y1 y2], [z1 z2]];
+        <span class="keyword">end</span>
+    <span class="keyword">end</span>
+<span class="keyword">end</span>
+
+<span class="keyword">for</span> i = 1:numNeurons
+    alpha = genPSC(summedSpikeTrace(i,:)); <span class="comment">% generate a post-synaptic current from the input spikes</span>
+    convolved = conv(summedSpikeTrace(i,:),alpha); <span class="comment">% convolve the input spikes with generated alpha function</span>
+    convolved(Rec_length+1:Rec_length+Rec_length-1) = []; <span class="comment">% clean up the edges</span>
+    voltage(i,:) = HHspike(convolved); <span class="comment">% use the product of the convolution as input current to the receiving HH unit</span>
+<span class="keyword">end</span>
+</pre><h2 id="5">Visualization</h2><pre class="codeinput">figure(1)
+scatter3(coords(:,1),coords(:,2),coords(:,3),<span class="string">'ro'</span>);
+hold <span class="string">on</span>
+scatter3(coords(:,1),coords(:,2),coords(:,3),<span class="string">'r+'</span>); scatter3(coords(:,1),coords(:,2),coords(:,3),<span class="string">'rx'</span>);
+<span class="keyword">for</span> i = 1:size(axons,1)
+    plot3([axons(i,1) axons(i,2)],[axons(i,3) axons(i,4)],[axons(i,5) axons(i,6)], <span class="string">'r'</span>);
+<span class="keyword">end</span>
+
+<span class="comment">%figure(2)</span>
+<span class="comment">%for x = 1:numNeurons</span>
+<span class="comment">%    plot(voltage(x,:));</span>
+<span class="comment">%    hold on</span>
+<span class="comment">%end</span>
+
+<span class="comment">%figure(3)</span>
+<span class="comment">%hist(corrs');</span>
+</pre><img vspace="5" hspace="5" src="rotate.gif" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+clear;
+close all;
+clc;
+
+%% Variable Initialization
+% Time variables
+sweepNum = 1;
+totalTime = 500;
+deltaT = 0.05;
+Rec_length = round(totalTime/deltaT);
+
+% Size of Population
+numNeurons = 200;
+
+% Positional Info
+coords = [];
+xBounds = [-5,5];
+yBounds = [0,4];
+
+% Physiological Info
+voltage = [];
+spikes = [];
+connection = zeros(numNeurons,numNeurons);
+axons = [];
+spikeMatrix = zeros(sweepNum, totalTime, numNeurons);
+eTrain = zeros(Rec_length, numNeurons);
+summedSpikeTrace = zeros(numNeurons,Rec_length); % will have the summed spike trains going into each neuron
+
+% Analysis Info
+corrs = [];
+
+%% Generate Living Neurons
+for i = 1:numNeurons
+    % Generate position of neuron
+    x = normrnd((xBounds(1)+xBounds(2))/2,1.5);
+    y = normrnd((yBounds(1)+yBounds(2))/2,1);
+    z = normrnd((yBounds(1)+yBounds(2))/2,1);
+    coords = [coords; [x,y,z]];
+    
+    % Generate activity of neuron
+    %V = HHspike(0.01);
+    V = synBarrage(100, totalTime, sweepNum, deltaT);
+    % Add to array of voltages
+    voltage = [voltage; V];
+    [~,spikeTrace] = countSpikes(V);
+    spikes = [spikes; spikeTrace]; 
+end
+
+%% Generate Connections
+for j = 1:numNeurons-1
+    
+    
+    for i = 1:numNeurons-1
+        % Generate Connections
+        prob = normrnd(0.5,0.25);
+        if (i==j) || (connection(i,j)==1) 
+            dist = 100000000; % don't let it synapse onto itself or let back-propogation 
+        end
+        dist = pdist([coords(j,:); coords(i,:)],'Euclidean'); % get Euclidean distance
+        if ((1/(2*dist))*prob > 0.5) && ((1/dist) ~= Inf) % if the generated probability times a distance weighting factor is over 0.5...
+            connection(j,i) = 1; % ...there is a connection
+
+            summedSpikeTrace(j,:) = summedSpikeTrace(j,:) + spikes(i,:); % add up the spikes 
+            % slower and unnecessary but easier for me to keep track of coordinates
+            x1 = coords(j,1);
+            y1 = coords(j,2);
+            z1 = coords(j,3);
+            x2 = coords(i,1);
+            y2 = coords(i,2);
+            z2 = coords(i,3);
+
+            axons = [axons; [x1 x2],[y1 y2], [z1 z2]];
+        end  
+    end
+end
+
+for i = 1:numNeurons
+    alpha = genPSC(summedSpikeTrace(i,:)); % generate a post-synaptic current from the input spikes
+    convolved = conv(summedSpikeTrace(i,:),alpha); % convolve the input spikes with generated alpha function
+    convolved(Rec_length+1:Rec_length+Rec_length-1) = []; % clean up the edges
+    voltage(i,:) = HHspike(convolved); % use the product of the convolution as input current to the receiving HH unit
+end
+
+%% Visualization
+figure(1)
+scatter3(coords(:,1),coords(:,2),coords(:,3),'ro');
+hold on
+scatter3(coords(:,1),coords(:,2),coords(:,3),'r+'); scatter3(coords(:,1),coords(:,2),coords(:,3),'rx');
+for i = 1:size(axons,1)
+    plot3([axons(i,1) axons(i,2)],[axons(i,3) axons(i,4)],[axons(i,5) axons(i,6)], 'r');
+end
+
+%figure(2)
+%for x = 1:numNeurons
+%    plot(voltage(x,:));
+%    hold on
+%end
+
+%figure(3)
+%hist(corrs');
+
+
+##### SOURCE END #####
+--></body></html>
