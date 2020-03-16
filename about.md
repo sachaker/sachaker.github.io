@@ -10,7 +10,7 @@ My name is Sacha McElligott and I graduated from NYU in January 2019 with a B.S.
 
 
 
-I was born in London to a musician and a photographer, and moved to San Francisco with my mom when I was 6. I have always been fascinated by unknowns and challenges. For a long time I was torn by my many interests and as an adolescent I went to the [Paul Green School of Rock](https://en.wikipedia.org/wiki/Paul_Green_(musician)#The_Paul_Green_School_of_Rock_Music), played concerts with my band, focused heavily on my art, skied, and filmed skateboarders in SF (see: [Other interests](https://sachaker.github.io/other).
+I was born in London to a musician and a photographer, and moved to San Francisco with my mom when I was 6. I have always been fascinated by unknowns and challenges. For a long time I was torn by my many interests and as an adolescent I went to the [Paul Green School of Rock](https://en.wikipedia.org/wiki/Paul_Green_(musician)#The_Paul_Green_School_of_Rock_Music), played concerts with my band, focused heavily on my art, skied, and filmed skateboarders in SF (see: [Other interests](https://sachaker.github.io/other)).
        
        
 My fascination with unknowns and challenges continues to fuel me. On the professional front, I am currently looking to wield the analytical skillset I developed from years of competitive neuroscience research in new and exciting domains.
