@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: My Projects
+title: My projects
 permalink: /projects/
 ---
 
