@@ -17,3 +17,7 @@ The DLC labeling process for whiskers can be laborious and repetitive. This alte
 
 ## [Discovering a new protein in Alzheimer's disease](https://github.com/sachaker/oldWebsite/blob/master/NYU_CNS_Honors_Thesis.pdf)
 We discovered a new protein involved in Alzheimer's disease!
+
+## [Modeling information transfer in high-noise neural systems](https://github.com/sachaker/sachaker.github.io/blob/master/files/neuronalTelephone.html)
+<img style="float: right; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/rotate.gif"/>
+This program was the first part of my Final Project for Dr. Alex Reyes' course, Network Models. My goal was to determine how information dissapates throughout a network. To do this, I developed a generative model that creates a population of excitatory neurons that synapse onto each other using a probabilistic mode  based on the proximity between the two units. The position of the neuron was generated using a Gaussian distribution with parameters in arbitrary units for each of the 3 dimensions. Then, the physiological properties of each unit were generated using the Hodgkin-Huxley equations, and stochastically fire for the duration of "recording" based on a model I built from a previous assignment. One of these HH units was then selected at random and given a stimulation of a set pattern. The goal of this project was to see how many units in the network show significant alignment with this stimulus (i.e. received the information), and how that decays with distance and with number of units.
