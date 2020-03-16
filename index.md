@@ -2,6 +2,7 @@
 layout: default
 title: Home
 permalink: //
+list_title: ' '
 ---
 
 # Welcome!
