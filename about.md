@@ -17,4 +17,4 @@ I was born in London to a musician and a photographer, and moved to San Francisc
 I hope you enjoy the site, it's been a fun project on its own to build it from the ground up.
 
 
-<img style="float: center; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/sig.png" width="80%" />
+<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/sig.PNG" width="80%" />
