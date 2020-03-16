@@ -18,9 +18,9 @@ url: "http://sachaker.github.io"
 imgurl: "https://sachaker.github.io/img"
 
 # list of links in navbar
-navbar-links:
-  About: "about"
-  Projects: "projects"
+# navbar-links:
+  # About: "about"
+  # Projects: "projects"
 
 github_username:  sachaker
 
