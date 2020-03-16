@@ -18,6 +18,3 @@ I hope you enjoy the site, making it has been a fun project on its own.
 
 
 <img style="float: center; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/sig.PNG" width="40%" />
-
-
-<iframe src= "https://www.docdroid.net/kJ5eNvJ/mcelligott-resume.pdf" height="1100px" width="850px"> </iframe>
