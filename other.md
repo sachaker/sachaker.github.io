@@ -33,6 +33,13 @@ permalink: /other/
   <img src="{{site.imgurl}}/cook6.jpg" height="10%" />
 </p>
 
+### Music
+*Videos from my musical days*
+[![](http://img.youtube.com/vi/1g3i80eVR8A/0.jpg)](http://www.youtube.com/watch?v=1g3i80eVR8At=244 "DNA Lounge")
+
+[![](http://img.youtube.com/vi/siSj-uT4kuo/0.jpg)](http://www.youtube.com/watch?v=siSj-uT4kuot=125 "DNA Lounge")
+
+
 ### Movies
 *What I've seen in the past ~9 months, starting with most recent*
 - The Mask of Zorro 
