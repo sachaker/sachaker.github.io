@@ -13,14 +13,6 @@ permalink: /other/
   <img src="{{site.imgurl}}/book2.jpg" height="200" />
 </p>
 
-### Art
-*Examples of past work*
-
-<p float="left">
-  <img src="{{site.imgurl}}/art1.jpg" height="475px" />
-  <img src="{{site.imgurl}}/art2.png" height="475px" />
-  <img src="{{site.imgurl}}/art3.jpg" height="375px" />
-</p>
 
 ### Cooking
 *Some of the meals I've cooked this year*
@@ -37,6 +29,17 @@ permalink: /other/
   <img src="{{site.imgurl}}/cook10.JPG" height="300px" />
 </p>
 
+
+### Art
+*Examples of past work*
+
+<p float="left">
+  <img src="{{site.imgurl}}/art1.jpg" height="475px" />
+  <img src="{{site.imgurl}}/art2.png" height="475px" />
+  <img src="{{site.imgurl}}/art3.jpg" height="375px" />
+</p>
+
+
 ### Music
 *Videos from my musical days*
 
@@ -45,6 +48,7 @@ permalink: /other/
 [![](http://img.youtube.com/vi/siSj-uT4kuo/0.jpg)](http://www.youtube.com/watch?v=siSj-uT4kuot=125 "DNA Lounge")
 
 [![](http://img.youtube.com/vi/U6tYGmJI9ZY/0.jpg)](http://www.youtube.com/watch?v=U6tYGmJI9ZY "DNA Lounge")
+
 
 ### Movies
 *What I've seen in the past ~9 months, starting with most recent*
