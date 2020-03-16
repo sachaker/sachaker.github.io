@@ -17,24 +17,24 @@ permalink: /other/
 *Examples of past work*
 
 <p float="left">
-  <img src="{{site.imgurl}}/art1.jpg" height="350px" />
-  <img src="{{site.imgurl}}/art2.png" height="350px" />
-  <img src="{{site.imgurl}}/art3.jpg" height="350px" />
+  <img src="{{site.imgurl}}/art1.jpg" height="375px" />
+  <img src="{{site.imgurl}}/art2.png" height="375px" />
+  <img src="{{site.imgurl}}/art3.jpg" height="375px" />
 </p>
 
 ### Cooking
 *Some of the meals I've cooked this year*
 <p float="left">
-  <img src="{{site.imgurl}}/cook1.JPG" height="200px" />
-  <img src="{{site.imgurl}}/cook2.JPG" height="200px%" />
-  <img src="{{site.imgurl}}/cook3.JPG" height="200px%" />
-  <img src="{{site.imgurl}}/cook4.JPG" height="200px%" />
-  <img src="{{site.imgurl}}/cook5.JPG" height="200px%" />
-  <img src="{{site.imgurl}}/cook6.JPG" height="200px%" />
-  <img src="{{site.imgurl}}/cook7.JPG" height="200px%" />
-  <img src="{{site.imgurl}}/cook8.JPG" height="200px%" />
-  <img src="{{site.imgurl}}/cook9.JPG" height="200px%" />
-  <img src="{{site.imgurl}}/cook10.JPG" height="200px%" />
+  <img src="{{site.imgurl}}/cook1.JPG" height="300px" />
+  <img src="{{site.imgurl}}/cook2.JPG" height="300px" />
+  <img src="{{site.imgurl}}/cook3.JPG" height="300px" />
+  <img src="{{site.imgurl}}/cook4.JPG" height="300px" />
+  <img src="{{site.imgurl}}/cook5.JPG" height="300px" />
+  <img src="{{site.imgurl}}/cook6.JPG" height="300px" />
+  <img src="{{site.imgurl}}/cook7.JPG" height="300px" />
+  <img src="{{site.imgurl}}/cook8.JPG" height="300px" />
+  <img src="{{site.imgurl}}/cook9.JPG" height="300px" />
+  <img src="{{site.imgurl}}/cook10.JPG" height="300px" />
 </p>
 
 ### Music
