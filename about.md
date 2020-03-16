@@ -20,4 +20,6 @@ I hope you enjoy the site, making it has been a fun project on its own.
 <img style="float: center; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/sig.PNG" width="40%" />
 
 
+<img style="float: center; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/pdf/Resume.pdf" width="40%" />
+
 <iframe src = "https://github.com/sachaker/sachaker.github.io/blob/master/img/pdf/McElligott_Resume.pdf" width="100%"></iframe>
