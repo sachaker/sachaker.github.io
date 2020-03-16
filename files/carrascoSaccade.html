@@ -1,0 +1,1493 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>carrasco_saccade</title><meta name="generator" content="MATLAB 9.3"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2019-05-01"><meta name="DC.source" content="carrasco_saccade.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#1">---- Carrasco Paradigm: Saccade ----</a></li><li><a href="#2">TMS Initialization</a></li><li><a href="#3">Get name, write file</a></li><li><a href="#4">Screen Initialization</a></li><li><a href="#5">Screen Parameters (taken from Iiyama HM204DT-A Manual)</a></li><li><a href="#6">More params</a></li><li><a href="#7">Eyelink Stuff</a></li><li><a href="#8">Variable initialization</a></li><li><a href="#9">Create all the gabors beforehand (faster!)</a></li><li><a href="#14">Create Textures (allows for fast switch of screen)</a></li><li><a href="#15">Draw fixation w/ left-pointing cue</a></li><li><a href="#16">Draw boxes</a></li><li><a href="#17">Draw fixation w/ right-pointing cue</a></li><li><a href="#18">Draw boxes</a></li><li><a href="#19">Experiment about to start</a></li><li><a href="#20">Task</a></li><li><a href="#22">Fixation</a></li><li><a href="#23">Standard</a></li><li><a href="#24">Draw fixation</a></li><li><a href="#25">Fixation</a></li><li><a href="#26">Cue</a></li><li><a href="#27">Stimuli</a></li><li><a href="#28">Draw fixation w/ left-pointing cue</a></li><li><a href="#29">Draw gabor</a></li><li><a href="#30">Draw fixation w/ right-pointing cue</a></li><li><a href="#31">Draw gabor</a></li><li><a href="#32">Draw boxes</a></li><li><a href="#33">Ask which one</a></li><li><a href="#35">Photodiode Stuff</a></li><li><a href="#36">Write Excel</a></li><li><a href="#37">Eyelink data</a></li></ul></div><h2 id="1">---- Carrasco Paradigm: Saccade ----</h2><p>Rolfs M, Carrasco C. &#8220;Rapid Simultaneous Enhancement of Visual Sensitivity and Perceived Contrast during Saccade Preparation.&#8221; J.Neurosci.(2012): 13744&#8211;13752.</p><p>Brainard, D. H. (1997) The Psychophysics Toolbox, Spatial Vision 10:433-436.</p><p>Pelli, D. G. (1997) The VideoToolbox software for visual psychophysics: Transforming numbers into movies, Spatial Vision 10:437-442.</p><p>Kleiner M, Brainard D, Pelli D, 2007, &#8220;What&#8217;s new in Psychtoolbox-3?&#8221; Perception 36 ECVP Abstract Supplement.</p><p>Software by Sacha McElligott (<a href="mailto:sacha@nyu.edu">sacha@nyu.edu</a>) -- Last Update: July 31 2018   - with a few lines of code by:       - Calin Manea       - authors of "EyelinkExample.m"       - Theresa Desrochers       - Peter Scarfe</p><pre class="codeinput">sca;
+close <span class="string">all</span>;
+clc;
+daqreset;
+cd <span class="string">C:\Users\smcellig\Desktop</span>;
+addpath(<span class="string">'C:\Users\smcellig\Desktop\Project_Sacha\edfImport-master'</span>);
+addpath <span class="string">C:\toolbox\Psychtoolbox\PsychBasic\MatlabWindowsFilesR2007a\moglcore.mexw64</span>; <span class="comment">% just in case</span>
+</pre><h2 id="2">TMS Initialization</h2><pre class="codeinput">so = daq.createSession(<span class="string">'mcc'</span>); <span class="comment">% for TMS pulse</span>
+addAnalogOutputChannel(so,<span class="string">'Board0'</span>,<span class="string">'Ao0'</span>,<span class="string">'Voltage'</span>); <span class="comment">% will change depending on setup of hardware</span>
+si = daq.createSession(<span class="string">'mcc'</span>); <span class="comment">% to get photodiode data</span>
+addAnalogInputChannel(si,<span class="string">'Board0'</span>,<span class="string">'Ai0'</span>,<span class="string">'Voltage'</span>); <span class="comment">% bottom left diode -- (:,2) in diodeData variable</span>
+addAnalogInputChannel(si,<span class="string">'Board0'</span>,<span class="string">'Ai1'</span>,<span class="string">'Voltage'</span>); <span class="comment">% bottom right diode -- (:,3) in diodeData variable</span>
+
+si.Rate = 3333; <span class="comment">% the rate that Theresa Desroches used in her experiment</span>
+si.IsContinuous = true; <span class="comment">% will keep getting diode data until block is over</span>
+lh = si.addlistener(<span class="string">'DataAvailable'</span>,@plotData);
+<span class="comment">% fid1 = fopen('log1.bin','w'); % In Desroches' script... not even necessary</span>
+<span class="comment">% lh = si.addlistener('DataAvailable',@(src,event)logData(src, event, fid1));</span>
+</pre><h2 id="3">Get name, write file</h2><pre class="codeinput">name = input(<span class="string">'What is your name? '</span>,<span class="string">'s'</span>);
+blocksToday = input(<span class="string">'How many blocks were completed today? '</span>,<span class="string">'s'</span>);
+blocksToday = num2str(str2num(blocksToday)+1);
+full_filename = [date <span class="string">'_Block'</span> blocksToday <span class="string">'_'</span> name <span class="string">'.xlsx'</span>];
+mkdir(strcat(pwd,<span class="string">'\'</span>,name));
+addpath(strcat(pwd,<span class="string">'\'</span>,name));
+</pre><h2 id="4">Screen Initialization</h2><pre class="codeinput">stimulusMonitor = 1; <span class="comment">% Check settings to determine the proper monitor #</span>
+desiredHz = 100;
+desiredBits = 32;
+
+[W,H] = Screen(<span class="string">'WindowSize'</span>,stimulusMonitor);
+
+<span class="keyword">if</span> (Screen(<span class="string">'FrameRate'</span>,stimulusMonitor)~=desiredHz) <span class="comment">% If refresh rate of the monitor doesn't match desired refresh rate...</span>
+<span class="comment">% %     ResolutionTest(stimulusMonitor); % gives compatible configurations (for Window2)</span>
+    <span class="comment">% ...change the resolution</span>
+    oldRes = SetResolution(stimulusMonitor,W,H,desiredHz,desiredBits); <span class="comment">% ..ion(screen #, pixels W, pixels H, Hz, pixel size);</span>
+<span class="keyword">end</span>
+
+
+percentOfTotal=0.51; <span class="comment">% keep within the 0.49-0.51 range --&gt; used to change Background_Color and gabor texture background</span>
+Background_Color = percentOfTotal*[255,255,255]; <span class="comment">% Carrasco et al. 2012 specify no exact background color, but this is good for the gabors</span>
+PsychDefaultSetup(1);
+Screen(<span class="string">'Preference'</span>, <span class="string">'SkipSyncTests'</span>, 0);
+dummymode=0;       <span class="comment">% set to 1 to initialize in dummymode</span>
+
+[window1,rect] = Screen(<span class="string">'OpenWindow'</span>,stimulusMonitor,Background_Color); <span class="comment">% Screen #... may change depending on setup</span>
+slack = Screen(<span class="string">'GetFlipInterval'</span>, window1)/2;
+commandwindow;
+<span class="comment">% Gamma correction</span>
+gammaCorrected = input(<span class="string">'Has the monitor already been linearized (y/n)? '</span>,<span class="string">'s'</span>);
+<span class="keyword">if</span> strcmp(gammaCorrected,<span class="string">'n'</span>)
+    monitor; <span class="comment">% do gamma correction</span>
+    success <span class="comment">% print whether was successful</span>
+<span class="keyword">end</span>
+
+<span class="comment">% % % Peter Scarfe stuff % % %</span>
+<span class="comment">% Query the frame duration</span>
+ifi = Screen(<span class="string">'GetFlipInterval'</span>, window1);
+<span class="comment">% Perform initial flip to gray background and sync us to the retrace:</span>
+vbl = Screen(<span class="string">'Flip'</span>, window1);
+<span class="comment">% Numer of frames to wait before re-drawing</span>
+waitframes = 1;
+</pre><h2 id="5">Screen Parameters (taken from Iiyama HM204DT-A Manual)</h2><pre class="codeinput">Width_of_Screen = 40.6; <span class="comment">% in cm</span>
+Height_of_Screen = 30.4; <span class="comment">% in cm</span>
+Distance_from_Screen = 62.5; <span class="comment">% in cm</span>
+</pre><h2 id="6">More params</h2><pre class="codeinput">dot_size = 10; <span class="comment">% size of dots in pixels</span>
+dot_colour = [0,0,0];<span class="comment">% Colour of the dots</span>
+dot_spacing = 2;<span class="comment">% Space between the dots in degrees</span>
+
+tmsTimes = [0.150, 0.200, 0.250];
+str = <span class="string">"Which post-cue TMS delay?:"</span> + <span class="string">"\n"</span> + <span class="string">"1) 160ms"</span> + <span class="string">"\n"</span> + <span class="string">"2) 200ms"</span> + <span class="string">"\n"</span> + <span class="string">"3) 250ms"</span> + <span class="string">"\n"</span> + <span class="string">"--&gt; "</span>;
+A = char(compose(str));
+
+Num_Trials = 1+str2num(input(<span class="string">'How many trials for this block? '</span>,<span class="string">'s'</span>)); <span class="comment">% +1 because the first trial will be voided</span>
+TMS_location = input(<span class="string">'Location of TMS? (L4, L8, R4, R8) '</span>,<span class="string">'s'</span>);
+TMS_output = str2num(input(<span class="string">'What percent of TMS output? '</span>, <span class="string">'s'</span>));
+tmsTimePostCueOLD = tmsTimes(str2num(input(A,<span class="string">'s'</span>))); <span class="comment">% Time after cue to deliver TMS pulse (seconds)</span>
+</pre><h2 id="7">Eyelink Stuff</h2><pre class="codeinput">stopkey=KbName(<span class="string">'space'</span>);
+
+Eyelink(<span class="string">'Initialize'</span>);
+
+el=EyelinkInitDefaults(window1);
+
+<span class="comment">% Initialization of the connection with the Eyelink Gazetracker.</span>
+<span class="comment">% exit program if this fails.</span>
+<span class="keyword">if</span> ~EyelinkInit(dummymode, 1)
+    fprintf(<span class="string">'Eyelink Init aborted.\n'</span>);
+    cleanup;  <span class="comment">% cleanup function</span>
+    <span class="keyword">return</span>;
+<span class="keyword">end</span>
+
+[v vs] = Eyelink(<span class="string">'GetTrackerVersion'</span>);
+fprintf(<span class="string">'Running experiment on a ''%s'' tracker.\n'</span>, vs );
+
+<span class="comment">% Make sure that we get gaze data from the Eyelink</span>
+Eyelink(<span class="string">'Command'</span>, <span class="string">'link_sample_data = LEFT,RIGHT,GAZE,AREA'</span>);
+
+<span class="comment">% Open file to record data to</span>
+dir([strcat(pwd,<span class="string">'\'</span>,name) <span class="string">'/*.xlsx'</span>]);
+edfFile = strcat(name,1+num2str(size(dir([strcat(pwd,<span class="string">'\'</span>,name) <span class="string">'/*.edf'</span>]),1)),<span class="string">'.edf'</span>) <span class="comment">% 'name' must be less than 8 characters!!!</span>
+Eyelink(<span class="string">'Openfile'</span>, edfFile);
+
+<span class="comment">% STEP 4</span>
+<span class="comment">% Calibrate the eye tracker</span>
+EyelinkDoTrackerSetup(el);
+
+<span class="comment">% Do a final check of calibration using driftcorrection</span>
+EyelinkDoDriftCorrection(el);
+
+<span class="comment">% STEP 5</span>
+<span class="comment">% Start recording eye position</span>
+Eyelink(<span class="string">'StartRecording'</span>);
+eyelinkTime1 = EXGetEyeLinkTime;
+<span class="comment">% Eyelink('Message', 'SYNCTIME');</span>
+stopkey=KbName(<span class="string">'space'</span>);
+
+Screen(<span class="string">'FillRect'</span>, el.window, Background_Color);
+Screen(<span class="string">'TextFont'</span>, el.window, el.msgfont);
+Screen(<span class="string">'TextSize'</span>, el.window, el.msgfontsize);
+[width, height]=Screen(<span class="string">'WindowSize'</span>, el.window);
+message=<span class="string">''</span>;
+Screen(<span class="string">'DrawText'</span>, el.window, message, 200, height-el.msgfontsize-20, el.msgfontcolour);
+Screen(<span class="string">'Flip'</span>,  el.window, [], 1);
+</pre><h2 id="8">Variable initialization</h2><pre class="codeinput">eye_used = 0; <span class="comment">% Eyelink stuff... (=left eye), the eye coordinates come from this one</span>
+sacc_limit = 4; <span class="comment">% what the change in horizontal eye position needs to be to be called a saccade</span>
+false = 0;
+
+<span class="keyword">global</span> diodeData;
+diodeData=[]; <span class="comment">% will be used to read the data from photodiode... MUST be global due to the nature of the callback function used in the listener</span>
+
+x=0;
+y=0;
+j=1; <span class="comment">% used in the while loop to generate trials</span>
+
+responses = cell(1,Num_Trials); <span class="comment">% will be used to keep track of responses</span>
+
+<span class="comment">% Convert from visual angle to pixels (ang2pix = function I made to do this)</span>
+<span class="comment">% Below are the values used to create the boxes inside of which the gabors</span>
+<span class="comment">% will be drawn (exact values per Carrasco et al. 2012)</span>
+value = round(ang2pix(Width_of_Screen,W,Distance_from_Screen,5)+ang2pix(Width_of_Screen,W,Distance_from_Screen,6.8));
+dot_placement_height = ang2pix(Width_of_Screen,W,Distance_from_Screen,2.5);
+dot_placement_x = ang2pix(Width_of_Screen,W,Distance_from_Screen,4); <span class="comment">% 4deg left and right of fixation</span>
+box_side_length = ang2pix(Width_of_Screen,W,Distance_from_Screen,5); <span class="comment">% 5deg length of box side</span>
+
+<span class="comment">% Allows for vectorized drawing of boxes (faster!)</span>
+dots = [(W/2)+dot_placement_x,(H/2)+dot_placement_height;(W/2)+dot_placement_x,(H/2)-dot_placement_height;<span class="keyword">...</span>
+       (W/2)+dot_placement_x+box_side_length,(H/2)+dot_placement_height;(W/2)+dot_placement_x+box_side_length,(H/2)-dot_placement_height;<span class="keyword">...</span>
+       (W/2)-dot_placement_x,(H/2)+dot_placement_height;(W/2)-dot_placement_x,(H/2)-dot_placement_height;(W/2)-dot_placement_x-box_side_length,(H/2)+dot_placement_height;<span class="keyword">...</span>
+       (W/2)-dot_placement_x-box_side_length,(H/2)-dot_placement_height];
+</pre><h2 id="9">Create all the gabors beforehand (faster!)</h2><p>Initialization of matrices which will contain the necessary parameters to generate the standard and test gabors</p><pre class="codeinput">propmatTest = zeros(Num_Trials,8);
+propmatStandard = zeros(Num_Trials,8);
+orientation_standard = zeros(1,Num_Trials);
+orientation_test = zeros(1,Num_Trials);
+contrast_test = zeros(1,Num_Trials);
+side = zeros(1,Num_Trials); <span class="comment">% 1 = Left, 2 = Right</span>
+
+cueTimes = [0.010, 0.060, 0.110, 0.160, 0.210]; <span class="comment">% How long after cue until the stimulus will be drawn, in 50ms steps from 10-210ms (Carrasco et al. 2012)</span>
+<span class="comment">% contrastValues = [0.056, 0.112, 0.168, 0.224, 0.3355, 0.447, 0.5585]; % comes from Fig.6C of Carrasco et al. 2012</span>
+contrastValues = 0.01*[7.9, 11.1726, 15.8, 22.4, 31.6, 44.6546, 63.1]; <span class="comment">% comes from converting values in Fig.2E to log space</span>
+
+<span class="comment">% peakContrastInPixelLuminance = Background_Color(1)+(contrastValues*Background_Color(1)/2); % https://peerj.com/questions/1736-what-was-the-contrast-of-the-gabor/</span>
+<span class="comment">% troughContrastInPixelLuminance = Background_Color(1)-(contrastValues*Background_Color(1)/2);</span>
+pixelsPerDeg = ang2pix(Width_of_Screen,W,Distance_from_Screen,1);
+pointFive = pixelsPerDeg/2; <span class="comment">% could have just assigned it to the Gaussian SD ('sigma') but oh well...</span>
+
+<span class="comment">% Gabor Features</span>
+gaborDimPix = rect(4)/4; <span class="comment">% changes the size of gabor texture... best not to mess with this</span>
+sigma = pointFive; <span class="comment">% 'Gaussian envelope with 0.5deg SD' (Carrasco et al. 2012)</span>
+aspectRatio = 1;
+phase = 0 + (360-0).*rand(1); <span class="comment">% 'To avoid aftereffects, we randomized their phase (range of 2pi)' (Carrasco et al. 2012)</span>
+freq = [1/pixelsPerDeg, 1.5/pixelsPerDeg]; <span class="comment">% Spatial Freq was 1 or 1.5cpd (Carrasco et al. 2012) --&gt; freq must be in Cycles per Pixel</span>
+backgroundOffset = percentOfTotal*[1 1 1 0.0]; <span class="comment">% To match the background luminance of 128 (0.5 * 255 == 128)</span>
+<span class="comment">%</span>
+<span class="comment">% CreateProceduralGabor.m</span>
+<span class="comment">% "If you set the 'disableNorm' parameter to 1 to disable the builtin normf</span>
+<span class="comment">% normalization and then specify contrastPreMultiplicator = 0.5 then the</span>
+<span class="comment">% per gabor 'contrast' value will correspond to what practitioners of the</span>
+<span class="comment">% field usually understand to be the contrast value of a gabor. Specifically,</span>
+<span class="comment">% assuming a 0.5 (=50%) gray background and a properly gamma corrected /</span>
+<span class="comment">% linearized display, the 'contrast' value, as described below, that you</span>
+<span class="comment">% pass to Screen('DrawTexture',...) will then allow to directly specify</span>
+<span class="comment">% Michelson contrast: 'contrast' = (Imax - Imin) / (Imin + Imax)</span>
+<span class="comment">% of course assuming isolated, non-superimposing gabors, so the Michelson</span>
+<span class="comment">% contrast corresponds to the maxima and minima of the gabor patch under</span>
+<span class="comment">% a suitable phase shift, where the minimum or maximum of the patch lies</span>
+<span class="comment">% in the center of the patch."</span>
+<span class="comment">%</span>
+disableNorm = 1;
+preContrastMultiplier = 0.5;
+gabortex = CreateProceduralGabor(window1,(W/4), H/2, [], backgroundOffset, disableNorm, preContrastMultiplier);
+<span class="comment">%%%%%%</span>
+<span class="keyword">for</span> i = 1:Num_Trials
+
+    <span class="comment">% Standard Contrast</span>
+    chosenFreq = freq(randi(numel(freq)));
+    propmatStandard(i,:) = [phase, chosenFreq, sigma, 0.224, aspectRatio, 0, 0, 0]; <span class="comment">% for the standard gabor</span>
+
+    a = -1 +(2).*rand(1);
+    Sign = sign(a);
+    orientation_standard(i) = Sign*45;
+    contrast_standard = 0.224;
+    a = -1 +(2).*rand(1);
+    sign1 = sign(a);
+<span class="comment">%     o = sign1*normrnd(11.7,0.8); % 'Orientation difference between test and standard stimulus was 11.7 +- 0.8deg' (Carrasco et al. 2012)</span>
+    o = sign1*10; <span class="comment">% Experiment 3: 'The test stimulus orientation was irrelevant to the observer, but randomly +-10deg off the standard's orientation' (Carrasco et al. 2012)</span>
+
+    <span class="comment">% Test Stimuli</span>
+<span class="comment">% %     a = -1 +(2).*rand(1); % equally likely to be + or -</span>
+<span class="comment">% %     sign1 = sign(a); % take the sign of 'a'</span>
+<span class="comment">% %     c = sign1*(0.1 + (0.2-0.1).*rand(1)); % use the sign of 'a' to make the change in contrast positive or negative</span>
+</pre><h2 id="10">NOTE: Carrasco used contrast deviations that were a 'range of 0.9</h2><h2 id="11">log units in seven equidistant steps around standard contrast')...</h2><h2 id="12">This it not what I did because I am not sure which way to interpret</h2><h2 id="13">that</h2><pre class="codeinput">    orientation_test(i) = (Sign*(45+o)); <span class="comment">% keep the same sign as standard gabor orientation, but +-10deg</span>
+<span class="comment">% %     contrast_test(i) = 0.224+c; % test gabor contrast == standard gabor contrast +- a certain value</span>
+    n=randperm(numel(contrastValues),1);
+    contrast_test(i) = contrastValues(n);
+    side(i) = round(1 + (2-1).*rand(1)); <span class="comment">% 1 (left) or 2 (right)</span>
+    propmatTest(i,:) = [phase, chosenFreq, sigma, contrast_test(i), aspectRatio, 0, 0, 0]; <span class="comment">% each row of this matrix represents a different gabor</span>
+
+<span class="keyword">end</span>
+
+<span class="comment">% Gabor position bounds (best not to mess with this, the calculation is really strange)</span>
+<span class="comment">%    - the constant will shift them right or left, use this according to</span>
+<span class="comment">%      eccentricity of stimulus</span>
+<span class="comment">%        --&gt; The original position is based on an ecc. of 10deg, so I am</span>
+<span class="comment">%            shifting it here by 2deg since the new position is 8deg</span>
+
+w1 = (round(-value/4))+ang2pix(Width_of_Screen,W,Distance_from_Screen,6); <span class="comment">% lower bound (left)</span>
+w2 = ((W/2)-(round(value/4)))+ang2pix(Width_of_Screen,W,Distance_from_Screen,6); <span class="comment">% upper bound (left)</span>
+w3 = ((W/2+value/2)-value/4)-ang2pix(Width_of_Screen,W,Distance_from_Screen,6); <span class="comment">% lower bound (right)</span>
+w4 = ((W+value/2)-value/4)-ang2pix(Width_of_Screen,W,Distance_from_Screen,6); <span class="comment">% upper bound (right)</span>
+
+<span class="comment">% % % % Quick test of gabors in For-Loop</span>
+<span class="comment">% for x = 1:Num_Trials</span>
+<span class="comment">%     Screen('Flip',window1,vbl + (waitframes - 0.5) * ifi);</span>
+<span class="comment">% %     WaitSecs(0.2);</span>
+<span class="comment">%     Screen('DrawTextures', window1, gabortex, [], [w1 0 w2 (H)], orientation_test(x), [], [], [], [], 2, propmatTest(x,:)');</span>
+<span class="comment">%     Screen('Flip',window1,vbl + (waitframes - 0.5) * ifi);</span>
+<span class="comment">% %     WaitSecs(1);</span>
+<span class="comment">% end</span>
+</pre><h2 id="14">Create Textures (allows for fast switch of screen)</h2><pre class="codeinput">Beeper(600, 0.2, 0.5);
+<span class="comment">%%%%%%%%%% FIXATION SCREEN %%%%%%%%%%%</span>
+Screen(<span class="string">'DrawDots'</span>,window1,[(W/2),(H/2)],10,[0 0 0],[],1);
+Screen(<span class="string">'DrawDots'</span>,window1,[(W/2),(H/2)],3,[255 255 255],[],1);
+<span class="comment">% Draw boxes</span>
+<span class="keyword">for</span> i = 1:length(dots)
+    Screen(<span class="string">'DrawDots'</span>,window1,[dots(i,1),dots(i,2)],3,[0 0 0],[],1);
+<span class="keyword">end</span>
+<span class="comment">% Screen('FillRect',window1,[255 255 255],[0 H-70 70 H]);</span>
+Screen(<span class="string">'Flip'</span>, window1);
+
+center = Screen(<span class="string">'GetImage'</span>,window1,[((W/2)-10) ((H/2)-10) ((W/2)+10) ((H/2)+10)]);
+top = Screen(<span class="string">'GetImage'</span>,window1,[(0) ((H/2)+dot_placement_height - 10) (W) ((H/2)+dot_placement_height + 10)]);
+topDots = Screen(<span class="string">'MakeTexture'</span>,window1,top);
+centerDot = Screen(<span class="string">'MakeTexture'</span>,window1,center);
+A = Screen(<span class="string">'GetImage'</span>,window1);
+normalFixation = Screen(<span class="string">'MakeTexture'</span>,window1,A);
+
+Beeper(600, 0.2, 0.5);
+<span class="comment">%%%%%%%%%%%%%%% LEFT CUE %%%%%%%%%%%%%%%%%</span>
+</pre><h2 id="15">Draw fixation w/ left-pointing cue</h2><pre class="codeinput">Screen(<span class="string">'DrawDots'</span>,window1,[(W/2),(H/2)],10,[0 0 0],[],1);
+Screen(<span class="string">'DrawLine'</span>,window1,[0,0,0],(W/2)-20,(H/2),(W/2),(H/2),3);
+Screen(<span class="string">'DrawDots'</span>,window1,[(W/2),(H/2)],3,[255 255 255],[],1);
+</pre><h2 id="16">Draw boxes</h2><pre class="codeinput">Screen(<span class="string">'DrawDots'</span>,window1,[(W/2),(H/2)],10,[0 0 0],[],1);
+Screen(<span class="string">'DrawDots'</span>,window1,[(W/2),(H/2)],3,[255 255 255],[],1);
+<span class="comment">% Draw boxes</span>
+<span class="keyword">for</span> i = 1:length(dots)
+    Screen(<span class="string">'DrawDots'</span>,window1,[dots(i,1),dots(i,2)],3,[0 0 0],[],1);
+<span class="keyword">end</span>
+Screen(<span class="string">'Flip'</span>, window1);
+
+L = Screen(<span class="string">'GetImage'</span>,window1);
+leftCue = Screen(<span class="string">'MakeTexture'</span>,window1,L);
+
+Beeper(600, 0.2, [0.5]);
+
+<span class="comment">%%%%%%%%%%%%%%% RIGHT CUE %%%%%%%%%%%%%%%%%</span>
+</pre><h2 id="17">Draw fixation w/ right-pointing cue</h2><pre class="codeinput">Screen(<span class="string">'DrawDots'</span>,window1,[(W/2),(H/2)],10,[0 0 0],[],1);
+Screen(<span class="string">'DrawLine'</span>,window1,[0,0,0],(W/2)+20,(H/2),(W/2),(H/2),3);
+Screen(<span class="string">'DrawDots'</span>,window1,[(W/2),(H/2)],3,[255 255 255],[],1);
+</pre><h2 id="18">Draw boxes</h2><pre class="codeinput">Screen(<span class="string">'DrawDots'</span>,window1,[(W/2)+dot_placement_x,(H/2)+dot_placement_height],3,[0 0 0],[],1);
+Screen(<span class="string">'DrawDots'</span>,window1,[(W/2)+dot_placement_x,(H/2)-dot_placement_height],3,[0 0 0],[],1);
+Screen(<span class="string">'DrawDots'</span>,window1,[(W/2)+dot_placement_x+box_side_length,(H/2)+dot_placement_height],3,[0 0 0],[],1);
+Screen(<span class="string">'DrawDots'</span>,window1,[(W/2)+dot_placement_x+box_side_length,(H/2)-dot_placement_height],3,[0 0 0],[],1);
+
+Screen(<span class="string">'DrawDots'</span>,window1,[(W/2)-dot_placement_x,(H/2)+dot_placement_height],3,[0 0 0],[],1);
+Screen(<span class="string">'DrawDots'</span>,window1,[(W/2)-dot_placement_x,(H/2)-dot_placement_height],3,[0 0 0],[],1);
+Screen(<span class="string">'DrawDots'</span>,window1,[(W/2)-dot_placement_x-box_side_length,(H/2)+dot_placement_height],3,[0 0 0],[],1);
+Screen(<span class="string">'DrawDots'</span>,window1,[(W/2)-dot_placement_x-box_side_length,(H/2)-dot_placement_height],3,[0 0 0],[],1);
+Screen(<span class="string">'Flip'</span>, window1);
+
+R = Screen(<span class="string">'GetImage'</span>,window1);
+rightCue = Screen(<span class="string">'MakeTexture'</span>,window1,R);
+<span class="comment">% % % % % % % % % % % % % % % % % % % % % %</span>
+</pre><h2 id="19">Experiment about to start</h2><pre class="codeinput">Screen(<span class="string">'FillRect'</span>,window1, [0 0 0],[0 H-100 100 H]); <span class="comment">% Draw black box in bottom left corner</span>
+Screen(<span class="string">'Flip'</span>, window1, vbl + (waitframes - 0.5) * ifi);
+WaitSecs(3);
+pause <span class="string">on</span>;
+
+<span class="comment">% Initialize data structures to contain time stamps</span>
+stimOffset = zeros(1,Num_Trials);
+stimOnset =zeros(1,Num_Trials);
+fixation = zeros(1,Num_Trials);
+cue = zeros(1,Num_Trials);
+standard = zeros(1,Num_Trials);
+standardOff = zeros(1,Num_Trials);
+
+stamps = zeros(Num_Trials,5);
+stimOnsetSTAMP = zeros(1,Num_Trials);
+cueSTAMP = zeros(1,Num_Trials);
+tmsSTAMP = zeros(1,Num_Trials);
+stimOffsetSTAMP = zeros(1,Num_Trials);
+saccSTAMP = zeros(1,Num_Trials);
+cueTime = zeros(1,Num_Trials);
+
+TMSbinary = zeros(1,Num_Trials);
+
+Beeper(800,0.8,0.7); <span class="comment">% beep to indicate start of block</span>
+
+si.startBackground(); <span class="comment">% start getting data from photodiode</span>
+<span class="comment">% % % % delete(lh);</span>
+<span class="comment">% % % % close(fid1);</span>
+</pre><h2 id="20">Task</h2><pre class="codeinput"><span class="keyword">while</span> j~=Num_Trials+1
+</pre><pre class="codeinput">    Beeper(800,1,0.05); <span class="comment">% "Trial j is starting!"</span>
+    outputSingleScan(so,0) <span class="comment">% make sure TMS ttl is off</span>
+    false = 0;
+    tmsTimePostCue = tmsTimePostCueOLD+(sign(orientation_test(j)))*((0.025).*rand(1));
+    <span class="keyword">if</span> side(j)==1
+       varname = genvarname(<span class="string">'leftCue'</span>);
+    <span class="keyword">else</span>
+       varname = genvarname(<span class="string">'rightCue'</span>);
+    <span class="keyword">end</span>
+</pre><h2 id="22">Fixation</h2><p>Draw Fixation Point</p><pre class="codeinput">    Screen(<span class="string">'DrawDots'</span>,window1,[(W/2),(H/2)],10,[0 0 0],[],1);
+    Screen(<span class="string">'DrawDots'</span>,window1,[(W/2),(H/2)],3,[255 0 0],[],1);
+    <span class="comment">% Draw boxes</span>
+    <span class="keyword">for</span> i = 1:length(dots)
+        Screen(<span class="string">'DrawDots'</span>,window1,[dots(i,1),dots(i,2)],3,[0 0 0],[],1);
+    <span class="keyword">end</span>
+    Screen(<span class="string">'FillRect'</span>,window1,[0 0 0],[0 H-100 100 H]); <span class="comment">% Draw black box in bottom left corner</span>
+    Screen(<span class="string">'Flip'</span>, window1, vbl + (waitframes - 0.5) * ifi);
+<span class="comment">% % %     WaitSecs(0.2);</span>
+    T=tic;
+    myCoordList=[]; <span class="comment">% have to reinitialize to avoid comparing the last coordinates from previous trial</span>
+    saccade=0;
+    <span class="keyword">while</span> (saccade==0) &amp;&amp; (toc(T)&lt;1) <span class="comment">% make sure subject doesn't do a saccade prematurely (make sure they fixate before stimuli show up) (Carrasco et al. 2012)</span>
+        [saccade, myCoordList] = checkSaccade(myCoordList,sacc_limit);
+        <span class="keyword">if</span> (saccade==1)
+            disp(<span class="string">' '</span>);
+            disp(<span class="string">'Saccade detected during fixation... Trial voided'</span>);
+            false=1; <span class="comment">% will restart this iteration after trial</span>
+        <span class="keyword">end</span>
+    <span class="keyword">end</span>
+</pre><h2 id="23">Standard</h2><pre class="codeinput">    Screen(<span class="string">'DrawTextures'</span>,window1,normalFixation); <span class="comment">% draw fixation</span>
+    Screen(<span class="string">'FillRect'</span>,window1,[0 0 0],[0 H-100 100 H]); <span class="comment">% Draw black box in bottom left corner</span>
+    Screen(<span class="string">'Flip'</span>, window1, vbl + (waitframes - 0.5) * ifi);
+
+    time = 0.250 + (0.750-0.250).*rand(1); <span class="comment">% ranged from 250-750ms between fixation and drawing of stimuli (Carrasco et al. 2012)</span>
+    t = EXGetEyeLinkTime;
+    <span class="comment">% Left</span>
+    Screen(<span class="string">'DrawTextures'</span>, window1, gabortex, [], [w1 0 w2 H], orientation_standard(j), [], [], [], [], kPsychDontDoRotation, propmatStandard(j,:)');
+    <span class="comment">% Right</span>
+    Screen(<span class="string">'DrawTextures'</span>, window1, gabortex, [], [w3 0 w4 H], orientation_standard(j), [], [], [], [], kPsychDontDoRotation, propmatStandard(j,:)');
+</pre><h2 id="24">Draw fixation</h2><pre class="codeinput">    Screen(<span class="string">'DrawDots'</span>,window1,[(W/2),(H/2)],10,[0 0 0],[],1);
+    Screen(<span class="string">'DrawDots'</span>,window1,[(W/2),(H/2)],3,[255 255 255],[],1);
+
+    <span class="keyword">for</span> i = 1:length(dots)
+        Screen(<span class="string">'DrawDots'</span>,window1,[dots(i,1),dots(i,2)],3,[0 0 0],[],1);
+    <span class="keyword">end</span>
+    Screen(<span class="string">'FillRect'</span>,window1,[0 0 0],[0 H-100 100 H]); <span class="comment">% Draw black box in bottom left corner</span>
+    done = 0;
+    <span class="keyword">while</span> done == 0
+        <span class="keyword">if</span> (EXGetEyeLinkTime-t &gt;= 300*time)
+            [VBLstndOff, standard(j)] = Screen(<span class="string">'Flip'</span>, window1, vbl + (waitframes - 0.5) * ifi);
+            t = EXGetEyeLinkTime;
+            done = 1;
+        <span class="keyword">end</span>
+    <span class="keyword">end</span>
+    done=0;
+<span class="comment">%     start = EXGetEyeLinkTime;</span>
+    <span class="keyword">while</span> done == 0
+        <span class="keyword">if</span> (EXGetEyeLinkTime-t &gt;= 50) <span class="comment">% standard gabors only up for 50ms</span>
+            Screen(<span class="string">'DrawTextures'</span>,window1,normalFixation);
+            Screen(<span class="string">'FillRect'</span>,window1,[0 0 0],[0 H-100 100 H]); <span class="comment">% Draw black box in bottom left corner</span>
+            [VBLstndOff, standardOff(j)] = Screen(<span class="string">'Flip'</span>, window1, vbl + (waitframes - 0.5) * ifi);
+            done = 1;
+        <span class="keyword">end</span>
+    <span class="keyword">end</span>
+</pre><h2 id="25">Fixation</h2><pre class="codeinput">    pause(0.450); <span class="comment">% 450ms between standard gabors disappearing and cue onset</span>
+</pre><h2 id="26">Cue</h2><pre class="codeinput">    <span class="keyword">if</span> (side(j)==1) <span class="comment">% Left</span>
+        Screen(<span class="string">'DrawTextures'</span>,window1,leftCue);
+        [VBLTimestamp, cue(j)] = Screen(<span class="string">'Flip'</span>, window1, vbl + (waitframes - 0.5) * ifi);
+        cueSTAMP(j) = EXGetEyeLinkTime;
+    <span class="keyword">else</span> <span class="comment">% Right</span>
+        Screen(<span class="string">'DrawTextures'</span>,window1,rightCue);
+        [VBLTimestamp, cue(j)] = Screen(<span class="string">'Flip'</span>, window1, vbl + (waitframes - 0.5) * ifi);
+        cueSTAMP(j) = EXGetEyeLinkTime;
+    <span class="keyword">end</span>
+</pre><h2 id="27">Stimuli</h2><pre class="codeinput">    number = 1 + (2-1).*rand(1) - 1;
+    <span class="keyword">if</span> number &gt; 0.333
+        TMSbinary(j) = 1;
+    <span class="keyword">end</span>
+    saccade=0;
+    done=0;
+    zero=0;
+    one=0;
+    two=0;
+    myCoordList=[];
+    cueTime(j)=1000*cueTimes(randi(numel(cueTimes)));
+    startRecording = EXGetEyeLinkTime;
+    <span class="keyword">while</span> done==0
+        evt = Eyelink(<span class="string">'NewestFloatSample'</span>); <span class="comment">% keep getting eye data</span>
+        x = evt.gx(1); <span class="comment">% only need x position since stimuli are presented horizontally</span>
+        <span class="keyword">if</span> isempty(myCoordList) &lt; 1
+            <span class="keyword">if</span> (abs(myCoordList(end,1)-x) &gt; sacc_limit) &amp;&amp; (saccade==0) <span class="comment">% if the saccade threshold is crossed, then do a saccade stamp</span>
+                saccSTAMP(j) = evt.time;
+<span class="comment">% saccSTAMP(j) = EXGetEyeLinkTime;</span>
+                saccade=1;
+
+            <span class="keyword">elseif</span> (EXGetEyeLinkTime-cueSTAMP(j) &gt;= 1000*tmsTimePostCue) &amp;&amp; (zero==0) &amp;&amp; (TMSbinary(j) == 1) <span class="comment">% if the time since the cue passes the inputted TMS time, then give a pulse!</span>
+                tmsSTAMP(j) = EXGetEyeLinkTime;
+                outputSingleScan(so,4);
+                outputSingleScan(so,0);
+                zero=1; <span class="comment">% stop the loop from happening again (must do &gt;= NOT == in the If-Loop because it may not be able to check at the same level of precision as is required by the == operator)</span>
+
+            <span class="keyword">elseif</span> (EXGetEyeLinkTime-cueSTAMP(j) &gt;= cueTime(j)) &amp;&amp; (one==0) <span class="comment">% if the time since the cue passes the generated cue-stimulus delay, draw the test gabor</span>
+                <span class="keyword">if</span> side(j) == 1
+</pre><h2 id="28">Draw fixation w/ left-pointing cue</h2><pre class="codeinput">                    Screen(<span class="string">'DrawDots'</span>,window1,[(W/2),(H/2)],10,[0 0 0],[],1);
+                    Screen(<span class="string">'DrawLine'</span>,window1,[0,0,0],(W/2)-20,(H/2),(W/2),(H/2),3);
+                    Screen(<span class="string">'DrawDots'</span>,window1,[(W/2),(H/2)],3,[255 255 255],[],1);
+</pre><h2 id="29">Draw gabor</h2><pre class="codeinput">                    Screen(<span class="string">'DrawTextures'</span>, window1, gabortex, [], [w1 0 w2 H], orientation_test(j), [], [], [], [], kPsychDontDoRotation, propmatTest(j,:)');
+                <span class="keyword">else</span>
+</pre><h2 id="30">Draw fixation w/ right-pointing cue</h2><pre class="codeinput">                    Screen(<span class="string">'DrawDots'</span>,window1,[(W/2),(H/2)],10,[0 0 0],[],1);
+                    Screen(<span class="string">'DrawLine'</span>,window1,[0,0,0],(W/2)+20,(H/2),(W/2),(H/2),3);
+                    Screen(<span class="string">'DrawDots'</span>,window1,[(W/2),(H/2)],3,[255 255 255],[],1);
+</pre><h2 id="31">Draw gabor</h2><pre class="codeinput">                    Screen(<span class="string">'DrawTextures'</span>, window1, gabortex, [], [w3 0 w4 H], orientation_test(j), [], [], [], [], kPsychDontDoRotation, propmatTest(j,:)');
+                <span class="keyword">end</span>
+</pre><h2 id="32">Draw boxes</h2><pre class="codeinput">                <span class="keyword">for</span> i = 1:length(dots)
+                    Screen(<span class="string">'DrawDots'</span>,window1,[dots(i,1),dots(i,2)],3,[0 0 0],[],1);
+                <span class="keyword">end</span>
+                Screen(<span class="string">'FillRect'</span>,window1,[0 0 0],[0 H-100 100 H]); <span class="comment">% Draw black box in bottom left corner</span>
+                [VBLTimestamp, stimOnset(j)] = Screen(<span class="string">'Flip'</span>, window1, vbl + (waitframes - 0.5) * ifi);
+                stimOnsetSTAMP(j) = EXGetEyeLinkTime; <span class="comment">% there will be some latency between Screen('Flip') actually flipping and claiming it's done, which is why to use diode data</span>
+                one=1; <span class="comment">% will only run once</span>
+
+            <span class="keyword">elseif</span> (one==1) &amp;&amp; (EXGetEyeLinkTime-stimOnsetSTAMP(j)&gt;=40) &amp;&amp; (two==0) <span class="comment">% if the stimulus has been up for 50ms, clear it</span>
+                Screen(<span class="string">'DrawTextures'</span>,window1,eval(varname)); <span class="comment">% NOTE: Carrasco et al. 2012 drew the same cue as was up before, but this will be slower since it requires 2 If-Statements (checking which side the cue should draw)</span>
+                [VBLTimestamp, stimOffset(j)] = Screen(<span class="string">'Flip'</span>,window1,vbl + (waitframes - 0.5) * ifi);
+<span class="comment">%                  stimOffsetSTAMP(j) = EXGetEyeLinkTime;</span>
+                stimOffsetSTAMP(j) = stimOnsetSTAMP(j)+(stimOffset(j)-stimOnset(j));
+                two=1;
+            <span class="keyword">end</span>
+        <span class="keyword">end</span>
+        myCoordList=[x,y];
+        <span class="keyword">if</span> (EXGetEyeLinkTime-startRecording &gt;=400) <span class="comment">% if they don't saccade within 400ms, void the trial</span>
+            done=1;
+            <span class="keyword">if</span> saccade==0
+               false=1;
+               disp(<span class="string">' '</span>);
+               disp(<span class="string">"Trial voided... Subject didn't saccade in time"</span>);
+            <span class="keyword">end</span>
+        <span class="keyword">end</span>
+    <span class="keyword">end</span>
+    <span class="comment">% Keep track of the timestamps</span>
+    stamps(j,:) = [stimOnsetSTAMP(j), cueSTAMP(j), tmsSTAMP(j), stimOffsetSTAMP(j), saccSTAMP(j)];
+</pre><h2 id="33">Ask which one</h2><pre class="codeinput">    pass=0;
+    num=0;
+    <span class="keyword">while</span> pass==0 <span class="comment">% Make sure response is valid</span>
+        commandwindow;
+        <span class="keyword">if</span> num==1
+            disp(<span class="string">' '</span>);
+            disp(<span class="string">'Invalid response: please try again'</span>);
+        <span class="keyword">end</span>
+        disp(<span class="string">' '</span>);
+<span class="comment">%         disp('Row (5-6 and 2-3) indicates relative contrast');</span>
+<span class="comment">%         disp('Column (5-2 and 6-3) indicates relative orientation');</span>
+<span class="comment">%         get_ans = input('Please indicate the relative orientation and contrast: ','s');</span>
+        get_ans = input(<span class="string">'Higher (s/5) or lower (x/2) relative contrast?: '</span>,<span class="string">'s'</span>); <span class="comment">% NOTE: this is different from Carrasco et al. 2012, where they had users report gabors on right with 5,2 and gabors on left with S,X</span>
+        responses{j} = get_ans;
+        <span class="keyword">if</span> (length(get_ans)==1) &amp;&amp; (mean(strcmp(get_ans,{<span class="string">'x'</span>,<span class="string">'s'</span>,<span class="string">'5'</span>,<span class="string">'2'</span>}))&gt;0)
+            pass=1;
+        <span class="keyword">end</span>
+        num=1;
+    <span class="keyword">end</span>
+
+    <span class="keyword">if</span> false==1 <span class="comment">% If they breached one of the stipulations, then void the trial and switch up features of stimulus except for contrast</span>
+        j=j+0;
+        stamps(j,:) = [0 0 0 0 0];
+        orientation_standard(j) = -1*orientation_standard(j); <span class="comment">% or you can randomize next placement... somehow</span>
+        orientation_test(j) = -1*orientation_test(j);
+        side(j) = round(1 + (2-1).*rand(1));
+    <span class="keyword">else</span>
+        j=j+1;
+    <span class="keyword">end</span>
+</pre><pre class="codeinput"><span class="keyword">end</span>
+Beeper(200,100,0.7); <span class="comment">% beep to indicate end of block</span>
+sca; <span class="comment">% Close window:</span>
+stop(si); <span class="comment">% stop checking photodiode data</span>
+delete(lh); <span class="comment">% delete listener</span>
+
+<span class="comment">% % % %% Close up recording, etc.</span>
+Eyelink(<span class="string">'StopRecording'</span>);
+Eyelink(<span class="string">'CloseFile'</span>);
+<span class="comment">% % %</span>
+<span class="comment">% % % % tmsTimesRelSaccade = tmsSTAMP-saccSTAMP; % test offset times rel. saccade</span>
+<span class="comment">% % %</span>
+<span class="comment">% Download data file</span>
+disp([<span class="string">' '</span>]);
+<span class="keyword">try</span>
+    fprintf(<span class="string">'Receiving data file ''%s''\n'</span>, edfFile);
+    status=Eyelink(<span class="string">'ReceiveFile'</span>,edfFile,strcat(pwd,<span class="string">'\'</span>,name),1);
+    <span class="keyword">if</span> status &gt; 0
+        fprintf(<span class="string">'ReceiveFile status %d\n'</span>, status);
+    <span class="keyword">end</span>
+    <span class="keyword">if</span> 2==exist(edfFile, <span class="string">'file'</span>)
+        fprintf(<span class="string">'Data file ''%s'' can be found in ''%s''\n'</span>, edfFile, strcat(pwd,<span class="string">'\'</span>,name) );
+    <span class="keyword">end</span>
+<span class="keyword">catch</span> rdf
+    fprintf(<span class="string">'Problem receiving data file ''%s''\n'</span>, edfFile );
+    rdf;
+<span class="keyword">end</span>
+Eyelink(<span class="string">'Shutdown'</span>);
+</pre><h2 id="35">Photodiode Stuff</h2><p>% % stampON = []; % % for i = 100:(length(diodeData)) % %     if (diodeData(i,2)&gt;=-1) &amp;&amp; (all(diodeData(i-100:i-1,2)&lt;-1.4)) % %         stampON=[stampON;diodeData(i,1)]; % %     end % % end % % % % tempDiodeData = [flipud(diodeData(:,1)),flipud(diodeData(:,2))]; % % stampOFF = []; % % for i = 101:(length(tempDiodeData)) % %     if (tempDiodeData(i,2)&gt;=-1) &amp;&amp; (all(tempDiodeData(i-100:i-1,2)&lt;-1.4)) % %         stampOFF=[stampOFF;tempDiodeData(i,1)]; % %     end % % end % % stampOFF=flipud(stampOFF); =================== 'stampON' will give all the times that the corner switched to grey (blank) 'stampOFF' will give all the times that the corner switched back to black See plot for a clear picture Format of the diode markers:   - black when trial starts       - even numbered stampOFF indices are start of trial (bc first won't         be included since it starts at black)   - grey when cue is up       - odd numbered stampON indices are cue onset   - black when stimulus is up       - odd numbered stampOFF indices are stimulus onset   - grey when stimulus disappears and normal fixation screen is redrawn       - even numbered stampON indices are stimulus offset =================== % % figure(1) % % plot(diodeData(:,1),diodeData(:,2)); % % hold on % % for j = 1:length(stampON) % %     for i = 1:length(diodeData) % %         if diodeData(i,1)==stampON(j) % %             scatter(diodeData(i,1),diodeData(i,2),'rx'); % %         end % %     end % % end % % for j = 1:length(stampOFF) % %     for i = 1:length(diodeData) % %         if diodeData(i,1)==stampOFF(j) % %             scatter(diodeData(i,1),diodeData(i,2),'kx'); % %         end % %     end % % end</p><h2 id="36">Write Excel</h2><pre class="codeinput">results=zeros(1,Num_Trials);
+orientationAnswers=[];
+contrastAnswers=[];
+answers={};
+highContrast=zeros(1,Num_Trials);
+
+details = {name; date; <span class="string">'Gabor'</span>; strcat(num2str(Distance_from_Screen),<span class="string">'cm'</span>); TMS_location; strcat(<span class="string">'TMS time post-cue: '</span>,num2str(100*tmsTimePostCueOLD),<span class="string">'ms'</span>); strcat(<span class="string">'TMS output: '</span>,num2str(TMS_output),<span class="string">'%'</span>); <span class="string">'Saccade'</span>};
+
+<span class="keyword">for</span> j = 1:numel(details)
+    RangeA = [<span class="string">'A'</span> num2str(j)];
+    xlswrite2(strcat(pwd,<span class="string">'\'</span>,name,<span class="string">'\'</span>,full_filename),details(j),1,RangeA);
+<span class="keyword">end</span>
+
+abc = char(97:122);
+headers = {<span class="string">'Actual'</span>,<span class="string">'Reported'</span>,<span class="string">'Correct?'</span>,<span class="string">' '</span>,<span class="string">'Test Orient.'</span>,<span class="string">'Test Contrast'</span>,<span class="string">'Test Onset'</span>,<span class="string">'Cue Onset'</span>,<span class="string">'TMS pulse'</span>,<span class="string">'Test Offset'</span>,<span class="string">'Saccade Det.'</span>,<span class="string">'Reported Higher Contrast'</span>,<span class="string">'Side'</span>,<span class="string">'TMS?'</span>};
+
+<span class="keyword">for</span> i = 1:length(headers)
+     xlswrite2(strcat(pwd,<span class="string">'\'</span>,name,<span class="string">'\'</span>,full_filename),headers(i),1,[abc(i+2)]);
+<span class="keyword">end</span>
+
+<span class="comment">% % % %  Sections below commented out because orientation is no longer a</span>
+<span class="comment">% % % %  factor (Experiment 3)</span>
+<span class="keyword">for</span> j = 1:Num_Trials
+<span class="comment">% % %     orientationAnswers = [orientationAnswers; orientation_test(j)&gt;orientation_standard(j)];  % 1 means Test was CCW to Standard (and 0 means Test was CW to Standard... duh)</span>
+    contrastAnswers = [contrastAnswers; contrast_test(j)&gt;contrast_standard]; <span class="comment">% 1 means Test had higher contrast than Standard</span>
+
+    <span class="keyword">if</span> strcmp(responses{j},<span class="string">'5'</span>)==1 || strcmp(responses{j},<span class="string">'s'</span>)==1
+    	highContrast(j)=1;
+    <span class="keyword">end</span>
+
+    <span class="keyword">if</span> contrastAnswers(j)==1 &amp;&amp; (side(j)==2)
+       answers{j} = <span class="string">'5'</span>;
+    <span class="keyword">end</span>
+    <span class="keyword">if</span> contrastAnswers(j)==0 &amp;&amp; (side(j)==2)
+        answers{j} = <span class="string">'2'</span>;
+    <span class="keyword">end</span>
+    <span class="keyword">if</span> contrastAnswers(j)==1 &amp;&amp; (side(j)==1)
+       answers{j} = <span class="string">'s'</span>;
+    <span class="keyword">end</span>
+    <span class="keyword">if</span> contrastAnswers(j)==0 &amp;&amp; (side(j)==1)
+        answers{j} = <span class="string">'x'</span>;
+    <span class="keyword">end</span>
+<span class="comment">% % % %     if (orientationAnswers(j)==1) &amp;&amp; (contrastAnswers(j)==1)</span>
+<span class="comment">% % % %         answers = [answers; 5];</span>
+<span class="comment">% % % %     end</span>
+<span class="comment">% % % %     if (orientationAnswers(j)==0) &amp;&amp; (contrastAnswers(j)==1)</span>
+<span class="comment">% % % %         answers = [answers; 6];</span>
+<span class="comment">% % % %     end</span>
+<span class="comment">% % % %     if (orientationAnswers(j)==0) &amp;&amp; (contrastAnswers(j)==0)</span>
+<span class="comment">% % % %         answers = [answers; 3];</span>
+<span class="comment">% % % %     end</span>
+<span class="comment">% % % %     if (orientationAnswers(j)==1) &amp;&amp; (contrastAnswers(j)==0)</span>
+<span class="comment">% % % %         answers = [answers; 2];</span>
+<span class="comment">% % % %     end</span>
+
+    results(j) = strcmp(answers{j},responses{j});
+    Range0=[<span class="string">'C'</span> num2str(j+1)];
+    xlswrite2(strcat(pwd,<span class="string">'\'</span>,name,<span class="string">'\'</span>,full_filename),answers(j),1,Range0);
+    Range1=[<span class="string">'D'</span> num2str(j+1)];
+    xlswrite2(strcat(pwd,<span class="string">'\'</span>,name,<span class="string">'\'</span>,full_filename),responses{j},1,Range1);
+    Range2=[<span class="string">'E'</span> num2str(j+1)];
+    xlswrite2(strcat(pwd,<span class="string">'\'</span>,name,<span class="string">'\'</span>,full_filename),results(j),1,Range2); <span class="comment">% write in results</span>
+    Range3=[<span class="string">'G'</span> num2str(j+1)];
+    xlswrite2(strcat(pwd,<span class="string">'\'</span>,name,<span class="string">'\'</span>,full_filename),orientation_test(j),1,Range3);
+    Range4=[<span class="string">'H'</span> num2str(j+1)];
+    xlswrite2(strcat(pwd,<span class="string">'\'</span>,name,<span class="string">'\'</span>,full_filename),contrast_test(j),1,Range4);
+    Range5=[<span class="string">'I'</span> num2str(j+1)];
+    xlswrite2(strcat(pwd,<span class="string">'\'</span>,name,<span class="string">'\'</span>,full_filename),stamps(j,:),1,Range5);
+    Range6=[<span class="string">'N'</span> num2str(j+1)];
+    xlswrite2(strcat(pwd,<span class="string">'\'</span>,name,<span class="string">'\'</span>,full_filename),highContrast(j),1,Range6);
+    Range7=[<span class="string">'O'</span> num2str(j+1)];
+    xlswrite2(strcat(pwd,<span class="string">'\'</span>,name,<span class="string">'\'</span>,full_filename),side(j),1,Range7);
+    Range8=[<span class="string">'P'</span> num2str(j+1)];
+    xlswrite2(strcat(pwd,<span class="string">'\'</span>,name,<span class="string">'\'</span>,full_filename),TMSbinary(j),1,Range8);
+<span class="comment">%     Range6=['M' num2str(j)];</span>
+<span class="comment">%     xlswrite(full_filename,timeAfterCue(j),1,Range6);</span>
+<span class="comment">%     Range5=['H' num2str(j)];</span>
+<span class="comment">%     xlswrite(full_filename,datestr(now),1,Range5);</span>
+<span class="keyword">end</span>
+<span class="comment">% Restore keyboard output to Matlab:</span>
+ListenChar(0);
+disp([<span class="string">'Score for this block: '</span>,num2str(100*sum(results)/length(results)),<span class="string">'%'</span>]);
+<span class="comment">% % %</span>
+</pre><h2 id="37">Eyelink data</h2><p>% % %% Get Eyelink/eye position data (post-hoc)</p><pre class="codeinput">eyeData = edfImport(strcat(pwd,<span class="string">'\'</span>,name,<span class="string">'\'</span>,edfFile),[1 0 1],<span class="string">'time px'</span>,0);
+offset = double(eyelinkTime1-eyeData.Samples.time(1)); <span class="comment">% the variable "eyelinkTime1" is assigned after the Eyelink has started recording... offset this difference in the time series</span>
+<span class="comment">%                                                      NOTE: that first</span>
+<span class="comment">%                                                      time stamp of the</span>
+<span class="comment">%                                                      Eyelink is not</span>
+<span class="comment">%                                                      accessible until</span>
+<span class="comment">%                                                      afterwards, hence</span>
+<span class="comment">%                                                      the absence in the</span>
+<span class="comment">%                                                      live software...</span>
+<span class="comment">%                                                      Adjustments must be</span>
+<span class="comment">%                                                      made retroactively</span>
+points1 = zeros(1,Num_Trials);
+points2 = zeros(1,Num_Trials);
+points3 = zeros(1,Num_Trials);
+points4 = zeros(1,Num_Trials);
+points5 = zeros(1,Num_Trials);
+
+figure(2)
+plot(1:length(eyeData.Samples.px(1,:)),eyeData.Samples.px(1,:)+6000,<span class="string">'b-'</span>);
+hold <span class="string">on</span>
+<span class="keyword">for</span> i = 1:Num_Trials
+    points1(i) = [eyeData.Samples.px(1,round(offset+stimOnsetSTAMP(i)-eyelinkTime1))];
+    points2(i) = [eyeData.Samples.px(1,round(offset+cueSTAMP(i)-eyelinkTime1))];
+    points3(i) = [eyeData.Samples.px(1,round(offset+tmsSTAMP(i)-eyelinkTime1))];
+    points4(i) = [eyeData.Samples.px(1,round(offset+stimOffsetSTAMP(i)-eyelinkTime1))];
+    points5(i) = [eyeData.Samples.px(1,round(offset+saccSTAMP(i)-eyelinkTime1))];
+
+    scatter((offset+stimOnsetSTAMP(i)-eyelinkTime1),points1(i)+6000,<span class="string">'rx'</span>);
+    scatter(offset+cueSTAMP(i)-eyelinkTime1,points2(i)+6000,<span class="string">'kx'</span>);
+    scatter(offset+tmsSTAMP(i)-eyelinkTime1,points3(i)+6000,<span class="string">'gx'</span>);
+    scatter(offset+stimOffsetSTAMP(i)-eyelinkTime1,points4(i)+6000,<span class="string">'mx'</span>);
+    scatter(offset+saccSTAMP(i)-eyelinkTime1,points5(i)+6000,<span class="string">'cx'</span>);
+    scatter(offset+stimOnsetSTAMP(i)-eyelinkTime1,points1(i)+6000,<span class="string">'ro'</span>);
+    scatter(offset+cueSTAMP(i)-eyelinkTime1,points2(i)+6000,<span class="string">'ko'</span>);
+    scatter(offset+tmsSTAMP(i)-eyelinkTime1,points3(i)+6000,<span class="string">'go'</span>);
+    scatter(offset+stimOffsetSTAMP(i)-eyelinkTime1,points4(i)+6000,<span class="string">'mo'</span>);
+    scatter(offset+saccSTAMP(i)-eyelinkTime1,points5(i)+6000,<span class="string">'co'</span>);
+<span class="keyword">end</span>
+
+xlabel(<span class="string">'Time (secs)'</span>);
+ylabel(<span class="string">'Gaze position'</span>);
+title(<span class="string">'Horizontal gaze position over time'</span>);
+legend(<span class="string">'Eye position (X)'</span>,<span class="string">'Stimulus onset'</span>,<span class="string">'Cue onset'</span>,<span class="string">'TMS pulse'</span>, <span class="string">'Stimulus Offset'</span>, <span class="string">'Saccade Detected'</span>);
+xt = get(gca, <span class="string">'XTick'</span>);
+set(gca, <span class="string">'XTick'</span>,xt, <span class="string">'XTickLabel'</span>,xt*1E-3);
+set(gca,<span class="string">'XMinorTick'</span>,<span class="string">'on'</span>,<span class="string">'YMinorTick'</span>,<span class="string">'off'</span>);
+
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+</pre><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2017b</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%% REPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASH Carrasco Paradigm: Saccade REPLACE_WITH_DASH_DASHREPLACE_WITH_DASH_DASH
+% 
+% Rolfs M, Carrasco C. “Rapid Simultaneous Enhancement of Visual Sensitivity and Perceived Contrast during Saccade Preparation.” J.Neurosci.(2012): 13744–13752. 
+% 
+% Brainard, D. H. (1997) The Psychophysics Toolbox, Spatial Vision 10:433-436.
+% 
+% Pelli, D. G. (1997) The VideoToolbox software for visual psychophysics: Transforming numbers into movies, Spatial Vision 10:437-442. 
+% 
+% Kleiner M, Brainard D, Pelli D, 2007, “What’s new in Psychtoolbox-3?” Perception 36 ECVP Abstract Supplement.
+%
+% 
+% Software by Sacha McElligott (sacha@nyu.edu) REPLACE_WITH_DASH_DASH Last Update: July 31 2018
+%   - with a few lines of code by:
+%       - Calin Manea
+%       - authors of "EyelinkExample.m"
+%       - Theresa Desrochers
+%       - Peter Scarfe
+% 
+
+sca;
+close all;
+clc;
+daqreset;
+cd C:\Users\smcellig\Desktop;
+addpath('C:\Users\smcellig\Desktop\Project_Sacha\edfImport-master');
+addpath C:\toolbox\Psychtoolbox\PsychBasic\MatlabWindowsFilesR2007a\moglcore.mexw64; % just in case
+
+%% TMS Initialization
+so = daq.createSession('mcc'); % for TMS pulse
+addAnalogOutputChannel(so,'Board0','Ao0','Voltage'); % will change depending on setup of hardware
+si = daq.createSession('mcc'); % to get photodiode data
+addAnalogInputChannel(si,'Board0','Ai0','Voltage'); % bottom left diode REPLACE_WITH_DASH_DASH (:,2) in diodeData variable
+addAnalogInputChannel(si,'Board0','Ai1','Voltage'); % bottom right diode REPLACE_WITH_DASH_DASH (:,3) in diodeData variable
+
+si.Rate = 3333; % the rate that Theresa Desroches used in her experiment
+si.IsContinuous = true; % will keep getting diode data until block is over
+lh = si.addlistener('DataAvailable',@plotData);
+% fid1 = fopen('log1.bin','w'); % In Desroches' script... not even necessary
+% lh = si.addlistener('DataAvailable',@(src,event)logData(src, event, fid1));
+
+%% Get name, write file
+name = input('What is your name? ','s');
+blocksToday = input('How many blocks were completed today? ','s');
+blocksToday = num2str(str2num(blocksToday)+1);
+full_filename = [date '_Block' blocksToday '_' name '.xlsx'];
+mkdir(strcat(pwd,'\',name));
+addpath(strcat(pwd,'\',name));
+
+%% Screen Initialization
+stimulusMonitor = 1; % Check settings to determine the proper monitor #
+desiredHz = 100; 
+desiredBits = 32;
+
+[W,H] = Screen('WindowSize',stimulusMonitor);
+
+if (Screen('FrameRate',stimulusMonitor)~=desiredHz) % If refresh rate of the monitor doesn't match desired refresh rate...
+% %     ResolutionTest(stimulusMonitor); % gives compatible configurations (for Window2)
+    % ...change the resolution
+    oldRes = SetResolution(stimulusMonitor,W,H,desiredHz,desiredBits); % ..ion(screen #, pixels W, pixels H, Hz, pixel size);
+end
+
+
+percentOfTotal=0.51; % keep within the 0.49-0.51 range REPLACE_WITH_DASH_DASH> used to change Background_Color and gabor texture background
+Background_Color = percentOfTotal*[255,255,255]; % Carrasco et al. 2012 specify no exact background color, but this is good for the gabors
+PsychDefaultSetup(1);
+Screen('Preference', 'SkipSyncTests', 0);
+dummymode=0;       % set to 1 to initialize in dummymode 
+
+[window1,rect] = Screen('OpenWindow',stimulusMonitor,Background_Color); % Screen #... may change depending on setup
+slack = Screen('GetFlipInterval', window1)/2;
+commandwindow;
+% Gamma correction
+gammaCorrected = input('Has the monitor already been linearized (y/n)? ','s');
+if strcmp(gammaCorrected,'n')
+    monitor; % do gamma correction
+    success % print whether was successful
+end
+
+% % % Peter Scarfe stuff % % % 
+% Query the frame duration
+ifi = Screen('GetFlipInterval', window1);
+% Perform initial flip to gray background and sync us to the retrace:
+vbl = Screen('Flip', window1);
+% Numer of frames to wait before re-drawing
+waitframes = 1;
+
+%% Screen Parameters (taken from Iiyama HM204DT-A Manual)
+Width_of_Screen = 40.6; % in cm
+Height_of_Screen = 30.4; % in cm
+Distance_from_Screen = 62.5; % in cm
+
+%% More params
+dot_size = 10; % size of dots in pixels
+dot_colour = [0,0,0];% Colour of the dots
+dot_spacing = 2;% Space between the dots in degrees
+
+tmsTimes = [0.150, 0.200, 0.250];
+str = "Which post-cue TMS delay?:" + "\n" + "1) 160ms" + "\n" + "2) 200ms" + "\n" + "3) 250ms" + "\n" + "REPLACE_WITH_DASH_DASH> ";
+A = char(compose(str));
+
+Num_Trials = 1+str2num(input('How many trials for this block? ','s')); % +1 because the first trial will be voided
+TMS_location = input('Location of TMS? (L4, L8, R4, R8) ','s');
+TMS_output = str2num(input('What percent of TMS output? ', 's'));
+tmsTimePostCueOLD = tmsTimes(str2num(input(A,'s'))); % Time after cue to deliver TMS pulse (seconds)
+
+%% Eyelink Stuff
+stopkey=KbName('space');
+
+Eyelink('Initialize');
+
+el=EyelinkInitDefaults(window1);
+
+% Initialization of the connection with the Eyelink Gazetracker.
+% exit program if this fails.
+if ~EyelinkInit(dummymode, 1)
+    fprintf('Eyelink Init aborted.\n');
+    cleanup;  % cleanup function
+    return;
+end
+
+[v vs] = Eyelink('GetTrackerVersion');
+fprintf('Running experiment on a ''%s'' tracker.\n', vs );
+
+% Make sure that we get gaze data from the Eyelink
+Eyelink('Command', 'link_sample_data = LEFT,RIGHT,GAZE,AREA');
+
+% Open file to record data to
+dir([strcat(pwd,'\',name) '/*.xlsx']);
+edfFile = strcat(name,1+num2str(size(dir([strcat(pwd,'\',name) '/*.edf']),1)),'.edf') % 'name' must be less than 8 characters!!!
+Eyelink('Openfile', edfFile);
+
+% STEP 4
+% Calibrate the eye tracker
+EyelinkDoTrackerSetup(el);
+
+% Do a final check of calibration using driftcorrection
+EyelinkDoDriftCorrection(el);
+
+% STEP 5
+% Start recording eye position
+Eyelink('StartRecording');
+eyelinkTime1 = EXGetEyeLinkTime;
+% Eyelink('Message', 'SYNCTIME');
+stopkey=KbName('space');
+
+Screen('FillRect', el.window, Background_Color);
+Screen('TextFont', el.window, el.msgfont);
+Screen('TextSize', el.window, el.msgfontsize);
+[width, height]=Screen('WindowSize', el.window);
+message='';
+Screen('DrawText', el.window, message, 200, height-el.msgfontsize-20, el.msgfontcolour);
+Screen('Flip',  el.window, [], 1);
+
+
+%% Variable initialization
+eye_used = 0; % Eyelink stuff... (=left eye), the eye coordinates come from this one 
+sacc_limit = 4; % what the change in horizontal eye position needs to be to be called a saccade 
+false = 0; 
+
+global diodeData;
+diodeData=[]; % will be used to read the data from photodiode... MUST be global due to the nature of the callback function used in the listener
+
+x=0; 
+y=0;
+j=1; % used in the while loop to generate trials
+
+responses = cell(1,Num_Trials); % will be used to keep track of responses
+
+% Convert from visual angle to pixels (ang2pix = function I made to do this)
+% Below are the values used to create the boxes inside of which the gabors
+% will be drawn (exact values per Carrasco et al. 2012)
+value = round(ang2pix(Width_of_Screen,W,Distance_from_Screen,5)+ang2pix(Width_of_Screen,W,Distance_from_Screen,6.8));
+dot_placement_height = ang2pix(Width_of_Screen,W,Distance_from_Screen,2.5); 
+dot_placement_x = ang2pix(Width_of_Screen,W,Distance_from_Screen,4); % 4deg left and right of fixation 
+box_side_length = ang2pix(Width_of_Screen,W,Distance_from_Screen,5); % 5deg length of box side
+
+% Allows for vectorized drawing of boxes (faster!)
+dots = [(W/2)+dot_placement_x,(H/2)+dot_placement_height;(W/2)+dot_placement_x,(H/2)-dot_placement_height;...
+       (W/2)+dot_placement_x+box_side_length,(H/2)+dot_placement_height;(W/2)+dot_placement_x+box_side_length,(H/2)-dot_placement_height;...
+       (W/2)-dot_placement_x,(H/2)+dot_placement_height;(W/2)-dot_placement_x,(H/2)-dot_placement_height;(W/2)-dot_placement_x-box_side_length,(H/2)+dot_placement_height;...
+       (W/2)-dot_placement_x-box_side_length,(H/2)-dot_placement_height];
+
+%% Create all the gabors beforehand (faster!)
+% Initialization of matrices which will contain the necessary parameters to
+% generate the standard and test gabors
+propmatTest = zeros(Num_Trials,8);
+propmatStandard = zeros(Num_Trials,8);
+orientation_standard = zeros(1,Num_Trials);
+orientation_test = zeros(1,Num_Trials);
+contrast_test = zeros(1,Num_Trials);
+side = zeros(1,Num_Trials); % 1 = Left, 2 = Right
+
+cueTimes = [0.010, 0.060, 0.110, 0.160, 0.210]; % How long after cue until the stimulus will be drawn, in 50ms steps from 10-210ms (Carrasco et al. 2012)
+% contrastValues = [0.056, 0.112, 0.168, 0.224, 0.3355, 0.447, 0.5585]; % comes from Fig.6C of Carrasco et al. 2012
+contrastValues = 0.01*[7.9, 11.1726, 15.8, 22.4, 31.6, 44.6546, 63.1]; % comes from converting values in Fig.2E to log space
+
+% peakContrastInPixelLuminance = Background_Color(1)+(contrastValues*Background_Color(1)/2); % https://peerj.com/questions/1736-what-was-the-contrast-of-the-gabor/
+% troughContrastInPixelLuminance = Background_Color(1)-(contrastValues*Background_Color(1)/2);
+pixelsPerDeg = ang2pix(Width_of_Screen,W,Distance_from_Screen,1);
+pointFive = pixelsPerDeg/2; % could have just assigned it to the Gaussian SD ('sigma') but oh well...
+
+% Gabor Features
+gaborDimPix = rect(4)/4; % changes the size of gabor texture... best not to mess with this 
+sigma = pointFive; % 'Gaussian envelope with 0.5deg SD' (Carrasco et al. 2012)
+aspectRatio = 1; 
+phase = 0 + (360-0).*rand(1); % 'To avoid aftereffects, we randomized their phase (range of 2pi)' (Carrasco et al. 2012)
+freq = [1/pixelsPerDeg, 1.5/pixelsPerDeg]; % Spatial Freq was 1 or 1.5cpd (Carrasco et al. 2012) REPLACE_WITH_DASH_DASH> freq must be in Cycles per Pixel
+backgroundOffset = percentOfTotal*[1 1 1 0.0]; % To match the background luminance of 128 (0.5 * 255 == 128)
+% 
+% CreateProceduralGabor.m
+% "If you set the 'disableNorm' parameter to 1 to disable the builtin normf
+% normalization and then specify contrastPreMultiplicator = 0.5 then the
+% per gabor 'contrast' value will correspond to what practitioners of the
+% field usually understand to be the contrast value of a gabor. Specifically,
+% assuming a 0.5 (=50%) gray background and a properly gamma corrected /
+% linearized display, the 'contrast' value, as described below, that you
+% pass to Screen('DrawTexture',...) will then allow to directly specify
+% Michelson contrast: 'contrast' = (Imax - Imin) / (Imin + Imax)
+% of course assuming isolated, non-superimposing gabors, so the Michelson
+% contrast corresponds to the maxima and minima of the gabor patch under
+% a suitable phase shift, where the minimum or maximum of the patch lies
+% in the center of the patch."
+%
+disableNorm = 1; 
+preContrastMultiplier = 0.5;
+gabortex = CreateProceduralGabor(window1,(W/4), H/2, [], backgroundOffset, disableNorm, preContrastMultiplier);
+%%%%%%
+for i = 1:Num_Trials
+    
+    % Standard Contrast
+    chosenFreq = freq(randi(numel(freq)));
+    propmatStandard(i,:) = [phase, chosenFreq, sigma, 0.224, aspectRatio, 0, 0, 0]; % for the standard gabor
+
+    a = -1 +(2).*rand(1);
+    Sign = sign(a);
+    orientation_standard(i) = Sign*45;
+    contrast_standard = 0.224;
+    a = -1 +(2).*rand(1);
+    sign1 = sign(a);
+%     o = sign1*normrnd(11.7,0.8); % 'Orientation difference between test and standard stimulus was 11.7 +- 0.8deg' (Carrasco et al. 2012)
+    o = sign1*10; % Experiment 3: 'The test stimulus orientation was irrelevant to the observer, but randomly +-10deg off the standard's orientation' (Carrasco et al. 2012)
+
+    % Test Stimuli
+% %     a = -1 +(2).*rand(1); % equally likely to be + or - 
+% %     sign1 = sign(a); % take the sign of 'a'
+% %     c = sign1*(0.1 + (0.2-0.1).*rand(1)); % use the sign of 'a' to make the change in contrast positive or negative
+
+    %%% NOTE: Carrasco used contrast deviations that were a 'range of 0.9
+    %%% log units in seven equidistant steps around standard contrast')...
+    %%% This it not what I did because I am not sure which way to interpret
+    %%% that
+    orientation_test(i) = (Sign*(45+o)); % keep the same sign as standard gabor orientation, but +-10deg
+% %     contrast_test(i) = 0.224+c; % test gabor contrast == standard gabor contrast +- a certain value
+    n=randperm(numel(contrastValues),1);
+    contrast_test(i) = contrastValues(n);
+    side(i) = round(1 + (2-1).*rand(1)); % 1 (left) or 2 (right)
+    propmatTest(i,:) = [phase, chosenFreq, sigma, contrast_test(i), aspectRatio, 0, 0, 0]; % each row of this matrix represents a different gabor
+
+end
+
+% Gabor position bounds (best not to mess with this, the calculation is really strange)
+%    - the constant will shift them right or left, use this according to
+%      eccentricity of stimulus
+%        REPLACE_WITH_DASH_DASH> The original position is based on an ecc. of 10deg, so I am
+%            shifting it here by 2deg since the new position is 8deg 
+
+w1 = (round(-value/4))+ang2pix(Width_of_Screen,W,Distance_from_Screen,6); % lower bound (left)
+w2 = ((W/2)-(round(value/4)))+ang2pix(Width_of_Screen,W,Distance_from_Screen,6); % upper bound (left)
+w3 = ((W/2+value/2)-value/4)-ang2pix(Width_of_Screen,W,Distance_from_Screen,6); % lower bound (right)
+w4 = ((W+value/2)-value/4)-ang2pix(Width_of_Screen,W,Distance_from_Screen,6); % upper bound (right)
+
+% % % % Quick test of gabors in For-Loop
+% for x = 1:Num_Trials
+%     Screen('Flip',window1,vbl + (waitframes - 0.5) * ifi);
+% %     WaitSecs(0.2);
+%     Screen('DrawTextures', window1, gabortex, [], [w1 0 w2 (H)], orientation_test(x), [], [], [], [], 2, propmatTest(x,:)');
+%     Screen('Flip',window1,vbl + (waitframes - 0.5) * ifi);
+% %     WaitSecs(1);
+% end
+
+%% Create Textures (allows for fast switch of screen)
+Beeper(600, 0.2, 0.5);
+%%%%%%%%%% FIXATION SCREEN %%%%%%%%%%%
+Screen('DrawDots',window1,[(W/2),(H/2)],10,[0 0 0],[],1);
+Screen('DrawDots',window1,[(W/2),(H/2)],3,[255 255 255],[],1);
+% Draw boxes
+for i = 1:length(dots)
+    Screen('DrawDots',window1,[dots(i,1),dots(i,2)],3,[0 0 0],[],1);
+end
+% Screen('FillRect',window1,[255 255 255],[0 H-70 70 H]);
+Screen('Flip', window1);
+
+center = Screen('GetImage',window1,[((W/2)-10) ((H/2)-10) ((W/2)+10) ((H/2)+10)]);
+top = Screen('GetImage',window1,[(0) ((H/2)+dot_placement_height - 10) (W) ((H/2)+dot_placement_height + 10)]);
+topDots = Screen('MakeTexture',window1,top);
+centerDot = Screen('MakeTexture',window1,center);
+A = Screen('GetImage',window1);
+normalFixation = Screen('MakeTexture',window1,A);
+
+Beeper(600, 0.2, 0.5);
+%%%%%%%%%%%%%%% LEFT CUE %%%%%%%%%%%%%%%%%
+ %%% Draw fixation w/ left-pointing cue
+Screen('DrawDots',window1,[(W/2),(H/2)],10,[0 0 0],[],1);
+Screen('DrawLine',window1,[0,0,0],(W/2)-20,(H/2),(W/2),(H/2),3);
+Screen('DrawDots',window1,[(W/2),(H/2)],3,[255 255 255],[],1);
+
+%%% Draw boxes
+Screen('DrawDots',window1,[(W/2),(H/2)],10,[0 0 0],[],1);
+Screen('DrawDots',window1,[(W/2),(H/2)],3,[255 255 255],[],1);
+% Draw boxes
+for i = 1:length(dots)
+    Screen('DrawDots',window1,[dots(i,1),dots(i,2)],3,[0 0 0],[],1);
+end
+Screen('Flip', window1);
+
+L = Screen('GetImage',window1);
+leftCue = Screen('MakeTexture',window1,L);
+
+Beeper(600, 0.2, [0.5]);
+
+%%%%%%%%%%%%%%% RIGHT CUE %%%%%%%%%%%%%%%%%
+ %%% Draw fixation w/ right-pointing cue
+Screen('DrawDots',window1,[(W/2),(H/2)],10,[0 0 0],[],1);
+Screen('DrawLine',window1,[0,0,0],(W/2)+20,(H/2),(W/2),(H/2),3);
+Screen('DrawDots',window1,[(W/2),(H/2)],3,[255 255 255],[],1);
+
+%%% Draw boxes
+Screen('DrawDots',window1,[(W/2)+dot_placement_x,(H/2)+dot_placement_height],3,[0 0 0],[],1);
+Screen('DrawDots',window1,[(W/2)+dot_placement_x,(H/2)-dot_placement_height],3,[0 0 0],[],1);
+Screen('DrawDots',window1,[(W/2)+dot_placement_x+box_side_length,(H/2)+dot_placement_height],3,[0 0 0],[],1);
+Screen('DrawDots',window1,[(W/2)+dot_placement_x+box_side_length,(H/2)-dot_placement_height],3,[0 0 0],[],1);
+
+Screen('DrawDots',window1,[(W/2)-dot_placement_x,(H/2)+dot_placement_height],3,[0 0 0],[],1);
+Screen('DrawDots',window1,[(W/2)-dot_placement_x,(H/2)-dot_placement_height],3,[0 0 0],[],1);
+Screen('DrawDots',window1,[(W/2)-dot_placement_x-box_side_length,(H/2)+dot_placement_height],3,[0 0 0],[],1);
+Screen('DrawDots',window1,[(W/2)-dot_placement_x-box_side_length,(H/2)-dot_placement_height],3,[0 0 0],[],1);
+Screen('Flip', window1);
+
+R = Screen('GetImage',window1);
+rightCue = Screen('MakeTexture',window1,R);
+% % % % % % % % % % % % % % % % % % % % % % 
+%% Experiment about to start
+Screen('FillRect',window1, [0 0 0],[0 H-100 100 H]); % Draw black box in bottom left corner
+Screen('Flip', window1, vbl + (waitframes - 0.5) * ifi);
+WaitSecs(3);
+pause on;
+
+% Initialize data structures to contain time stamps
+stimOffset = zeros(1,Num_Trials);
+stimOnset =zeros(1,Num_Trials);
+fixation = zeros(1,Num_Trials);
+cue = zeros(1,Num_Trials);
+standard = zeros(1,Num_Trials);
+standardOff = zeros(1,Num_Trials);
+
+stamps = zeros(Num_Trials,5); 
+stimOnsetSTAMP = zeros(1,Num_Trials);
+cueSTAMP = zeros(1,Num_Trials);
+tmsSTAMP = zeros(1,Num_Trials);
+stimOffsetSTAMP = zeros(1,Num_Trials);
+saccSTAMP = zeros(1,Num_Trials);
+cueTime = zeros(1,Num_Trials);
+
+TMSbinary = zeros(1,Num_Trials);
+
+Beeper(800,0.8,0.7); % beep to indicate start of block
+
+si.startBackground(); % start getting data from photodiode
+% % % % delete(lh);
+% % % % close(fid1);
+
+%% Task
+while j~=Num_Trials+1
+    Beeper(800,1,0.05); % "Trial j is starting!"
+    outputSingleScan(so,0) % make sure TMS ttl is off 
+    false = 0;
+    tmsTimePostCue = tmsTimePostCueOLD+(sign(orientation_test(j)))*((0.025).*rand(1));
+    if side(j)==1
+       varname = genvarname('leftCue');
+    else
+       varname = genvarname('rightCue');
+    end
+    %% Fixation
+    % Draw Fixation Point
+    Screen('DrawDots',window1,[(W/2),(H/2)],10,[0 0 0],[],1);
+    Screen('DrawDots',window1,[(W/2),(H/2)],3,[255 0 0],[],1);
+    % Draw boxes
+    for i = 1:length(dots)
+        Screen('DrawDots',window1,[dots(i,1),dots(i,2)],3,[0 0 0],[],1);
+    end
+    Screen('FillRect',window1,[0 0 0],[0 H-100 100 H]); % Draw black box in bottom left corner
+    Screen('Flip', window1, vbl + (waitframes - 0.5) * ifi);
+% % %     WaitSecs(0.2);
+    T=tic;
+    myCoordList=[]; % have to reinitialize to avoid comparing the last coordinates from previous trial
+    saccade=0;
+    while (saccade==0) && (toc(T)<1) % make sure subject doesn't do a saccade prematurely (make sure they fixate before stimuli show up) (Carrasco et al. 2012)
+        [saccade, myCoordList] = checkSaccade(myCoordList,sacc_limit);
+        if (saccade==1)
+            disp(' ');
+            disp('Saccade detected during fixation... Trial voided');
+            false=1; % will restart this iteration after trial
+        end
+    end
+
+    %% Standard
+    Screen('DrawTextures',window1,normalFixation); % draw fixation
+    Screen('FillRect',window1,[0 0 0],[0 H-100 100 H]); % Draw black box in bottom left corner
+    Screen('Flip', window1, vbl + (waitframes - 0.5) * ifi);
+
+    time = 0.250 + (0.750-0.250).*rand(1); % ranged from 250-750ms between fixation and drawing of stimuli (Carrasco et al. 2012)
+    t = EXGetEyeLinkTime;
+    % Left
+    Screen('DrawTextures', window1, gabortex, [], [w1 0 w2 H], orientation_standard(j), [], [], [], [], kPsychDontDoRotation, propmatStandard(j,:)');
+    % Right
+    Screen('DrawTextures', window1, gabortex, [], [w3 0 w4 H], orientation_standard(j), [], [], [], [], kPsychDontDoRotation, propmatStandard(j,:)');
+    %%% Draw fixation
+    Screen('DrawDots',window1,[(W/2),(H/2)],10,[0 0 0],[],1);
+    Screen('DrawDots',window1,[(W/2),(H/2)],3,[255 255 255],[],1);
+    
+    for i = 1:length(dots)
+        Screen('DrawDots',window1,[dots(i,1),dots(i,2)],3,[0 0 0],[],1);
+    end
+    Screen('FillRect',window1,[0 0 0],[0 H-100 100 H]); % Draw black box in bottom left corner
+    done = 0;
+    while done == 0
+        if (EXGetEyeLinkTime-t >= 300*time)
+            [VBLstndOff, standard(j)] = Screen('Flip', window1, vbl + (waitframes - 0.5) * ifi);
+            t = EXGetEyeLinkTime;
+            done = 1;
+        end
+    end
+    done=0;
+%     start = EXGetEyeLinkTime;
+    while done == 0
+        if (EXGetEyeLinkTime-t >= 50) % standard gabors only up for 50ms
+            Screen('DrawTextures',window1,normalFixation);
+            Screen('FillRect',window1,[0 0 0],[0 H-100 100 H]); % Draw black box in bottom left corner
+            [VBLstndOff, standardOff(j)] = Screen('Flip', window1, vbl + (waitframes - 0.5) * ifi);
+            done = 1;
+        end
+    end
+    
+    %% Fixation
+    pause(0.450); % 450ms between standard gabors disappearing and cue onset
+    
+    %% Cue
+    if (side(j)==1) % Left
+        Screen('DrawTextures',window1,leftCue);
+        [VBLTimestamp, cue(j)] = Screen('Flip', window1, vbl + (waitframes - 0.5) * ifi);
+        cueSTAMP(j) = EXGetEyeLinkTime;
+    else % Right
+        Screen('DrawTextures',window1,rightCue);
+        [VBLTimestamp, cue(j)] = Screen('Flip', window1, vbl + (waitframes - 0.5) * ifi);
+        cueSTAMP(j) = EXGetEyeLinkTime;     
+    end      
+    
+    %% Stimuli
+    number = 1 + (2-1).*rand(1) - 1;
+    if number > 0.333
+        TMSbinary(j) = 1;
+    end
+    saccade=0;
+    done=0;
+    zero=0;
+    one=0;
+    two=0;
+    myCoordList=[];
+    cueTime(j)=1000*cueTimes(randi(numel(cueTimes)));
+    startRecording = EXGetEyeLinkTime;
+    while done==0
+        evt = Eyelink('NewestFloatSample'); % keep getting eye data
+        x = evt.gx(1); % only need x position since stimuli are presented horizontally
+        if isempty(myCoordList) < 1
+            if (abs(myCoordList(end,1)-x) > sacc_limit) && (saccade==0) % if the saccade threshold is crossed, then do a saccade stamp
+                saccSTAMP(j) = evt.time;
+% saccSTAMP(j) = EXGetEyeLinkTime;
+                saccade=1;
+          
+            elseif (EXGetEyeLinkTime-cueSTAMP(j) >= 1000*tmsTimePostCue) && (zero==0) && (TMSbinary(j) == 1) % if the time since the cue passes the inputted TMS time, then give a pulse!
+                tmsSTAMP(j) = EXGetEyeLinkTime;
+                outputSingleScan(so,4);
+                outputSingleScan(so,0);
+                zero=1; % stop the loop from happening again (must do >= NOT == in the If-Loop because it may not be able to check at the same level of precision as is required by the == operator)
+            
+            elseif (EXGetEyeLinkTime-cueSTAMP(j) >= cueTime(j)) && (one==0) % if the time since the cue passes the generated cue-stimulus delay, draw the test gabor
+                if side(j) == 1
+                    %%% Draw fixation w/ left-pointing cue
+                    Screen('DrawDots',window1,[(W/2),(H/2)],10,[0 0 0],[],1);
+                    Screen('DrawLine',window1,[0,0,0],(W/2)-20,(H/2),(W/2),(H/2),3);
+                    Screen('DrawDots',window1,[(W/2),(H/2)],3,[255 255 255],[],1);
+                    %%% Draw gabor
+                    Screen('DrawTextures', window1, gabortex, [], [w1 0 w2 H], orientation_test(j), [], [], [], [], kPsychDontDoRotation, propmatTest(j,:)');
+                else
+                    %%% Draw fixation w/ right-pointing cue
+                    Screen('DrawDots',window1,[(W/2),(H/2)],10,[0 0 0],[],1);
+                    Screen('DrawLine',window1,[0,0,0],(W/2)+20,(H/2),(W/2),(H/2),3);
+                    Screen('DrawDots',window1,[(W/2),(H/2)],3,[255 255 255],[],1);
+                    %%% Draw gabor
+                    Screen('DrawTextures', window1, gabortex, [], [w3 0 w4 H], orientation_test(j), [], [], [], [], kPsychDontDoRotation, propmatTest(j,:)');
+                end 
+                %%% Draw boxes
+                for i = 1:length(dots)
+                    Screen('DrawDots',window1,[dots(i,1),dots(i,2)],3,[0 0 0],[],1);
+                end
+                Screen('FillRect',window1,[0 0 0],[0 H-100 100 H]); % Draw black box in bottom left corner
+                [VBLTimestamp, stimOnset(j)] = Screen('Flip', window1, vbl + (waitframes - 0.5) * ifi);
+                stimOnsetSTAMP(j) = EXGetEyeLinkTime; % there will be some latency between Screen('Flip') actually flipping and claiming it's done, which is why to use diode data
+                one=1; % will only run once
+            
+            elseif (one==1) && (EXGetEyeLinkTime-stimOnsetSTAMP(j)>=40) && (two==0) % if the stimulus has been up for 50ms, clear it
+                Screen('DrawTextures',window1,eval(varname)); % NOTE: Carrasco et al. 2012 drew the same cue as was up before, but this will be slower since it requires 2 If-Statements (checking which side the cue should draw)
+                [VBLTimestamp, stimOffset(j)] = Screen('Flip',window1,vbl + (waitframes - 0.5) * ifi);
+%                  stimOffsetSTAMP(j) = EXGetEyeLinkTime;
+                stimOffsetSTAMP(j) = stimOnsetSTAMP(j)+(stimOffset(j)-stimOnset(j));
+                two=1;
+            end
+        end
+        myCoordList=[x,y];
+        if (EXGetEyeLinkTime-startRecording >=400) % if they don't saccade within 400ms, void the trial
+            done=1;
+            if saccade==0
+               false=1; 
+               disp(' ');
+               disp("Trial voided... Subject didn't saccade in time");
+            end
+        end
+    end     
+    % Keep track of the timestamps 
+    stamps(j,:) = [stimOnsetSTAMP(j), cueSTAMP(j), tmsSTAMP(j), stimOffsetSTAMP(j), saccSTAMP(j)];
+    
+    %% Ask which one
+    pass=0;
+    num=0;
+    while pass==0 % Make sure response is valid
+        commandwindow;
+        if num==1
+            disp(' ');
+            disp('Invalid response: please try again');
+        end
+        disp(' ');
+%         disp('Row (5-6 and 2-3) indicates relative contrast');
+%         disp('Column (5-2 and 6-3) indicates relative orientation');
+%         get_ans = input('Please indicate the relative orientation and contrast: ','s');
+        get_ans = input('Higher (s/5) or lower (x/2) relative contrast?: ','s'); % NOTE: this is different from Carrasco et al. 2012, where they had users report gabors on right with 5,2 and gabors on left with S,X
+        responses{j} = get_ans;
+        if (length(get_ans)==1) && (mean(strcmp(get_ans,{'x','s','5','2'}))>0)
+            pass=1;
+        end
+        num=1;
+    end
+    
+    if false==1 % If they breached one of the stipulations, then void the trial and switch up features of stimulus except for contrast
+        j=j+0;
+        stamps(j,:) = [0 0 0 0 0];
+        orientation_standard(j) = -1*orientation_standard(j); % or you can randomize next placement... somehow
+        orientation_test(j) = -1*orientation_test(j);
+        side(j) = round(1 + (2-1).*rand(1));
+    else
+        j=j+1;
+    end
+end
+Beeper(200,100,0.7); % beep to indicate end of block
+sca; % Close window:
+stop(si); % stop checking photodiode data
+delete(lh); % delete listener
+
+% % % %% Close up recording, etc.
+Eyelink('StopRecording');
+Eyelink('CloseFile');
+% % % 
+% % % % tmsTimesRelSaccade = tmsSTAMP-saccSTAMP; % test offset times rel. saccade 
+% % % 
+% Download data file
+disp([' ']);
+try
+    fprintf('Receiving data file ''%s''\n', edfFile);
+    status=Eyelink('ReceiveFile',edfFile,strcat(pwd,'\',name),1);
+    if status > 0
+        fprintf('ReceiveFile status %d\n', status);
+    end
+    if 2==exist(edfFile, 'file')
+        fprintf('Data file ''%s'' can be found in ''%s''\n', edfFile, strcat(pwd,'\',name) );
+    end
+catch rdf
+    fprintf('Problem receiving data file ''%s''\n', edfFile );
+    rdf;
+end
+Eyelink('Shutdown');
+
+%% Photodiode Stuff
+% % % stampON = [];
+% % % for i = 100:(length(diodeData))
+% % %     if (diodeData(i,2)>=-1) && (all(diodeData(i-100:i-1,2)<-1.4))
+% % %         stampON=[stampON;diodeData(i,1)];
+% % %     end
+% % % end
+% % % 
+% % % tempDiodeData = [flipud(diodeData(:,1)),flipud(diodeData(:,2))];
+% % % stampOFF = [];
+% % % for i = 101:(length(tempDiodeData))
+% % %     if (tempDiodeData(i,2)>=-1) && (all(tempDiodeData(i-100:i-1,2)<-1.4))
+% % %         stampOFF=[stampOFF;tempDiodeData(i,1)];
+% % %     end
+% % % end
+% % % stampOFF=flipud(stampOFF); 
+% ===================
+% 'stampON' will give all the times that the corner switched to grey (blank)
+% 'stampOFF' will give all the times that the corner switched back to black
+% See plot for a clear picture
+% Format of the diode markers:
+%   - black when trial starts 
+%       - even numbered stampOFF indices are start of trial (bc first won't
+%         be included since it starts at black)
+%   - grey when cue is up
+%       - odd numbered stampON indices are cue onset
+%   - black when stimulus is up
+%       - odd numbered stampOFF indices are stimulus onset
+%   - grey when stimulus disappears and normal fixation screen is redrawn
+%       - even numbered stampON indices are stimulus offset
+% ===================
+% % % figure(1)
+% % % plot(diodeData(:,1),diodeData(:,2));
+% % % hold on
+% % % for j = 1:length(stampON)
+% % %     for i = 1:length(diodeData)
+% % %         if diodeData(i,1)==stampON(j)
+% % %             scatter(diodeData(i,1),diodeData(i,2),'rx');
+% % %         end
+% % %     end
+% % % end
+% % % for j = 1:length(stampOFF)
+% % %     for i = 1:length(diodeData)
+% % %         if diodeData(i,1)==stampOFF(j)
+% % %             scatter(diodeData(i,1),diodeData(i,2),'kx');
+% % %         end
+% % %     end
+% % % end
+
+%% Write Excel
+results=zeros(1,Num_Trials);
+orientationAnswers=[];
+contrastAnswers=[];
+answers={};
+highContrast=zeros(1,Num_Trials);
+
+details = {name; date; 'Gabor'; strcat(num2str(Distance_from_Screen),'cm'); TMS_location; strcat('TMS time post-cue: ',num2str(100*tmsTimePostCueOLD),'ms'); strcat('TMS output: ',num2str(TMS_output),'%'); 'Saccade'};
+
+for j = 1:numel(details)
+    RangeA = ['A' num2str(j)];
+    xlswrite2(strcat(pwd,'\',name,'\',full_filename),details(j),1,RangeA);
+end
+
+abc = char(97:122);
+headers = {'Actual','Reported','Correct?',' ','Test Orient.','Test Contrast','Test Onset','Cue Onset','TMS pulse','Test Offset','Saccade Det.','Reported Higher Contrast','Side','TMS?'};
+
+for i = 1:length(headers)
+     xlswrite2(strcat(pwd,'\',name,'\',full_filename),headers(i),1,[abc(i+2)]);
+end
+
+% % % %  Sections below commented out because orientation is no longer a 
+% % % %  factor (Experiment 3)
+for j = 1:Num_Trials
+% % %     orientationAnswers = [orientationAnswers; orientation_test(j)>orientation_standard(j)];  % 1 means Test was CCW to Standard (and 0 means Test was CW to Standard... duh)
+    contrastAnswers = [contrastAnswers; contrast_test(j)>contrast_standard]; % 1 means Test had higher contrast than Standard
+    
+    if strcmp(responses{j},'5')==1 || strcmp(responses{j},'s')==1
+    	highContrast(j)=1;
+    end
+       
+    if contrastAnswers(j)==1 && (side(j)==2)
+       answers{j} = '5';
+    end
+    if contrastAnswers(j)==0 && (side(j)==2)
+        answers{j} = '2';
+    end
+    if contrastAnswers(j)==1 && (side(j)==1)
+       answers{j} = 's'; 
+    end
+    if contrastAnswers(j)==0 && (side(j)==1)
+        answers{j} = 'x';
+    end
+% % % %     if (orientationAnswers(j)==1) && (contrastAnswers(j)==1)
+% % % %         answers = [answers; 5];
+% % % %     end
+% % % %     if (orientationAnswers(j)==0) && (contrastAnswers(j)==1)
+% % % %         answers = [answers; 6];
+% % % %     end
+% % % %     if (orientationAnswers(j)==0) && (contrastAnswers(j)==0)
+% % % %         answers = [answers; 3];
+% % % %     end
+% % % %     if (orientationAnswers(j)==1) && (contrastAnswers(j)==0)
+% % % %         answers = [answers; 2];
+% % % %     end
+    
+    results(j) = strcmp(answers{j},responses{j});
+    Range0=['C' num2str(j+1)];
+    xlswrite2(strcat(pwd,'\',name,'\',full_filename),answers(j),1,Range0);
+    Range1=['D' num2str(j+1)];
+    xlswrite2(strcat(pwd,'\',name,'\',full_filename),responses{j},1,Range1);
+    Range2=['E' num2str(j+1)];
+    xlswrite2(strcat(pwd,'\',name,'\',full_filename),results(j),1,Range2); % write in results
+    Range3=['G' num2str(j+1)];
+    xlswrite2(strcat(pwd,'\',name,'\',full_filename),orientation_test(j),1,Range3); 
+    Range4=['H' num2str(j+1)];
+    xlswrite2(strcat(pwd,'\',name,'\',full_filename),contrast_test(j),1,Range4); 
+    Range5=['I' num2str(j+1)];
+    xlswrite2(strcat(pwd,'\',name,'\',full_filename),stamps(j,:),1,Range5); 
+    Range6=['N' num2str(j+1)];
+    xlswrite2(strcat(pwd,'\',name,'\',full_filename),highContrast(j),1,Range6);
+    Range7=['O' num2str(j+1)];
+    xlswrite2(strcat(pwd,'\',name,'\',full_filename),side(j),1,Range7); 
+    Range8=['P' num2str(j+1)];
+    xlswrite2(strcat(pwd,'\',name,'\',full_filename),TMSbinary(j),1,Range8);
+%     Range6=['M' num2str(j)];
+%     xlswrite(full_filename,timeAfterCue(j),1,Range6);
+%     Range5=['H' num2str(j)];
+%     xlswrite(full_filename,datestr(now),1,Range5);
+end
+% Restore keyboard output to Matlab:
+ListenChar(0);
+disp(['Score for this block: ',num2str(100*sum(results)/length(results)),'%']);
+% % % 
+%% Eyelink data
+% % % %% Get Eyelink/eye position data (post-hoc)
+eyeData = edfImport(strcat(pwd,'\',name,'\',edfFile),[1 0 1],'time px',0);
+offset = double(eyelinkTime1-eyeData.Samples.time(1)); % the variable "eyelinkTime1" is assigned after the Eyelink has started recording... offset this difference in the time series 
+%                                                      NOTE: that first
+%                                                      time stamp of the
+%                                                      Eyelink is not
+%                                                      accessible until
+%                                                      afterwards, hence
+%                                                      the absence in the
+%                                                      live software...
+%                                                      Adjustments must be
+%                                                      made retroactively
+points1 = zeros(1,Num_Trials);
+points2 = zeros(1,Num_Trials);
+points3 = zeros(1,Num_Trials);
+points4 = zeros(1,Num_Trials);
+points5 = zeros(1,Num_Trials);
+
+figure(2)
+plot(1:length(eyeData.Samples.px(1,:)),eyeData.Samples.px(1,:)+6000,'b-');
+hold on
+for i = 1:Num_Trials
+    points1(i) = [eyeData.Samples.px(1,round(offset+stimOnsetSTAMP(i)-eyelinkTime1))];
+    points2(i) = [eyeData.Samples.px(1,round(offset+cueSTAMP(i)-eyelinkTime1))];
+    points3(i) = [eyeData.Samples.px(1,round(offset+tmsSTAMP(i)-eyelinkTime1))];
+    points4(i) = [eyeData.Samples.px(1,round(offset+stimOffsetSTAMP(i)-eyelinkTime1))];
+    points5(i) = [eyeData.Samples.px(1,round(offset+saccSTAMP(i)-eyelinkTime1))];
+
+    scatter((offset+stimOnsetSTAMP(i)-eyelinkTime1),points1(i)+6000,'rx');
+    scatter(offset+cueSTAMP(i)-eyelinkTime1,points2(i)+6000,'kx');
+    scatter(offset+tmsSTAMP(i)-eyelinkTime1,points3(i)+6000,'gx');
+    scatter(offset+stimOffsetSTAMP(i)-eyelinkTime1,points4(i)+6000,'mx');
+    scatter(offset+saccSTAMP(i)-eyelinkTime1,points5(i)+6000,'cx');
+    scatter(offset+stimOnsetSTAMP(i)-eyelinkTime1,points1(i)+6000,'ro');
+    scatter(offset+cueSTAMP(i)-eyelinkTime1,points2(i)+6000,'ko');
+    scatter(offset+tmsSTAMP(i)-eyelinkTime1,points3(i)+6000,'go');
+    scatter(offset+stimOffsetSTAMP(i)-eyelinkTime1,points4(i)+6000,'mo');
+    scatter(offset+saccSTAMP(i)-eyelinkTime1,points5(i)+6000,'co');
+end
+
+xlabel('Time (secs)');
+ylabel('Gaze position');
+title('Horizontal gaze position over time');
+legend('Eye position (X)','Stimulus onset','Cue onset','TMS pulse', 'Stimulus Offset', 'Saccade Detected');
+xt = get(gca, 'XTick');
+set(gca, 'XTick',xt, 'XTickLabel',xt*1E-3);
+set(gca,'XMinorTick','on','YMinorTick','off');
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+##### SOURCE END #####
+--></body></html>
