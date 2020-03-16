@@ -17,16 +17,20 @@ title: Home
 url: "http://sachaker.github.io"
 imgurl: "https://sachaker.github.io/img"
 
-header_pages:
-- about.md
-- projects.md
+# list of links in navbar
+navbar-links:
+  About: "about.md"
+  Projects: "projects.md"
+  Resume: "resume.md"
+  Other interests: "other.md"
 
 github_username:  sachaker
 
-social:
-  - icon: fa-linkedin
-    link: https://www.linkedin.com/in/sacha-mcelligott-136a78a9/
+social-network-links:
+  linkedin: https://www.linkedin.com/in/sacha-mcelligott-136a78a9/
 
+share-links-active:
+  linkedin: true
 excerpt_separator: <!--exc-->
 
 # Build settings
