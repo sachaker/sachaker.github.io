@@ -5,7 +5,7 @@ permalink: /other/
 ---
 
 ### Books
-*What I'm currently reading:*
+*What I'm currently reading*
 
 <p float="left">
   <img src="{{site.imgurl}}/book1.jpg" height="200" />
