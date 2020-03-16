@@ -51,85 +51,16 @@ permalink: /other/
 
 
 ### Movies
-*What I've seen in the past ~9 months, starting with most recent*
-- The Mask of Zorro 
-- Dinner for Schmucks
-- Boogie Nights
-- Crash
-- Joker
-- Batman Begins
-- The Peanut Butter Falcon
-- Charlie and the Chocolate Factory
-- Knives Out
-- 1917
-- Jojo Rabbit
-- Spider-Man 3
-- Gosford Park
-- 3:10 to Yuma
-- Coraline
-- The Spy Who Loved Me
-- Casino Royale
-- Tomorrow Never Dies
-- The Lighthouse
-- Parasite
-- Spy Kids
-- Elf
-- Kung Fu Hustle
-- Wall-E
-- Monsters Inc
-- Uncut Gems
-- 2001: A Space Odyssey
-- Enter the Dragon
-- The Dark Knight
-- Batman Begins
-- The Dark Knight Rises
-- Limitless
-- Eyes Wide Shut
-- Yves Saint Laurent: The Last Collections
-- The Good the Bad and the Ugly
-- Lincoln Lawyer
-- Zoolander
-- The Pianist
-- Moon
-- The Simpsons Movie
-- Citizenfour
-- Logan Lucky
-- Goldfinger
-- The Thing
-- Weiner
-- The Godfather Part II
-- Hannah and Her Sisters
-- The Godfather
-- The Apartment
-- True Grit
-- Once Upon a Time in Hollywood
-- Kill Bill: Vol. 1
-- High Society
-- The Talented Mr Ripley
-- The Matrix
-- Ex Machina
-- Pirates of the Carribean: Dead Man's Chest
-- Synecdoche, New York
-- Bruno
-- Harry Potter and the Sorcerer's Stone
-- Shogun Assassin
-- Princess Mononoke
-- Goodfellas
-- American Gangster
-- Year of the Dragon
-- The World is Not Enough
-- Skyfall
-- The Wrestler
-- 21 Jump Street
-- The Diving Bell and The Butterfly
-- The French Connection
-- A Clockwork Orange
-- Hellboy
-- Austin Powers: Spy Who Shagged Me
-- Hellboy II
-- Get Shorty
-- Witness
-- Brokeback Mountain
-- Casino Royale
-- Quest for Fire
-- American Gangster
+*I love movies and like to occasionally write reviews*
+
+#### Schindler's List
+
+*Schindler’s List* is a film that resides not just in black and white, but in full embrace of all possible greys between.
+
+Many scenes of philosophical and moral dilemma show half-shadowed countenances, and engender deep senses of conflict. Furthermore, the film successfully employs repeated imagery and symbolism to convey dichotomous meanings. For instance, the water in one scene offers life and sustenance to the overheated prisoners, in another, it preempts their death by gassing. Fire in one moment represents the celebration of Judaism during Shabbat, in another, it blazes from the bellows of the crematorium. 
+
+In the strangest sense, I found *Schindler’s List* to be more beautiful than tragic, and perhaps it was not intended so. Nonetheless, the film explores a great man’s ambitions to save lives from the Nazis, and moments of altruism and humanism emerge brilliantly from the somber backdrop of the labor and concentration camps. The film gives full play to the incredible talents of Neeson, Fiennes, and Kingsley. Fiennes in particular lends a harrowing insight into the evils of the SS, while offering a surprisingly acceptable comprehension as to its reasons. Amon Goeth is a man drunk off power, or perhaps drunk *for* power, and in many cases, physically drunk. His imbibed monologues betray his hunger for true power and respect, and we can’t help but pity him for being enslaved to such an insatiable need. And while a first approximation undoubtedly casts him as a psychopathic killer, further inspection muddies this description––does he drink to drown out his screaming conscience? Does he bend backwards for Schindler to indulge the requests of a friend, or does he secretly wish to repent for his crimes? The answer is probably simple, that he is maniacal and not given to higher order conviction. However, Spielberg perhaps intentionally never resolves this ambiguity. Goeth is invigorated (though he does not reveal this to Schindler) by Schindler’s description of true power––power through pardoning. Goeth spends the next day offering patience and pardonance to various jewish workers. Upon detecting a minor blemish in his appearance (a hangnail, perhaps) after acting out a pardon in the mirror, Goeth shoots down a young boy who he had pardoned earlier for being unable to clean a stain in the bath. It is then that the viewer realizes that Goeth’s hunger is not actually for power, but for the appearance of power, and for such approval in the eyes of others. His inability to control the most miniscule of details frustrates him for exposing some sense of shortcoming, and he consequently seeks to affirm control, particularly in the eyes of prisoners and guards alike. 
+
+At some point in the movie, we see a young child in a red coat, it is the only color we see in the film. We do not know who she is, but are tempted to think of her as the embodiment of hope, or perhaps of innocence. We later find her incinerated body being shoveled off by Nazis. This is the honesty with which Spielberg pursued *Schindler’s List*––it is unforgiving, and we must thank him for it. Only in its brutal honesty can we internalize the true horrors of the Holocaust.
+
+In its length, it is an undertaking, in its construction, it is a work of art, and in its entirety, *Schindler’s List* is an absolute masterpiece.
