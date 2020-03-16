@@ -31,6 +31,10 @@ permalink: /other/
   <img src="{{site.imgurl}}/cook4.JPG" height="200px%" />
   <img src="{{site.imgurl}}/cook5.JPG" height="200px%" />
   <img src="{{site.imgurl}}/cook6.JPG" height="200px%" />
+  <img src="{{site.imgurl}}/cook7.JPG" height="200px%" />
+  <img src="{{site.imgurl}}/cook8.JPG" height="200px%" />
+  <img src="{{site.imgurl}}/cook9.JPG" height="200px%" />
+  <img src="{{site.imgurl}}/cook10.JPG" height="200px%" />
 </p>
 
 ### Music
