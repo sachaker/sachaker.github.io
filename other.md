@@ -17,12 +17,12 @@ permalink: /other/
 ### Cooking
 *Some of the meals I've cooked this year*
 <p float="left">
-  <img src="{{site.imgurl}}/cook1.JPG" width="275px" />
-  <img src="{{site.imgurl}}/cook2.JPG" width="275px" />
-  <img src="{{site.imgurl}}/cook4.JPG" width="275px" />
-  <img src="{{site.imgurl}}/cook8.JPG" width="275px" />
-  <img src="{{site.imgurl}}/cook9.JPG" width="275px" />
-  <img src="{{site.imgurl}}/cook10.JPG" width="275px" />
+  <img src="{{site.imgurl}}/cook1.JPG" width="250px" />
+  <img src="{{site.imgurl}}/cook2.JPG" width="250px" />
+  <img src="{{site.imgurl}}/cook4.JPG" width="250px" />
+  <img src="{{site.imgurl}}/cook8.JPG" width="250px" />
+  <img src="{{site.imgurl}}/cook9.JPG" width="250px" />
+  <img src="{{site.imgurl}}/cook10.JPG" width="250px" />
   <!-- <img src="{{site.imgurl}}/cook3.JPG" height="300px" />
   <img src="{{site.imgurl}}/cook5.JPG" height="300px" />
   <img src="{{site.imgurl}}/cook6.JPG" height="300px" />
