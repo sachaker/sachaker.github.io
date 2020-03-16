@@ -25,7 +25,7 @@ This program was the first part of my Final Project for [Dr. Alex Reyes](https:/
 
 ## Motion tracker for fruit fly larvae
 
-<img style="float: right; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/tracker1.jpg" width="40%"/>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/tracker1.jpg" width="40%"/>
 
 This project was done during my time at University of Michigan for Summer 2017, in the [Collins Lab](https://sites.lsa.umich.edu/collins-lab/). Researchers in the [Kuwada Lab](https://sites.lsa.umich.edu/kuwada-lab/research/) were studying the effects of various intervention types on larval locomotion, and had been using ImageJ's tracking software, which was rife with errors and caused many frustrations. I approached one of the researchers and mentioned my interest in creating a tracking software, and she was more than happy to offer their database of videos in order for me to try. 
 
