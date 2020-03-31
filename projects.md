@@ -15,7 +15,7 @@ During the summer of 2019, I explored the possibility of developing an app that 
 The DLC labeling process for whiskers can be laborious and repetitive. This alternative to [DeepLabCut](https://www.nature.com/articles/s41593-018-0209-y)'s point-and-click labeling allows for rapid labeling of contiguous structures, like whiskers. In this new system, the user drags the cursor along each structure, after which the spline is discretized into a pre-set number of nodes with equal increments along the path. This modification increased our throughput from labeling a frame every minute (at least) to labeling a frame every few seconds. I was very pleased when the [original authors](http://www.mousemotorlab.org/deeplabcut) of the software at Harvard asked if they could include my code in their latest, official version.
 
 
-## [Discovering a new protein in Alzheimer's disease](https://docdro.id/lJygCQh)
+## [Discovering a new protein in Alzheimer's disease](https://drive.google.com/file/d/1cGzeoDXuqn-UVnipOR9pSiZqdJP9OBgw/view?usp=sharing)
 
 <img style="float: center; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/scrn1.png" width="65%"/>
 
