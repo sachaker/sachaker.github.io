@@ -5,4 +5,4 @@ permalink: /resume/
 ---
 
 
-<iframe src= "https://drive.google.com/open?id=1HggIbEaOXg-GuiuCNv_Ep0eWuicj8QKD" height="1100px" width="850px"> </iframe>
+<iframe src= "<iframe src="https://drive.google.com/embeddedfolderview?id=1HggIbEaOXg-GuiuCNv_Ep0eWuicj8QKD#list" height="1100px" width="850px"> </iframe>
