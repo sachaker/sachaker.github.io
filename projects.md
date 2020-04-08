@@ -1,5 +1,6 @@
 ---
 layout: gallery
+title: Past projects
 permalink: /projects/
 ---
 
