@@ -17,7 +17,7 @@ Wastewater is literally the shit that no one wants (most people*, since it does 
 samples to extract meaningful insights really wouldn't perturb the existing system too much.
 
 
-Public interest in the microbiome seems to be stagnant:
+Despite all this, public interest in the microbiome seems to be stagnant:
 
 
 <img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/blogContent/googleTrends.png" width="100%"/>
