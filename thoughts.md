@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: Thoughts
+title: Thoughts (a blog space)
 permalink: /thoughts/
 ---
 
