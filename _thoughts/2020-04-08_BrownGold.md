@@ -14,15 +14,13 @@ So what we have is a fundamental misalignment in the current and actual values o
 Wastewater is literally the shit that no one wants (most people*, since it does have its [uses](https://www.usgs.gov/special-topic/water-science-school/science/wastewater-treatment-water-use?qt-science_center_objects=0#)), and so collecting
 samples to extract meaningful insights really doesn't perturb the existing system too much.
 
-<iframe scrolling="no" style="border:none;" width="640" height="330" src="https://trends.google.com/trends/explore?cat=45&date=2010-04-08%202020-04-08&geo=US&q=microbiome,kombucha,juice%20cleanse"></iframe>
 
-<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/2152_RC04/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"microbiome","geo":"US","time":"2010-04-08 2020-04-08"},{"keyword":"kombucha","geo":"US","time":"2010-04-08 2020-04-08"},{"keyword":"juice cleanse","geo":"US","time":"2010-04-08 2020-04-08"}],"category":45,"property":""}, {"exploreQuery":"cat=45&date=2010-04-08%202020-04-08&geo=US&q=microbiome,kombucha,juice%20cleanse","guestPath":"https://trends.google.com:443/trends/embed/"}); </script> 
+<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/blogContent/googleTrends.png" width="100%"/>
+
+
+##### Okay, these might not be the most convincing data, but it's a start... Clearly the public appreciates the importance of gut health and bacterial diversity, but why don't people attend to the microbiome as an extension of that?
 
 
 This space is going to make a select few people a lot of money. The factors for success are all there: a paucity of competition, an almost infinite abundance of data, simple means of data collection... These are fertile grounds for discovery and the intrepid pioneers that get in early will no doubt be rewarded.
 
 Let not wastewater become wasted... You heard it here first.
-
-Data resources:
-https://catalog.data.gov/dataset/wastewater-viral-community-fa112
-https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA484334
