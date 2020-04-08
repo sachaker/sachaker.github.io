@@ -8,7 +8,7 @@ permalink: /thoughts/
 ---
 # **Brown Gold: How our poop is the most untapped gold mine of the 21st Century**
 
-Poop, and by extension, wastewater, is a data source that will be replenished each minute of every hour of every day until the end of civilization. The microbiome is *severely* underappreciated in medicine and health (thankfully, there are a few companies who recognize this systemic short-sightedness check out: [Pendulum Therapeutics](https://pendulum.co/) or [Gingko Bioworks](https://www.ginkgobioworks.com/)).
+Poop, and by extension, wastewater, is a data source that will be replenished each minute of every hour of every day until the end of civilization. The microbiome is *severely* underappreciated in medicine and health (however, I can name a couple good companies that recognize this systemic short-sightedness: [Pendulum Therapeutics](https://pendulum.co/) and [Gingko Bioworks](https://www.ginkgobioworks.com/)).
 I've always been puzzled by this... The evidence supporting the significance of the microbiome is almost insurmountable ([Alzheimer's](https://www.nature.com/articles/s41422-019-0227-7), [longevity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6051225/), [obesity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5082693/), [autism](https://www.nature.com/articles/d41586-020-00198-y). The list goes on...), so how the hell could this be almost universally overlooked?
 
 Most recently, [researchers discovered](https://www.nature.com/articles/d41586-020-00973-x) that sewage water serves as a useful proxy for the extent of COVID-19 infections in the community. This made me wonder: why haven't we done this before?
@@ -20,7 +20,7 @@ What we have is a fundamental misalignment in the current and actual values of t
 Despite all this, public interest in the microbiome seems to be stagnant:
 
 
-<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/blogContent/googleTrends.png" width="115%"/>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/blogContent/googleTrends.png" height="150%"/>
 
 
 ###### Okay, these might not be the most convincing data, but it's a start... Clearly the public appreciates the importance of gut health and bacterial diversity, but why don't people attend to the microbiome as an extension of that?
