@@ -20,7 +20,7 @@ What we have is a fundamental misalignment in the current and actual values of t
 Despite all this, public interest in the microbiome seems to be stagnant:
 
 
-<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/blogContent/googleTrends.png" height="100%"/>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/blogContent/googleTrends.png" height="150%" width="150%"/>
 
 
 ###### Okay, these might not be the most convincing data, but it's a start... Clearly the public appreciates the importance of gut health and bacterial diversity, but why don't people attend to the microbiome as an extension of that?
