@@ -1,6 +1,6 @@
 ---
 layout: post
-title:	"Brown Gold: How our poop is the most untapped gold mine of the 21st Century"
+title:	"Brown Gold: How poop is the most untapped gold mine of the 21st Century"
 date:	2020-04-08
 category: external
 ---
@@ -14,8 +14,9 @@ So what we have is a fundamental misalignment in the current and actual values o
 Wastewater is literally the shit that no one wants (most people*, since it does have its [uses](https://www.usgs.gov/special-topic/water-science-school/science/wastewater-treatment-water-use?qt-science_center_objects=0#)), and so collecting
 samples to extract meaningful insights really doesn't perturb the existing system too much.
 
-This space is going to make a select few people a lot of money. The factors for success are all there: a paucity of competition, an almost infinite abundance of data, simple means of data collection... These are fertile grounds for discovery and the 
-intrepid pioneers that get in early will no doubt be rewarded.
+<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/2152_RC04/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"microbiome","geo":"US","time":"2010-04-08 2020-04-08"},{"keyword":"kombucha","geo":"US","time":"2010-04-08 2020-04-08"},{"keyword":"juice cleanse","geo":"US","time":"2010-04-08 2020-04-08"}],"category":45,"property":""}, {"exploreQuery":"cat=45&date=2010-04-08%202020-04-08&geo=US&q=microbiome,kombucha,juice%20cleanse","guestPath":"https://trends.google.com:443/trends/embed/"}); </script> 
+
+This space is going to make a select few people a lot of money. The factors for success are all there: a paucity of competition, an almost infinite abundance of data, simple means of data collection... These are fertile grounds for discovery and the intrepid pioneers that get in early will no doubt be rewarded.
 
 Let not wastewater become wasted... You heard it here first.
 
