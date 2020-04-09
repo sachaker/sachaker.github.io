@@ -1,6 +1,7 @@
 ---
 layout: gallery
 title: Thoughts (blog space)
+mathjax: true
 permalink: /thoughts/
 ---
 
@@ -13,13 +14,15 @@ If someone put a gun to my head and made me blurt out the part of the brain that
 The thalamus is a chunk of gray matter found in the forebrain. This is the Grand Central of the brain—it receives input from a vast number of areas and its projections innervate almost all sections of the cerebral cortex. The thalamus both integrates and distributes information from countless areas. For instance, sensory input comes in, the thalamus works its magic (transforms that sensory information along some dimension), and then is spit back into the sensory area from whence it came. 
 
 I believe quite strongly that anticipation is a prerequisite for consciousness, and that anticipation demands the coordinated integration of several senses. Why anticipation? Because anticipation is birthed from expectation, and expectation requires:
-- An internal, updatable model of the world
-- A sense of futurity (
+- An internal, updatable model of the world (U<sup>$\pi$</sup>(s<sub>t</sub>,a<sub>t</sub>)= 1
+- A sense of futurity (not just living in the *now*, but in the *next*)
+- 
 
 For example, let's say 
 
 ><sup>†</sup>Note: Defining consciousness is not something I will dive into here, despite some implicit definitions. That's an unproductive rabbit hole to be avoided when trying to identify candidate neural substrates for consciousness.
 
+&nbsp;
 
 ### *April 8th, 2020*
 ---
@@ -50,8 +53,7 @@ This space is going to make a select few *a lot* of money. The factors for succe
 
 ><sup>†</sup>I can name a couple good companies that recognize this systemic short-sightedness: [Pendulum Therapeutics](https://pendulum.co/) and [Gingko Bioworks](https://www.ginkgobioworks.com/). For the interested reader, I also recommend looking into [Richard Sprague](https://richardsprague.com/microbiome/), who has a pretty extensive passion project on his own microbiome
 
-
-===
-
+&nbsp; 
+-----
 
 Thoughts on any of these articles (whether agreeable or otherwise)? Shoot me an [email](malito:sacha@nyu.edu)
