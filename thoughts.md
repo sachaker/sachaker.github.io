@@ -59,7 +59,7 @@ This space is going to make a select few *a lot* of money. The factors for succe
 &nbsp; 
 -----
 
-Thoughts on any of these articles (whether agreeable or otherwise)? Shoot me an [email](malito:sacha@nyu.edu)
+#### Thoughts on any of these articles (whether agreeable or otherwise)? Shoot me an [email](malito:sacha@nyu.edu)
 
 
 &nbsp; 
