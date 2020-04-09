@@ -34,7 +34,7 @@ permalink: /other/
 *Examples of past work*
 
 <p float="left">
-  <img src="{{site.imgurl}}/art1.jpg" height="600px" />
+  <img src="{{site.imgurl}}/art1.jpg" height="620px" />
   <img src="{{site.imgurl}}/art2.png" height="585px" />
   <img src="{{site.imgurl}}/art3.jpg" height="575px" />
 </p>
