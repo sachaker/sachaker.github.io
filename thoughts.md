@@ -16,14 +16,16 @@ If someone put a gun to my head and made me blurt out the part of the brain that
 I believe quite strongly that anticipation is a prerequisite for consciousness, and that anticipation demands the coordinated integration of several senses. Why anticipation? Because anticipation is birthed from expectation, and expectation requires:
 - An internal, updatable model of the world (think: [Bellman Equation](https://en.wikipedia.org/wiki/Bellman_equation))
 - A sense of futurity (not just living in the *now*, but in the *next*)
-- Pattern identification (I would feel pretty comfortable positing that this is the product of the other 2)
+- Pattern identification (I would feel pretty comfortable positing that this is the product of the other two)
 
-Back to the thalamus... Considering its role in 
+Back to the thalamus... Considering that it receives and redirects so much diverse input to high-level (I hate that term) centers (and this term), how in the world has this not been investigated in the context of consciousness or cognition? I think this might be because of politics. Not the Washington D.C. kind, but the ever-present contention between generations of scientists. Great leaders of each generation (maybe there are bound to be fewer, per [Collison and Cowen](https://www.theatlantic.com/science/archive/2019/07/we-need-new-science-progress/594946/)) expand on the field's fundamental understanding of a phenomenon and in turn often unhinge discoveries made by previous generations. Sometimes this process of unhinging intersects within a generation ([Ramon y Cajal vs. Golgi](https://blog.eyewire.org/ramon-y-cajal-vs-golgi-a-neuroscience-rivalry/) was one of the greatest intellectual rilvalries in neuroscience). Crucially, individuals and scientific communities are influenced deeply by egos and the perception of fundamental truths—people are unwilling to accept novel discoveries if they fly in the face of what they fundamentally believe to be true (or if they spent most of their life committed to that which is being overturned).
+
+This time *really* back to the thalamus... The thalamus has historically been viewed as a "low-level" (yuck!) area (yuck yuck!!), as part of a contrived framework of anatomical hierarchy in the brain. Everyone learns in their 101 courses that "the midbrain is the lower brain... and the thalamus and associated areas are part of the limbic system" ([here](https://science.howstuffworks.com/life/inside-the-mind/human-brain/brain5.htm), [here](https://courses.lumenlearning.com/teachereducationx92x1/chapter/lower-level-structures-of-the-brain/), [here](https://www.psychologytoday.com/us/blog/where-addiction-meets-your-brain/201404/your-lizard-brain), and [here](https://www.khanacademy.org/science/health-and-medicine/executive-systems-of-the-brain/emotion-lesson/v/emotions-limbic-system)). The fact that they peddle this crap to unwitting freshmen is infuriating! "Experts" loooove to talk about the limbic system... Your "Lizard Brain". 
 
 &nbsp; 
 ><sup>†</sup>Defining consciousness is not something I will dive into here, despite some implicit definitions. That's an unproductive rabbit hole to be avoided when trying to identify candidate neural substrates for consciousness
 
->**Bonus:** Google Trends for "[thalamus](https://trends.google.com/trends/explore?date=2007-04-09%202020-04-09&geo=US&q=thalamus)" (I promise this won't be my only data source) shows an insane periodicity with annual maxima every October going back to 2007. Can you guess why? :)
+>**Bonus:** Google Trends for "[thalamus](https://trends.google.com/trends/explore?date=2007-04-09%202020-04-09&geo=US&q=thalamus)" (I promise this won't be my only data source) shows an incredible periodicity with annual maxima every October going back to 2007. Can you guess why? :)
 
 &nbsp;
 
@@ -57,9 +59,9 @@ This space is going to make a select few *a lot* of money. The factors for succe
 ><sup>†</sup>I can name a couple good companies that recognize this systemic short-sightedness: [Pendulum Therapeutics](https://pendulum.co/) and [Gingko Bioworks](https://www.ginkgobioworks.com/). For the interested reader, I also recommend looking into [Richard Sprague](https://richardsprague.com/microbiome/), who has a pretty extensive passion project on his own microbiome
 
 &nbsp; 
------
+---
 
-#### Thoughts on any of these articles (whether agreeable or otherwise)? Shoot me an [email](malito:sacha@nyu.edu)
+##### Thoughts on any of these articles (whether agreeable or otherwise)? Shoot me an [email](malito:sacha@nyu.edu)
 
 
 &nbsp; 
