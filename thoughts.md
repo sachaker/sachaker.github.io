@@ -20,6 +20,7 @@ I believe quite strongly that anticipation is a prerequisite for consciousness, 
 
 Back to the thalamus... Considering its role in 
 
+&nbsp; 
 ><sup>†</sup>Defining consciousness is not something I will dive into here, despite some implicit definitions. That's an unproductive rabbit hole to be avoided when trying to identify candidate neural substrates for consciousness
 
 >**Bonus:** Google Trends for "[thalamus](https://trends.google.com/trends/explore?date=2007-04-09%202020-04-09&geo=US&q=thalamus)" (I promise this won't be my only data source) shows an insane periodicity with annual maxima every October going back to 2007. Can you guess why? :)
@@ -59,3 +60,26 @@ This space is going to make a select few *a lot* of money. The factors for succe
 -----
 
 Thoughts on any of these articles (whether agreeable or otherwise)? Shoot me an [email](malito:sacha@nyu.edu)
+
+
+
+<!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://github.us19.list-manage.com/subscribe/post?u=baf7a0905263a7207338e7584&amp;id=be11952091" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">If you want to follow my blog...</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_baf7a0905263a7207338e7584_be11952091" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
