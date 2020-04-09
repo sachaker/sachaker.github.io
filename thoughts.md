@@ -28,4 +28,4 @@ Despite all this, public interest in the microbiome seems to be stagnant:
 
 This space is going to make a select few *a lot* of money. The factors for success are all there: a paucity of competition, an almost infinite abundance of data, simple means of data collection, and a demonstrated role in domains relevant to health and disease... These are fertile grounds for discovery and the intrepid pioneers that get in early will no doubt be rewarded.
 
-Let not wastewater become wasted... You heard it here first.
+*Let not thy wastewater be wasted*... You heard it here first.
