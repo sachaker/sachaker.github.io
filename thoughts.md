@@ -23,7 +23,7 @@ Despite all this, public interest in the microbiome seems to be stagnant:
 <img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/blogContent/googleTrends.png" height="250%" width="250%"/>
 
 
-###### Okay, these might not be the most convincing data, but it's a start... Clearly the public appreciates the importance of gut health and bacterial diversity, but why don't people attend to the microbiome as an extension of that?
+###### Okay, these might not be the most convincing data, but it's a start... Clearly the public appreciates the importance of health and bacterial diversity, but why don't people attend to the microbiome as an extension of that?
 
 
 This space is going to make a select few *a lot* of money. The factors for success are all there: a paucity of competition, an almost infinite abundance of data, simple means of data collection, and a demonstrated role in domains relevant to health and disease... These are fertile grounds for discovery and the intrepid pioneers that get in early will no doubt be rewarded.
