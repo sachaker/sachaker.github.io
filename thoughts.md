@@ -14,7 +14,7 @@ I've always been puzzled by this... The evidence supporting the significance of 
 Most recently, [researchers discovered](https://www.nature.com/articles/d41586-020-00973-x) that sewage water serves as a useful proxy for the extent of COVID-19 infections in the community. This made me wonder: why haven't we done this before?
 
 
-What we have is a fundamental misalignment in the current and actual values of this asset (poop). Call it arbitrage or just plain old opportunity—the reality is clear. Wastewater is (literally) the shit that no one wants (well, most people, since it does have some [interested customers](https://www.usgs.gov/special-topic/water-science-school/science/wastewater-treatment-water-use?qt-science_center_objects=0#)), and so starting to collect mass samples of wastewater wouldn't really perturb the existing system too much.
+What we have is a fundamental misalignment in the current and actual values of this asset (poop). Call it arbitrage or just plain old opportunity—the reality is clear. Wastewater is (literally) the shit that no one wants (well, a [few people](https://www.usgs.gov/special-topic/water-science-school/science/wastewater-treatment-water-use?qt-science_center_objects=0#)), and so starting to collect mass samples of wastewater wouldn't really perturb the existing system too much.
 
 
 Despite all this, public interest in the microbiome seems to be stagnant:
