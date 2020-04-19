@@ -19,7 +19,7 @@ Artificial Neural Networks (ANNs), as the name might suggest, were built with th
 Now, things have improved a lot with regards to computing power since those early days but the reality is that the fundamentals of ANNs haven't witnessed the same growth.
 
 
-What we see is that, despite the fact that we can reach unprecedented [network depth](https://towardsdatascience.com/gating-and-depth-in-neural-networks-b2c66ae74c45), performance just doesn't scale. Take a look at how performance can actually get worse by adding layers (it's clear that a network with connectivity as its only parameter is insufficient to generate the complexity of the brain):
+What we see is that, despite the fact that we can reach unprecedented [network depth](https://towardsdatascience.com/gating-and-depth-in-neural-networks-b2c66ae74c45), performance just doesn't scale. Take a look at how performance can actually get worse by adding layers, it's clear that a network with connectivity as its only parameter is insufficient to generate the complexity of the brain:
 
 <p align="center">
 	<b>Deeper version of network does worse at image classification</b>
