@@ -27,7 +27,7 @@ I believe that the most significant factor missing from the way we build ANNs th
 The electric fields emitted by active neurons contribute to the complexity by being reflexive—an active neuron emits a field which in turn influences the firing dynamics of that neuron and the surrounding neurons, which influence downstream neurons which in turn emit electric fields which in turn... you see where this going. The result is that groups of neurons in the same vicinity will collectively generate large electric fields that will modify their biophysical signature and possibly enable computations that are otherwise unachievable in a state of individual isolation.
 
 
-Anyway, the point here is that for ANNs to approximate or surpass the complexity and cognitive flexibility of the brain, they must first address this issue. I think wetware (embedding actual neural tissue in circuitry) is a really smart way of addressing this, and I'll be keeping my eye on companies like [Cortical Labs](https://www.cclabs.ai/), [Koniku](https://koniku.com/technology), and maybe even [this nutjob](https://www.youtube.com/watch?v=h2nNKbO9-Eg).
+Anyway, the point here is that for ANNs to approximate or surpass the complexity and cognitive flexibility of the brain, they must first address this issue. I think wetware (embedding actual neural tissue in circuitry) is a really smart way of addressing this, and I'll be keeping my eye on [Cortical Labs](https://www.cclabs.ai/), [Koniku](https://koniku.com/technology), and maybe even [this nutjob](https://www.youtube.com/watch?v=h2nNKbO9-Eg).
 
 
 &nbsp;
