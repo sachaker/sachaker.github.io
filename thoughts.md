@@ -19,7 +19,11 @@ Artificial Neural Networks (ANNs), as the name might suggest, were built with th
 Now, things have improved a lot with regards to computing power since those early days but the reality is that the fundamentals of ANNs haven't witnessed the same growth.
 
 
-What we see is that, despite the fact that we can reach unprecedented [network depth](https://towardsdatascience.com/gating-and-depth-in-neural-networks-b2c66ae74c45), performance just doesn't scale. Part of this is due to what is dubbed the [vanishing gradient problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem), which was significantly alleviated by the development of [ResNets](https://arxiv.org/abs/1512.03385). The original ResNet broke numerous world records for classification accuracy and other tasks, however, increasing the depth of the network still plateaus at certain depth (the error between 50 and 100 layer ResNets, for the tasks I've used them for, is negligible). Take a look at how performance of a basic network actually gets worse by adding layers (after a certain point):
+What we see is that, despite the fact that we can reach unprecedented [network depth](https://towardsdatascience.com/gating-and-depth-in-neural-networks-b2c66ae74c45), performance just doesn't scale. Part of this is due to what is dubbed the [vanishing gradient problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem), which was significantly alleviated by the development of [ResNets](https://arxiv.org/abs/1512.03385). The original ResNet broke numerous world records for classification accuracy and other tasks, however, increasing the depth of the network still plateaus at certain depth (the error between 50 and 100 layer ResNets, for the tasks I've used them for, is negligible). 
+
+
+Take a look at how performance of a basic network actually gets worse by adding layers (after a certain point):
+
 
 <p align="center">
 	<b>Deeper version of network does worse at image classification</b>
