@@ -19,7 +19,7 @@ Artificial Neural Networks (ANNs), as the name might suggest, were built with th
 Now, things have improved a lot with regards to computing power since those early days but the reality is that the fundamentals of ANNs haven't witnessed the same growth.
 
 
-What we see is that, despite the fact that we can reach unprecedented [network depth](https://towardsdatascience.com/gating-and-depth-in-neural-networks-b2c66ae74c45), performance just doesn't scale. Take a look at how performance actually gets worse by adding layers (after a certain point):
+What we see is that, despite the fact that we can reach unprecedented [network depth](https://towardsdatascience.com/gating-and-depth-in-neural-networks-b2c66ae74c45), performance just doesn't scale. Part of this is due to what is dubbed the [vanishing gradient problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem), which was significantly alleviated by the development of [ResNets](https://arxiv.org/abs/1512.03385). The original ResNet broke numerous world records for classification accuracy and other tasks, however, increasing the depth of the network still plateaus at certain depth (the error between 50 and 100 layer ResNets, for the tasks I've used them for, is negligible). Take a look at how performance of a basic network actually gets worse by adding layers (after a certain point):
 
 <p align="center">
 	<b>Deeper version of network does worse at image classification</b>
@@ -30,9 +30,6 @@ What we see is that, despite the fact that we can reach unprecedented [network d
 
 
 It's clear that a network with connectivity as its only parameter is insufficient to generate the flexibility of the brain.
-
-
-Part of this is due to what is dubbed the [vanishing gradient problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem), which was significantly alleviated by the development of [ResNets](https://arxiv.org/abs/1512.03385). The original ResNet broke numerous world records for classification accuracy and other tasks, however, increasing the depth of the network still plateaus at certain depth (the error between 50 and 100 layer ResNets, for the tasks I've used them for, is negligible).
 
 
 I believe that the most significant factor missing from the way we build ANNs that is present in the brain is electric fields. While artifical neurons in ANNs are mathematical representations, biological neurons (just "neurons", from now on) occupy physical space, and thus their interactions are influenced along a spatial dimension (*Note: I definitely do not consider layers of an ANNs as spatial*). I also believe that the importance of the electric fields emitted by neurons is severely underappreciated in the field of neuroscience, despite the vast evidence for their significance in the biophysics of the brain as well as cognition ([here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4534030/) and [here](https://www.scientificamerican.com/article/brain-electric-field/), and I'm comfortable arguing that the breakthrough of [LFPs](http://www.scholarpedia.org/article/Local_field_potential) is because they register action potentials and the resulting electric fields).
