@@ -21,6 +21,10 @@ Now, things have improved a lot with regards to computing power since those earl
 
 What we see is that, despite the fact that we can reach unprecedented [network depth](https://towardsdatascience.com/gating-and-depth-in-neural-networks-b2c66ae74c45), performance just doesn't scale. Take a look at how performance can actually get worse by adding layers (it's clear that a network with connectivity as its only parameter is insufficient to generate the complexity of the brain):
 
+<p align="center">
+	<b>Deeper version of network does worse at image classification</b>
+</p>
+
 
 <img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/blogContent/errorXiterXlayers.png" height="250%" width="250%"/>
 
