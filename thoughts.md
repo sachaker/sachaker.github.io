@@ -10,19 +10,19 @@ permalink: /thoughts/
 ---
 # **The crucial missing link for Artificial Neural Networks**
 
-> ##### I'm going to jump right into this one, so apologies if it lacks the technical introduction such a post might demand. This post is oriented towards a reader who is relatively well read in this topic...
+> ##### I'm going to jump right into this one, so apologies if it lacks the technical introduction such a post might demand
 
 
-Artificial Neural Networks (ANNs), as the name might suggest, were built with the brain as a primary influence—neurons connect to each other, each conferring information or signals to the other and each with connections that vary mostly in accordance with the alignment between each neuron's activity and the ultimate achievement of the system's goal (see [objective functions](https://en.wikipedia.org/wiki/Mathematical_optimization)). This was a breakthrough in the field of computer science as it completely transformed the capabilities of computers to achieve complex tasks. Computers were no longer just efficient computing devices that did simple tasks quickly—they now could improve iteratively (see [Perceptron](https://en.wikipedia.org/wiki/Perceptron) and the lesser appreciated [MENACE](https://www.mscroggs.co.uk/blog/19)).
+Artificial Neural Networks (ANNs), as the name might suggest, were built with the brain as a primary influence—artificial neurons connect to each other, each conferring signals to others and each with connections that vary mostly in accordance with the alignment between the neuron's activity and the ultimate achievement of the system's goal (see [objective functions](https://en.wikipedia.org/wiki/Mathematical_optimization)). This was a breakthrough in the field of computer science as it completely transformed the capabilities of computers to achieve complex tasks. Computers were no longer just efficient computing devices that did simple tasks quickly and consistently—they now could *improve* iteratively (see [Perceptron](https://en.wikipedia.org/wiki/Perceptron) and the lesser appreciated [MENACE](https://www.mscroggs.co.uk/blog/19)).
 
 
 Now, things have improved a lot with regards to computing power since those early days but the reality is that the fundamentals of ANNs haven't witnessed the same growth.
 
 
-What we see is that, despite the fact that we can reach unprecedented [network depth](https://towardsdatascience.com/gating-and-depth-in-neural-networks-b2c66ae74c45), performance just doesn't scale. Part of this is due to what is dubbed the [vanishing gradient problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem), which was significantly alleviated by the development of [ResNets](https://arxiv.org/abs/1512.03385). The original ResNet broke numerous world records for classification accuracy and other tasks, however, increasing the depth of the network still plateaus at certain depth (the error between 50 and 100 layer ResNets, for the tasks I've used them for, is negligible). 
+What we see is that, despite the fact that we can reach unprecedented [network depth](https://towardsdatascience.com/gating-and-depth-in-neural-networks-b2c66ae74c45), performance just doesn't scale. Part of this is due to what is dubbed the [vanishing gradient problem](https://en.wikipedia.org/wiki/Vanishing_gradient_problem), in which the changes made to the connections of neurons deep into the network are negligible and are less likely to contribute to the final network output. This problem was significantly alleviated by the development of [ResNets](https://arxiv.org/abs/1512.03385), the original version of which broke numerous world records for image classification and other tasks. However, increasing the depth of this network still results in a performance plateau at a certain depth (the error difference between 50 and 100 layer ResNets, for the tasks I've used them for, is negligible). How has increasing the number of neurons, connections, and layers in our ANNs not brought us within reasonable proximity to the cognitive powers of the brain?
 
 
-Take a look at how performance of a basic network actually gets worse by adding layers (after a certain point):
+Take a look at how performance of a basic network can actually get worse by adding layers (image classification network on CIFAR-10 dataset):
 
 
 <p align="center">
