@@ -4,7 +4,7 @@ title: Past projects
 permalink: /projects/
 ---
 ## Computer vision system (cam.io)
-<img style="float: right; margin: 20px 25px 25px 20px;" src="{{site.imgurl}}/cam.io.gif" width="65%" />
+<img style="float: right; margin: 20px 20px 20px 20px;" src="{{site.imgurl}}/cam.io.gif" width="65%" />
 
 *If you can't be at the center of the universe, you can at least be at the center of your video calls. Meet cam.io—the automated cameraman for video conferencing* (if I were to make a corny ad, this would have to be in it...) 
 
