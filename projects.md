@@ -6,7 +6,7 @@ permalink: /projects/
 ## Computer vision system (cam.io)
 <img style="float: left; margin: 20px 5px 20px 20px;" src="{{site.imgurl}}/cam.io.gif" width="65%" />
 
-*If you can't be at the center of the universe, you can at least be at the center of your video calls. Meet cam.io—the professional cameraman hidden in your laptop* (if I were to make a corny ad, this would have to be in it...) 
+*If you can't be at the center of the universe, you can at least be at the center of your video calls. Meet cam.io—the professional cameraman hidden in your laptop*
 
 I built this system as a side project to revisit my interest in computer vision and facial recognition. *cam.io* takes video input from your computer camera, identifies your face, and crops the frame using your face as the midpoint, all in real-time. Given the insane growth of Zoom during the COVID-19 crisis, I thought that this could be a useful tool for people who regularly use the platform to give lectures, give presentations, or simply for any meetings. It's surprisingly robust, thanks to the jaw-dropping performance of [ResNets](https://arxiv.org/abs/1512.03385). I'm currently working to restructure this from a desktop utility into a deployable app for Zoom's [app marketplace](https://marketplace.zoom.us/).
 
