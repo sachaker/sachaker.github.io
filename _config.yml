@@ -10,6 +10,7 @@
 # Plugins
 plugins:
   - jekyll-feed
+  - jemoji
 
 # Site settings
 author: Sacha McElligott
