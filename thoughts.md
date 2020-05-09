@@ -42,10 +42,10 @@ As it turned out, the aforementioned industries (and individual stocks) were aff
 </p>
 
 
-Now before you think that I retroactively changed my selection of stocks to sound smart in a blog post, these were the actual 3 that I recommended (I'm still invested in TWLO, and have been for years, but I sold off all my other stocks about 5 months ago when it became too time consuming).
+Now before you think that I retroactively changed my selection of stocks to sound smart in a blog post, these were the actual 3 that I recommended. I should probably say that I'm still invested in TWLO, and have been for years (first bought at $76/share), but I sold off all my other stocks about 5 months ago when it became too time consuming.
 
 
-These differences may seem slight, but the worst performing of my recommendations is 134% of the biggest return for the aforementioned hardware companies (TWLO returns are 519% of AAPL returns for this period!).
+These differences may seem slight, but the worst performing of my recommendations is 134% of the biggest return for the aforementioned hardware companies (and TWLO returns are 519% of AAPL returns for this period!).
 
 
 The point here is that intuition and calculated thought can be an important factor in distinguishing you in investment. Don't believe me? Billionaire George Soros literally moves millions of dollars [based on pain](https://www.equitymaster.com/diary/detail.asp?date=01/13/2016&story=1&title=George-Soros-Has-Got-a-Backache-Again-and-This-Time-Its-Because-of-China) in different parts of his body. Everyone else uses financials and the same old indicators—be different.
