@@ -22,7 +22,7 @@ It makes sense, how could you not be when there exists the incessant echo chambe
 A reasonable response would be to laugh. *What the hell do you know, punk?* Well, not much, but enough to consistently beat out some of the weirdest markets in the past 3 years and hold a constant >30% returns for that time. I have helped my family, other families, and my friends invest in the market, because at its best, it's a lot of fun. 
 
 
-I'm no guru, I just love contrarian thinking. Thankfully, this translates well in investing: flying in the face of conventional wisdom, in late 2018, I shorted FB and AAPL based on a theory I had about their self-imposed pigeon holing. If this sound stupid, I encourage you to check out their stock prices for that year (P.S. I made >350% returns from those puts). Big money is made when you are right and the majority is wrong (see [Burry](https://en.wikipedia.org/wiki/Michael_Burry), [Dalio](https://en.wikipedia.org/wiki/Ray_Dalio), or [Soros](https://en.wikipedia.org/wiki/George_Soros)). If everyone says I am wrong about a prediction, it's often my canary in the coal mine that encourages me to chase the idea further.
+I'm no guru, I just love contrarian thinking. Thankfully, this translates well in investing: flying in the face of conventional wisdom, in late 2018, I shorted FB and AAPL based on a theory I had about their self-imposed pigeon holing. If this sound stupid, I encourage you to check out their stock prices for that year (P.S. I made >350% returns from those puts). Big money is made when you are right and the majority is wrong (see [Burry](https://en.wikipedia.org/wiki/Michael_Burry), [Dalio](https://en.wikipedia.org/wiki/Ray_Dalio), or [Soros](https://en.wikipedia.org/wiki/George_Soros)). If everyone says I am wrong about a prediction, it's often an incentive to chase the idea further.
 
 
 Back to 2020... COVID-19 has taken a huge chunk out of the economy, a chunk which is almost perfectly distributed across each industry. On March 10th, I was debating with my mom about this investment climate, as she was consumed by anxiety about the stock market and how the experts were saying it would be a recession (I remain pretty convinced that an imminent threat of such magnitude to the economy that's universally accepted as likely will in fact beget solutions that prevent it from actually materializing. These things really are reflexive in that way and every major economic recession has blindsided the majority, that's why they happen! That's probably for another blog post, though).
@@ -34,10 +34,11 @@ My mom, in line with the rest of America, was convinced that everything would pl
 As it turned out, the aforementioned industries (and individual stocks) were affected equally, and I just knew that the software stocks would rebound earlier. I'll let the data speak for themselves:
 
 
-<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/stocks.png" height="80%" width="80%"/>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/stocks.png"/>
+
 
 <p align="center">
-	<b>Stock returns from 3/10 - 5/9 (green = software, red = hardware)</b>
+	<b>Stock returns from 3/10/20 - 5/9/20 (green = software, red = hardware)</b>
 </p>
 
 
