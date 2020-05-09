@@ -42,7 +42,7 @@ As it turned out, the aforementioned industries (and individual stocks) were aff
 </p>
 
 
-Now before you think that I retroactively changed my selection of stocks, these were the actual 3 that I recommended (I'm still invested in TWLO, and have been for years, but I sold off all my other stocks about 5 months ago when it became too time consuming).
+Now before you think that I retroactively changed my selection of stocks to sound smart in a blog post, these were the actual 3 that I recommended (I'm still invested in TWLO, and have been for years, but I sold off all my other stocks about 5 months ago when it became too time consuming).
 
 
 These differences may seem slight, but the worst performing of my recommendations is 134% of the biggest return for the aforementioned hardware companies (TWLO returns are 519% of AAPL returns for this period!).
