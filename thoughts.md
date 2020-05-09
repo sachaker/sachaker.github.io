@@ -34,7 +34,7 @@ My mom, in line with the rest of America, was convinced that everything would pl
 As it turned out, the aforementioned industries (and individual stocks) were affected equally, and I just knew that the software stocks would rebound earlier. I'll let the data speak for themselves:
 
 
-<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/stocks.png" height="110%" width="110%"/>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/stocks.png"/>
 
 
 <p align="center">
