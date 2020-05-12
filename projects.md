@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 ## [Speech-to-speech voice conversion](https://github.com/sachaker/aud.io)
-<img style="float: right; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/ellen.gif" width="15%" />
+<img style="float: right; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/ellen.gif" width="30%" />
 
 "aud.io" is an automated system for speech-to-speech voice conversion. Want to speak as Spongebob? Donald Trump? Ellen Degeneres and more? Look no further. You simply speak into the microphone and out comes the same audio, only your voice is now that of your selected speaker. It can learn new output with a day of training and is robust to pretty much any input you throw at it. Its technology is bordering on the frontier of what is out there and is certainly the only readily implementable platform for social purposes. Part of the online accelerator [Pioneer](pioneer.app).
 
