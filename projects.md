@@ -4,11 +4,16 @@ title: Past projects
 permalink: /projects/
 ---
 
+## [Speech-to-speech voice conversion](https://github.com/sachaker/aud.io)
+<img style="float: right; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/ellen.gif" width="65%" />
+
+"aud.io" is an automated system for speech-to-speech voice conversion. Want to speak as Spongebob? Donald Trump? Ellen Degeneres and more? Look no further. You simply speak into the microphone and out comes the same audio, only your voice is now that of your selected speaker. It can learn new output with a day of training and is robust to pretty much any input you throw at it. Its technology is bordering on the frontier of what is out there and is certainly the only readily implementable platform for social purposes. Part of the online accelerator Pioneer.
+
 
 ## [Analyzing rideshare data](https://medium.com/@skm440/analyzing-rideshare-data-a7c83f95cd65)
 <img style="float: right; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/map.gif" width="65%" />
 
-During the summer of 2019, I explored the possibility of developing an app that would help rideshare drivers receive bigger payouts for their rides. Since drivers are constantly shifting between rideshare services (always trying to maximize their profits based on surge prices, percent payouts, and general pricing models for each service), I thought to build an app that would put this maximization problem into a quantitative framework. Given the time of day, the driver's location, and other factors (like the weather), which service would be most likely to be most profitable? While the idea had potential, my analysis of the data ultimately proved there to be too much variance for the service be reliable.
+I explored the possibility of developing an app that would help rideshare drivers receive bigger payouts for their rides. Since drivers are constantly shifting between rideshare services (always trying to maximize their profits based on surge prices, percent payouts, and general pricing models for each service), I thought to build an app that would put this maximization problem into a quantitative framework. Given the time of day, the driver's location, and other factors (like the weather), which service would be most likely to be most profitable? While the idea had potential, my analysis of the data ultimately proved there to be too much variance for the service be reliable.
 
 ## [Modified labeling system for DeepLabCut](https://github.com/sachaker/deeplabcut_texteam)
 <img style="float: right; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/alternateGUI_20nodes.gif" width="65%"/>
