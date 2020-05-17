@@ -13,7 +13,7 @@ permalink: /other/
 
 
 ### Cooking
-*Some of the meals I've cooked this year*
+*It's a secret passion*
 <p float="left">
   <img src="{{site.imgurl}}/cook1.JPG" width="230px" />
   <img src="{{site.imgurl}}/cook4.JPG" width="230px" />
@@ -29,7 +29,7 @@ permalink: /other/
 
 
 ### Art
-*Examples of past work*
+*Art has always been a huge part of my life but I still don't indulge it as much as I'd like to*
 
 <p float="left">
   <img src="{{site.imgurl}}/art2.png" height="420px" style="border:5px white" />
