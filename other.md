@@ -9,8 +9,6 @@ permalink: /other/
 
 <p float="left">
   <img src="{{site.imgurl}}/book1.jpg" height="250" />
-  <img src="{{site.imgurl}}/book3.jpg" height="250" />
-  <img src="{{site.imgurl}}/book2.jpg" height="250" />
 </p>
 
 
@@ -18,8 +16,8 @@ permalink: /other/
 *Some of the meals I've cooked this year*
 <p float="left">
   <img src="{{site.imgurl}}/cook1.JPG" width="230px" />
-  <img src="{{site.imgurl}}/cook2.JPG" width="230px" />
   <img src="{{site.imgurl}}/cook4.JPG" width="230px" />
+  <img src="{{site.imgurl}}/cook2.JPG" width="230px" />
   <img src="{{site.imgurl}}/cook8.JPG" width="230px" />
   <img src="{{site.imgurl}}/cook9.JPG" width="230px" />
   <img src="{{site.imgurl}}/cook10.JPG" width="230px" />
