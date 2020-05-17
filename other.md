@@ -36,7 +36,7 @@ permalink: /other/
 *Some of my past work... Art has always been a huge part of my life but I still don't indulge it as much as I'd like to.*
 
 <p float="left">
-  <img src="{{site.imgurl}}/art2.png" height="450px" style="border:5px white" />
+  <img src="{{site.imgurl}}/art2.png" height="455px" style="border:5px white" />
   <img src="{{site.imgurl}}/art1.jpg" width="440px" style="border:5px white" />
   <img src="{{site.imgurl}}/art3.jpg" width="270px" style="border:5px white"/>
   <img src="{{site.imgurl}}/art4.JPG" width="270px" style="border:5px white"/>
