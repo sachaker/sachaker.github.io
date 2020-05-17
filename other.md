@@ -11,6 +11,7 @@ permalink: /other/
   <img src="{{site.imgurl}}/book1.jpg" height="250" />
 </p>
 
+&nbsp;
 
 ### Cooking
 *It's a secret passion*
@@ -27,6 +28,7 @@ permalink: /other/
   <img src="{{site.imgurl}}/cook7.JPG" height="300px" /> -->
 </p>
 
+&nbsp;
 
 ### Art
 *Some of my past work here... Art has always been a huge part of my life but I still don't indulge it as much as I'd like to.*
@@ -39,6 +41,7 @@ permalink: /other/
   <img src="{{site.imgurl}}/art5.JPG" width="270px" style="border:5px white"/>
 </p>
 
+&nbsp;
 
 ### Music
 *Videos from my musical days (on drums in these videos)*
@@ -49,9 +52,12 @@ permalink: /other/
 
 [![](http://img.youtube.com/vi/U6tYGmJI9ZY/0.jpg)](http://www.youtube.com/watch?v=U6tYGmJI9ZY "DNA Lounge")
 
+&nbsp;
 
 ### Movies
 *I love movies and like to occasionally write reviews*
+
+&nbsp;
 
 #### Schindler's List
 
