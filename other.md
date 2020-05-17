@@ -35,8 +35,8 @@ permalink: /other/
   <img src="{{site.imgurl}}/art2.png" height="585px" />
   <img src="{{site.imgurl}}/art1.jpg" width="420px" />
   <img src="{{site.imgurl}}/art3.jpg" width="300px" />
-  <img src="{{site.imgurl}}/art4.jpg" width="300px" />
-  <img src="{{site.imgurl}}/art5.jpg" width="300px" />
+  <img src="{{site.imgurl}}/art4.JPG" width="300px" />
+  <img src="{{site.imgurl}}/art5.JPG" width="300px" />
 </p>
 
 
