@@ -32,11 +32,11 @@ permalink: /other/
 *Examples of past work*
 
 <p float="left">
-  <img src="{{site.imgurl}}/art2.png" height="420px" />
-  <img src="{{site.imgurl}}/art1.jpg" width="420px" />
-  <img src="{{site.imgurl}}/art3.jpg" width="270px" />
-  <img src="{{site.imgurl}}/art4.JPG" width="270px" />
-  <img src="{{site.imgurl}}/art5.JPG" width="270px" />
+  <img src="{{site.imgurl}}/art2.png" height="420px" style="border:5px white" />
+  <img src="{{site.imgurl}}/art1.jpg" width="420px" style="border:5px white" />
+  <img src="{{site.imgurl}}/art3.jpg" width="270px" style="border:5px white"/>
+  <img src="{{site.imgurl}}/art4.JPG" width="270px" style="border:5px white"/>
+  <img src="{{site.imgurl}}/art5.JPG" width="270px" style="border:5px white"/>
 </p>
 
 
