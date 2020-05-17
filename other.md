@@ -33,7 +33,7 @@ permalink: /other/
 
 
 ### Art
-*Some of my past work here... Art has always been a huge part of my life but I still don't indulge it as much as I'd like to.*
+*Some of my past work... Art has always been a huge part of my life but I still don't indulge it as much as I'd like to.*
 
 <p float="left">
   <img src="{{site.imgurl}}/art2.png" height="430px" style="border:5px white" />
