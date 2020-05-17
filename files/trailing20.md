@@ -3,7 +3,6 @@ layout: gallery
 title: Trailing Twenty
 ---
 
-# Trailing Twenty
 #### My 20 most recent reads
 
 <p float="left">
