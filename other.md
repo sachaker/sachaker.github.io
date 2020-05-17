@@ -13,6 +13,7 @@ permalink: /other/
 
 &nbsp;
 
+
 ### Cooking
 *It's a secret passion*
 <p float="left">
@@ -30,18 +31,20 @@ permalink: /other/
 
 &nbsp;
 
+
 ### Art
 *Some of my past work here... Art has always been a huge part of my life but I still don't indulge it as much as I'd like to.*
 
 <p float="left">
-  <img src="{{site.imgurl}}/art2.png" height="420px" style="border:5px white" />
-  <img src="{{site.imgurl}}/art1.jpg" width="420px" style="border:5px white" />
+  <img src="{{site.imgurl}}/art2.png" height="430px" style="border:5px white" />
+  <img src="{{site.imgurl}}/art1.jpg" width="430px" style="border:5px white" />
   <img src="{{site.imgurl}}/art3.jpg" width="270px" style="border:5px white"/>
   <img src="{{site.imgurl}}/art4.JPG" width="270px" style="border:5px white"/>
   <img src="{{site.imgurl}}/art5.JPG" width="270px" style="border:5px white"/>
 </p>
 
 &nbsp;
+
 
 ### Music
 *Videos from my musical days (on drums in these videos)*
@@ -54,10 +57,9 @@ permalink: /other/
 
 &nbsp;
 
+
 ### Movies
 *I love movies and like to occasionally write reviews*
-
-&nbsp;
 
 #### Schindler's List
 
