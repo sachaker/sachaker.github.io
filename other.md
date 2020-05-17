@@ -5,7 +5,7 @@ permalink: /other/
 ---
 
 ### Books
-*What I'm currently reading*
+*What I'm currently reading. Check out what I'm calling the Trailing Twenty for the 20 most recent reads*
 
 <p float="left">
   <img src="{{site.imgurl}}/book1.jpg" height="250" />
@@ -34,8 +34,8 @@ permalink: /other/
 *Examples of past work*
 
 <p float="left">
-  <img src="{{site.imgurl}}/art1.jpg" height="620px" />
   <img src="{{site.imgurl}}/art2.png" height="585px" />
+  <img src="{{site.imgurl}}/art1.jpg" height="620px" />
   <img src="{{site.imgurl}}/art3.jpg" height="575px" />
 </p>
 
