@@ -5,7 +5,7 @@ permalink: /other/
 ---
 
 ### Books
-*What I'm currently reading. Check out what I'm calling the Trailing Twenty for the 20 most recent reads*
+*What I'm currently reading... Check out what I'm calling the [Trailing Twenty](./files/trailing20.md) for the 20 most recent reads*
 
 <p float="left">
   <img src="{{site.imgurl}}/book1.jpg" height="250" />
