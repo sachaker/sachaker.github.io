@@ -32,9 +32,11 @@ github_username:  sachaker
 
 social-network-links:
   linkedin: https://www.linkedin.com/in/sacha-mcelligott-136a78a9/
+  twitter: https://twitter.com/Sacha70651328
 
 share-links-active:
   linkedin: true
+  twitter: true
 excerpt_separator: <!--exc-->
 
 # Build settings
