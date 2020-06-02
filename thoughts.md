@@ -24,7 +24,7 @@ permalink: /thoughts/
 - I'm not convinced that this "industry-domestic discrepancy" exists to the same extent for other applicable technologies, especially not for so long (the processor in your iPhone is 5 orders of magnitude more powerful than that of Apollo 11)
 
 #### Is globalization always a good thing? And to what extent does the globalization of technology align with (and also engender) cultural globalization?
-- China has reaped the rewards of Western innovation without the "burden" of democracy (great convo on this [here](https://podcasts.apple.com/us/podcast/34-zev-weinstein-on-parenting-boys-generation-z/id1469999563?i=1000474506222)), yet it does not feel that this adoption has been at the cost of any cultural identity. On the cultural side, the physical presence of Turks in Germany has had profound influence on the culture (and cuisine) of the latter, though their relationship dates back to at least WWI, before US-China relations, so maybe the comparison isn't fair.
+- China has reaped the rewards of Western innovation without the "burden" of democracy (great convo on this [here](https://podcasts.apple.com/us/podcast/34-zev-weinstein-on-parenting-boys-generation-z/id1469999563?i=1000474506222)), yet it does not feel that this adoption has been at the cost of any cultural identity. On the other hand, the physical presence of Turks in Germany has had profound influence on the culture (and cuisine) of the latter, though their relationship dates back to at least WWI (before US-China relations) so maybe the comparison isn't fair.
 
 &nbsp;
 
