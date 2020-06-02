@@ -11,8 +11,8 @@ permalink: /thoughts/
 
 > ##### A few random things that I've been thinking about quite a bit. Some date back years, others in the past few hours
 
-#### Why does it feel like Hungary disproportionately produced some of the brightest minds of the 20th century?
-- Erdos, von Neumann, Gabor, Wigner, Elo, and [many, many more](https://en.wikipedia.org/wiki/List_of_Hungarians)
+#### Why does it feel like Hungary disproportionately produced some of the brightest and most prolific minds of the 20th century?
+- [Erdos](https://en.wikipedia.org/wiki/Paul_Erd%C5%91s), [von Neumann](https://en.wikipedia.org/wiki/John_von_Neumann), [Gabor](https://en.wikipedia.org/wiki/Dennis_Gabor), [Wigner](https://en.wikipedia.org/wiki/Eugene_Wigner), [Elo](https://en.wikipedia.org/wiki/Arpad_Elo), and [many, many more](https://en.wikipedia.org/wiki/List_of_Hungarians)
 
 #### How can we quantify the changes to a predicted outcome when that prediction is disseminated to the population whose behavior is being predicted?
 - Think: election polls, distributions of wait times, etc. Is this sufficient to describe the glaring errors in all the 2016 poll predictions?
