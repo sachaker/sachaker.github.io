@@ -21,7 +21,7 @@ permalink: /thoughts/
 - Lagos? CDMX? 
 
 #### Why has the wash time of restaurant-grade dishwashers (~1min) been so disparate from its domestic counterpart for so long? 
-- I'm not convinced that this "industry-domestic discrepancy" exists for other applicable technologies
+- I'm not convinced that this "industry-domestic discrepancy" exists to the same extent for other applicable technologies, especially not for so long (the processor in your iPhone is 5 orders of magnitude more powerful than that of Apollo 11)
 
 #### Is globalization always a good thing? To what extent does the globalization of technology align with (and also engender) cultural globalization?
 - China has reaped the rewards of Western innovation without the "burden" of democracy (great convo on this [here](https://podcasts.apple.com/us/podcast/34-zev-weinstein-on-parenting-boys-generation-z/id1469999563?i=1000474506222)), yet it does not feel that this adoption has been at the cost of any cultural identity. On the other hand, physical Turkish presence in Germany has had profound influence on the culture (and cuisine) there, though their relationship dates back to at least WWI, before US-China relations.
