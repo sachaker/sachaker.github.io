@@ -15,7 +15,7 @@ permalink: /thoughts/
 - [Erdos](https://en.wikipedia.org/wiki/Paul_Erd%C5%91s), [von Neumann](https://en.wikipedia.org/wiki/John_von_Neumann), [Gabor](https://en.wikipedia.org/wiki/Dennis_Gabor), [Wigner](https://en.wikipedia.org/wiki/Eugene_Wigner), [Elo](https://en.wikipedia.org/wiki/Arpad_Elo), and [many, many more](https://en.wikipedia.org/wiki/List_of_Hungarians)
 
 #### How can we quantify the changes to a predicted outcome after that prediction is disseminated to the population whose behavior is being predicted?
-- Think: election polls, distributions of wait times, etc. Is this sufficient to describe the glaring errors in all the 2016 poll predictions?
+- Think: election polls, distributions of wait times, etc. Is this sufficient to describe the glaring errors of all the 2016 US Presidential polls?
 
 #### What city in a Third World country will bear the greatest intellectual fruits in the next 25 years? 
 - Lagos? CDMX? 
