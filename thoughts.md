@@ -9,12 +9,12 @@ permalink: /thoughts/
 ---
 # **Some questions...**
 
-> ##### A few random things that I've been thinking about quite a bit. Some date back years, other in the past few hours
+> ##### A few random things that I've been thinking about quite a bit. Some date back years, others in the past few hours
 
 #### Why does it feel like Hungary has disproportionately produced some of the brightest minds of all time?
 - Erdos, von Neumann, Gabor, Wigner, Elo, and [many, many more](https://en.wikipedia.org/wiki/List_of_Hungarians)
 
-#### How can we quantify the resulting changes to a predicted outcome when that prediction is disseminated to the population being predicted?
+#### How can we quantify the changes to a predicted outcome when that prediction is disseminated to the population whose behavior is being predicted?
 - Think: election polls, distributions of wait times, etc. Is this sufficient to describe the glaring errors in all the 2016 poll predictions?
 
 #### What city in a Third World country will bear the greatest intellectual fruits in the next 25 years? 
