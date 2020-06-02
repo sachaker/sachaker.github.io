@@ -5,6 +5,27 @@ mathjax: true
 permalink: /thoughts/
 ---
 
+### *June 1st, 2020*
+---
+# **Some questions...**
+
+> ##### A few random things that I've been thinking about quite a bit. Some date back years, other in the past few hours
+
+#### Why does it feel like Hungary has disproportionately produced some of the brightest minds of all time?
+- Erdos, von Neumann, Gabor, Wigner, Elo, and [many, many more](https://en.wikipedia.org/wiki/List_of_Hungarians)
+
+#### How can we quantify the resulting changes to a predicted outcome when that prediction is disseminated to the population being predicted?
+- Think: election polls, distributions of wait times, etc. Is this sufficient to describe the glaring errors in all the 2016 poll predictions?
+
+#### What city in a Third World country will bear the greatest intellectual fruits in the next 25 years? 
+- Lagos? CDMX? 
+
+#### Why has the wash time of restaurant-grade dishwashers (~1min) been so disparate from its domestic counterpart for so long? 
+- I'm not convinced that this "industry-domestic discrepancy" exists for other applicable technologies
+
+#### Is globalization always a good thing? To what extent does the globalization of technology align with (and also engender) cultural globalization?
+- China has reaped the rewards of Western innovation without the "burden" of democracy (great convo on this [here](https://podcasts.apple.com/us/podcast/34-zev-weinstein-on-parenting-boys-generation-z/id1469999563?i=1000474506222)), yet it does not feel that this adoption has been at the cost of any cultural identity. On the other hand, physical Turkish presence in Germany has had profound influence on the culture (and cuisine) there, though their relationship dates back to at least WWI, before US-China relations.
+
 
 ### *May 9th, 2020*
 ---
