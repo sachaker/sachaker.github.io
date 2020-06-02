@@ -11,7 +11,7 @@ permalink: /thoughts/
 
 > ##### A few random things that I've been thinking about quite a bit. Some date back years, others in the past few hours
 
-#### Why does it feel like Hungary has disproportionately produced some of the brightest minds of the 20th century?
+#### Why does it feel like Hungary disproportionately produced some of the brightest minds of the 20th century?
 - Erdos, von Neumann, Gabor, Wigner, Elo, and [many, many more](https://en.wikipedia.org/wiki/List_of_Hungarians)
 
 #### How can we quantify the changes to a predicted outcome when that prediction is disseminated to the population whose behavior is being predicted?
