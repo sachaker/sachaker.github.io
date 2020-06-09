@@ -10,7 +10,6 @@ permalink: /other/
 <p float="left">
   <img src="{{site.imgurl}}/book1.jpg" height="250" />
   <img src="{{site.imgurl}}/book27.jpg" height="250" />
-  <img src="{{site.imgurl}}/book28.jpg" height="250" />
 </p>
 
 &nbsp;
