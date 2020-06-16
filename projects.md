@@ -9,7 +9,7 @@ permalink: /projects/
 
 Fig is a side project I started with my best friend to address the growing discrepancy between financial literacy and the accessibility of investing. We wanted to create a "Bloomberg terminal for Robinhood users". Ironically, while Robinhood has done a lot to democratize investing, they've done almost nothing to increase financial literacy, resulting in amateur investors losing a lot of hard-earned money.
 
-The other side of Fig is the automated trading platform, which scrapes the positions that Wall St.'s top analysts are taking and makes trades based on those positions in real-time. The portfolio is currently in the negative but we deployed it only 2 weeks ago and are looking for value stocks, not just fast-and-easy small gains.
+The other arm of Fig is the automated trading platform, which scrapes the positions that Wall St.'s top analysts are taking and makes trades based on those positions in real-time. The portfolio is currently in the negative but we deployed it only 2 weeks ago and are looking for value stocks, not just fast-and-easy small gains.
 
 Check out an interactive protoype for our dashboard [here](https://www.figma.com/proto/LxN81yj7stf3tg5fHbHhS4/Web-App-Prototype?node-id=5%3A42&scaling=min-zoom) and a sneak peek at a very (very!) alpha version of the actual dashboard [here](https://drive.google.com/file/d/16PrnHMCN_JaHgFPBGHLLkxsAyTY3ydXb/view). Fig is still nascent and we've yet to iron out a solid vision for what it will look like.
 
