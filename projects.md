@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 ## [Fig Finance](http://fig.finance)
-<img style="float: right; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/fig.png" width="20%"/>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/fig.png" width="25%"/>
 
 Fig is a side project I started with my best friend to address the growing discrepancy between financial literacy and the accessibility of investing. We wanted to create a "Bloomberg terminal for Robinhood users". Ironically, while Robinhood has done a lot to democratize investing, they've done almost nothing to increase financial literacy, resulting in amateur investors losing a lot of hard-earned money.
 
