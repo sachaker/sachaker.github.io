@@ -19,8 +19,8 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" #"/thoughts" # the subpath of your site, e.g. /blog
 
 title: Home
-url: "http://sachaker.github.io"
-imgurl: "https://sachaker.github.io/img"
+url: "http://jpolatnick.github.io"
+imgurl: "http://jpolatnick.github.io/img"
 
 # list of links in navbar
 # navbar-links:
@@ -28,8 +28,8 @@ imgurl: "https://sachaker.github.io/img"
   # Projects: "projects"
   
 
-github_username:  sachaker
-twitter_username: sachaker
+github_username:  jpolatnick
+twitter_username: jpolatnick
 
 footer_links:
   linkedin: sacha-mcelligott-136a78a9
