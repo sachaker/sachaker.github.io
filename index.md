@@ -4,9 +4,9 @@ title: Home
 permalink: //
 ---
 
-# Welcome!
+## Welcome!
 
-<img src="{{site.imgurl}}/myBrain.gif" height="500" />
+<img src="{{site.imgurl}}/myBrain.gif" height="100" />
 
 
-Here's my brain :)
+Here's Jackson's Website!
