@@ -6,7 +6,7 @@ permalink: //
 
 ## Welcome!
 
-<img src="{{site.imgurl}}/myBrain.gif" height="100" />
+<img src="{{site.imgurl}}/IMG_8267.JPG" height="500" />
 
 
 Here's Jackson's Website!
