@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/Screen Shot 2020-06-29 at 5.54.24 PM.png" width="33%" />
+<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/Screen\ Shot\ 2020-06-29\ at\ 5.54.24\ PM.png" width="33%" />
 
 [Jackson Polatnick] "https://www.linkedin.com"
 
