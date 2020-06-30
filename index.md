@@ -4,9 +4,8 @@ title: Home
 permalink: //
 ---
 
-## Welcome!
+## 101^365 = 37.78    0.99^365 = 0.026
 
-<img src="{{site.imgurl}}/IMG_8267.JPG" height="500" />
+<img src="{{site.imgurl}}/IMG_8267.JPG" height="700" />
 
 
-Here's Jackson's Website!
