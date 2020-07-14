@@ -11,7 +11,7 @@ Fig is a side project I started with my best friend to address the growing discr
 
 The other arm of Fig is the automated trading platform, which scrapes the positions that Wall St.'s top analysts are taking and makes trades based on those positions in real-time. We have consistently beat out the S&P 500 and our peak annual returns were at ~105%.
 
-Check out an interactive protoype for our dashboard [here](https://www.figma.com/proto/LxN81yj7stf3tg5fHbHhS4/Web-App-Prototype?node-id=5%3A42&scaling=min-zoom) and a sneak peek at a very (very!) alpha version of the actual dashboard [here](https://drive.google.com/file/d/16PrnHMCN_JaHgFPBGHLLkxsAyTY3ydXb/view). Fig is still nascent and we've yet to iron out a solid vision for what it will look like.
+Check out an interactive protoype for our dashboard [here](https://www.figma.com/proto/AdGaBc5V70Mn9VYEFJF9On/Fig-Finance?node-id=115%3A2&scaling=min-zoom) and a sneak peek at a very (very!) alpha version of the actual dashboard [here](https://drive.google.com/file/d/16PrnHMCN_JaHgFPBGHLLkxsAyTY3ydXb/view). Fig is still nascent and we've yet to iron out a solid vision for what it will look like.
 
 
 &nbsp;
