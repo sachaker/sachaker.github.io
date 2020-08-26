@@ -11,7 +11,7 @@ Fig is a side project I started with my best friend to address the growing discr
 
 The other arm of Fig is the automated trading platform, which scrapes the positions that Wall St.'s top analysts are taking and makes trades based on those positions in real-time. We have consistently beat out the S&P 500 (peak annual returns ~105%).
 
-Check out an interactive protoype for our dashboard [here](https://www.figma.com/proto/AdGaBc5V70Mn9VYEFJF9On/Fig-Finance?node-id=115%3A2&scaling=min-zoom) and a sneak peek at a very (very!) alpha version of the actual dashboard [here](https://drive.google.com/file/d/16PrnHMCN_JaHgFPBGHLLkxsAyTY3ydXb/view). Fig is still nascent and we've yet to iron out a solid vision for what it will look like.
+Check out an interactive protoype for our dashboard [here](https://www.figma.com/proto/AdGaBc5V70Mn9VYEFJF9On/Fig-Finance?node-id=115%3A2&scaling=min-zoom) and a sneak peek at an alpha version of the actual dashboard [here](http://198.251.65.146:5000/).
 
 
 &nbsp;
@@ -22,7 +22,7 @@ Check out an interactive protoype for our dashboard [here](https://www.figma.com
 
 "aud.io" is an automated system for speech-to-speech voice conversion. Want to speak as Spongebob? Donald Trump? Ellen Degeneres and more? Look no further. 
 
-You simply speak into the microphone and out comes the same audio, only your voice is now that of your selected speaker. It can learn new output with a day of training and is robust to pretty much any input you throw at it. Its technology is bordering on the frontier of what is out there and is certainly the only readily implementable platform for social purposes. Part of the tournament for the online accelerator [Pioneer](https://pioneer.app).
+You simply speak into the microphone and out comes the same audio, only your voice is now that of your selected speaker. It can learn new output with a day of training and is robust to pretty much any input you throw at it. Its technology is bordering on the frontier of what is out there and is certainly the only readily implementable platform for social purposes. Accepted into the online accelerator [Pioneer](https://pioneer.app).
 
 &nbsp;
 
