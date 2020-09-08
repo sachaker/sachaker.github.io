@@ -11,7 +11,7 @@ Fig is a side project I started with my best friend to address the growing discr
 
 The other arm of Fig is the automated trading platform, which scrapes the positions that Wall St.'s top analysts are taking and makes trades based on those positions in real-time. We have consistently beat out the S&P 500 (peak annual returns ~105%).
 
-Beta version [here](http://fig.finance:5000/).
+Beta version [here](http://fig.finance/).
 
 
 &nbsp;
