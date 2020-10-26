@@ -18,7 +18,7 @@ permalink: /other/
 *It's a secret passion*
 <p float="left">
   <img src="{{site.imgurl}}/cook1.JPG" width="230px" />
-  <img src="{{site.imgurl}}/cook2.gif" width="230px" />
+  <img src="{{site.imgurl}}/cook2.gif"/>
   <img src="{{site.imgurl}}/cook2.JPG" width="230px" />
   <img src="{{site.imgurl}}/cook8.JPG" width="230px" />
   <img src="{{site.imgurl}}/cook9.JPG" width="230px" />
