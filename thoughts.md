@@ -4,6 +4,21 @@ title: Thoughts (blog space)
 mathjax: true
 permalink: /thoughts/
 ---
+### *Novemeber 3rd, 2020*
+---
+# **Reflexivity in politics**
+Distributing poll results to a population before an election degrades the predictiveness of that population by a significant margin. Is there a [psephological](https://en.wikipedia.org/wiki/Psephology) law for this? I'm not sure, but there should be...
+
+In 2016, I warned my family and friends that distributing polls that predict a landslide in Clinton's favor would result in mass complacency, and that this complacency would manifest as poor Democractic turnout. If my community of friends is at all a microcosm to the younger population in the United States, in 2016, ~10 of them (likely more—I only asked a small handful) did not vote because "Hilary [was] going to win in a landslide... No need to go through the pain of voting". 3 of those 10 friends were from Florida, a [crucial swing state](https://en.wikipedia.org/wiki/2016_United_States_presidential_election_in_Florida) in that election. I fear that the same thing may happen with this election today.
+
+While I am not confident in the final outcome of this election, I do feel comfortable positing that the final result will be *much* closer than predicted by any leading pollsters.
+
+The point here is that I think that there is a lot about [reflexivity](https://en.wikipedia.org/wiki/Reflexivity_(social_theory)) that remains unexplored and believe that finding elegant ways to mathematically model reflexivity in different systems would be of immeasurable benefit to statistics, economics, neuroscience, and beyond.
+
+> Shockingly, the "error" of the pollsters' predictions in 2016 was actually pretty much at the [mean combined error for past elections](https://fivethirtyeight.com/features/the-polls-are-all-right/) (only 4% higher than the average). It should be noted that these data are weighted by the number of polls put out by each institution and so the most active pollsters are weighted the highest. The interesting insight here would be to see whether there is a correlation between this weight and the error itself, since the most popular pollsters can be expected to be covered by big media outlets more than their counterparts. The more media coverage a poll receives, the less likely it is to be correct.
+
+&nbsp;
+
 
 ### *June 1st, 2020*
 ---
