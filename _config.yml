@@ -13,7 +13,7 @@ plugins:
   - jemoji
 
 # Site settings
-author: Sacha McElligott
+author: Sacha Schermerhorn
 email: sacha@nyu.edu
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" #"/thoughts" # the subpath of your site, e.g. /blog
@@ -32,10 +32,10 @@ github_username:  sachaker
 twitter_username: sachaker
 
 footer_links:
-  linkedin: sacha-mcelligott-136a78a9
+  linkedin: sachamce
 
 social-network-links:
-  linkedin: https://www.linkedin.com/in/sacha-mcelligott-136a78a9/
+  linkedin: https://www.linkedin.com/in/sachamce/
   twitter: https://twitter.com/sachaker
 
 share-links-active:
