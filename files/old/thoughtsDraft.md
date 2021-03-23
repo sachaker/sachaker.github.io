@@ -1,15 +1,21 @@
-### *Novemeber 3rd, 2020*
+### *March 23rd, 2021*
 ---
-# **Reflexivity in politics**
-Distributing poll results to a population before an election degrades the predictiveness of that population by a significant margin. Is there a [psephological](https://en.wikipedia.org/wiki/Psephology) law for this? I'm not sure, but there should be...
+# **Change vs. Progress**
 
-In 2016, I warned my family and friends that distributing polls that predict a landslide in Clinton's favor would result in mass complacency, and that this complacency would manifest as poor Democractic turnout. If my community of friends is at all a microcosm to the younger population in the United States, in 2016, ~10 of them (likely more—I only asked a small handful) did not vote because "Hilary [was] going to win in a landslide... No need to go through the pain of voting". 3 of those 10 friends were from Florida, a [crucial swing state](https://en.wikipedia.org/wiki/2016_United_States_presidential_election_in_Florida) in that election. I fear that the same thing may happen with this election today.
+It is incredibly important not to conflate change with progress. 
 
-While I am not confident in the final outcome of this election, I do feel comfortable positing that the final result will be *much* closer than predicted by any leading pollsters.
+Progress exists at the intersection between change (state B ≠ state A) and growth (some optimization towards the objective). Change can exist without growth (e.g. a new presidency, binary fission of a bacterium, etc.), but growth cannot exist without change (some sense of modification is requisite for optimization).
 
-The point here is that I think that there is a lot about [reflexivity](https://en.wikipedia.org/wiki/Reflexivity_(social_theory)) that remains unexplored and believe that finding elegant ways to mathematically model reflexivity in different systems would be of immeasurable benefit to statistics, economics, neuroscience, and beyond.
+Without a driving force towards growth, the action or change will be what we can call "yieldless". For example, if I choose to go running, the act of running itself may in fact be the objective, and that will hold under any context in which I am running. However, if my goal has shifted to using running as a means of achieving something else (like moving from point A to point B), then the actions that progress me towards that goal become contextual—running on a treadmill achieves the same action without any progress (as defined by the context). By the same token, science has the bad habit of feigning progress where, in most instances, we are simply just running in place.<sup>1</sup>
 
-> Shockingly, the "error" of the pollsters' predictions in 2016 was actually pretty much at the [mean combined error for past elections](https://fivethirtyeight.com/features/the-polls-are-all-right/) (only 4% higher than the average). It should be noted that these data are weighted by the number of polls put out by each institution and so the most active pollsters are weighted the highest. The interesting insight here would be to see whether there is a correlation between this weight and the error itself, since the most popular pollsters can be expected to be covered by big media outlets more than their counterparts. The more media coverage a poll receives, the less likely it is to be correct.
+It is very easy to see changes within science and be excited by the carrot of progress, but how have those changes progressed us towards the initial objective? In medicine, as an admitted generalization, the objective function is easily defined: are we closer to curing the disease in question? Without proper heuristics for determining this, yiedless changes can safely hide under the veil of progress.<sup>2</sup>
+
+I suspect that we would benefit greatly from inoculating ourselves to the allure of change and no longer misconstruing it as progress. Who would have thought that using the ultimate goal to guide the action could be so hard??
+
+&nbsp; 
+> <sup>1</sup>The iPhone, for instance, has arguably undergone many yieldless changes over the years (compare the growth rate of the product quality in the early years of the iPhone to now), yet the illusion of continued progress has been upheld by the consistency of these iterations.
+
+> <sup>2</sup>Collison and Cowen's 2019 piece on this ([here](https://www.theatlantic.com/science/archive/2019/07/we-need-new-science-progress/594946/)) outlines the urgency of establishing these heurestics across industries. It's a great read.
 
 &nbsp;
 
