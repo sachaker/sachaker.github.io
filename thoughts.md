@@ -19,9 +19,9 @@ It is very easy to see changes within science and be excited by the carrot of pr
 I suspect that we would benefit greatly from inoculating ourselves to the allure of change and no longer misconstruing it as progress. Who would have thought that using the ultimate goal to guide the action could be so hard??
 
 &nbsp; 
-> <sup>1</sup>The iPhone, for instance, has arguably undergone many yieldless changes over the years (compare the growth rate of the product quality in the early years of the iPhone to now), yet the illusion of continued progress has been upheld by the consistency of these iterations.
+> ##### <sup>1</sup>The iPhone, for instance, has arguably undergone many yieldless changes over the years (compare the growth rate of the product quality in the early years of the iPhone to now), yet the illusion of continued progress has been upheld by the consistency of these iterations.
 
-> <sup>2</sup>Collison and Cowen's 2019 piece on this ([here](https://www.theatlantic.com/science/archive/2019/07/we-need-new-science-progress/594946/)) outlines the urgency of establishing these heurestics across industries. It's a great read.
+> ##### <sup>2</sup>Collison and Cowen's 2019 piece on this ([here](https://www.theatlantic.com/science/archive/2019/07/we-need-new-science-progress/594946/)) outlines the urgency of establishing these heurestics across industries. It's a great read.
 
 &nbsp;
 
