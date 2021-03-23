@@ -195,7 +195,10 @@ Mike and I had a great discussion last November about this fundamental oversight
 
 ### *April 8th, 2020*
 ---
-# <a id="#7">**Brown Gold: How our poop is the most untapped gold mine of the 21st Century**</a>
+
+<a id="#7"></a>
+
+# **Brown Gold: How our poop is the most untapped gold mine of the 21st Century**
 
 Poop, and by extension, wastewater, is a data source that will be replenished each minute of every hour of every day until the end of civilization. The microbiome is *severely* underappreciated in medicine and health<sup>†</sup>.
 I've always been puzzled by this... The evidence supporting the significance of the microbiome is almost insurmountable ([Alzheimer's](https://www.nature.com/articles/s41422-019-0227-7), [longevity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6051225/), [obesity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5082693/), [autism](https://www.nature.com/articles/d41586-020-00198-y). The list goes on...), so how the hell could this be almost universally overlooked?
