@@ -4,15 +4,6 @@ title: Other interests
 permalink: /other/
 ---
 
-### Books
-*What I'm currently reading... Also check out what I'm calling the [Trailing Twenty](./files/trailing20.md) for my 20 most recent reads*
-
-<p float="left">
-  <img src="{{site.imgurl}}/book27.jpg" height="250" />
-</p>
-
-&nbsp;
-
 
 ### Cooking
 *It's a secret passion*
