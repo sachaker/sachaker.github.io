@@ -4,14 +4,12 @@ title: Projects
 permalink: /projects/
 ---
 
-## [Fig Finance](http://fig.finance)
+## Fig Finance
 <img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/fig.png" width="25%"/>
 
-Fig is a side project I started with my best friend to address the growing discrepancy between financial literacy and the accessibility of investing. We wanted to create a "Bloomberg terminal for Robinhood users". Ironically, while Robinhood has done a lot to democratize investing, they've done almost nothing to increase financial literacy, resulting in amateur investors losing a lot of hard-earned money. We're building a dashboard that offers investment data in a simple, clean interface.
+Fig was a side project I started with my best friend to address the growing discrepancy between financial literacy and the accessibility of investing. We wanted to create a "Bloomberg terminal for Robinhood users". Ironically, while Robinhood has done a lot to democratize investing, they've done almost nothing to increase financial literacy, resulting in amateur investors losing a lot of hard-earned money. We built a dashboard that offered investment data in a simple, clean interface.
 
-The other arm of Fig is the automated trading platform, which scrapes the positions that Wall St.'s top analysts are taking and makes trades based on those positions in real-time. We have consistently beat out the S&P 500 (peak annual returns ~105%).
-
-Beta version [here](http://fig.finance/).
+The other arm of Fig was an automated trading platform, which scraped the positions that Wall St.'s top analysts were taking and made trades based on those positions in real-time. We consistently beat out the S&P 500 (peak annual returns ~105%).
 
 
 &nbsp;
