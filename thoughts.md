@@ -7,7 +7,7 @@ permalink: /thoughts/
 
 ### *March 23rd, 2021*
 ---
-#**Change vs. Progress**
+# **Change vs. Progress**
 
 It is incredibly important not to conflate change with progress. 
 
