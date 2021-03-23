@@ -5,13 +5,13 @@ mathjax: true
 permalink: /thoughts/
 ---
 
-• <a href="#7">Change vs. Progress</a>
+• <A href="#7">Change vs. Progress</A>
 
-• <a href="#1">Brown gold</a>
+• <A href="#1">Brown gold</A>
 
 ### *March 23rd, 2021*
 ---
-# <a id="#7">**Change vs. Progress**</a>
+# <A id="#7">**Change vs. Progress**</A>
 
 It is incredibly important not to conflate change with progress. 
 
@@ -196,7 +196,7 @@ Mike and I had a great discussion last November about this fundamental oversight
 ### *April 8th, 2020*
 ---
 
-<a id="#7"></a>
+<A id="#7"></A>
 
 # **Brown Gold: How our poop is the most untapped gold mine of the 21st Century**
 
