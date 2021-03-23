@@ -4,6 +4,27 @@ title: Thoughts (blog space)
 mathjax: true
 permalink: /thoughts/
 ---
+### *March 23rd, 2021*
+---
+# **Change vs. Progress**
+
+It is incredibly important not to conflate change with progress. 
+
+Progress exists at the intersection between change (state B ≠ state A) and growth (some optimization towards the objective). Change can exist without growth (e.g. a new presidency, binary fission of a bacterium, etc.), but growth cannot exist without change (some sense of modification is requisite for optimization).
+
+Without a driving force towards growth, the action or change will be what we can call "yieldless". For example, if I choose to go running, the act of running itself may in fact be the objective, and that will hold under any context in which I am running. However, if my goal has shifted to using running as a means of achieving something else (like moving from point A to point B), then the actions that progress me towards that goal become contextual—running on a treadmill achieves the same action without any progress (as defined by the context). By the same token, science has the bad habit of feigning progress where, in most instances, we are simply just running in place.<sup>1</sup>
+
+It is very easy to see changes within science and be excited by the carrot of progress, but how have those changes progressed us towards the initial objective? In medicine, as an admitted generalization, the objective function is easily defined: are we closer to curing the disease in question? Without proper heuristics for determining this, yiedless changes can safely hide under the veil of progress.<sup>2</sup>
+
+I suspect that we would benefit greatly from inoculating ourselves to the allure of change and no longer misconstruing it as progress. Who would have thought that using the ultimate goal to guide the action could be so hard??
+
+&nbsp; 
+> <sup>1</sup>The iPhone, for instance, has arguably undergone many yieldless changes over the years (compare the growth rate of the product quality in the early years of the iPhone to now), yet the illusion of continued progress has been upheld by the consistency of these iterations.
+
+> <sup>2</sup>Collison and Cowen's 2019 piece on this ([here](https://www.theatlantic.com/science/archive/2019/07/we-need-new-science-progress/594946/)) outlines the urgency of establishing these heurestics across industries. It's a great read.
+
+&nbsp;
+
 ### *Novemeber 3rd, 2020*
 ---
 # **Reflexivity in politics**
