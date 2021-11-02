@@ -8,16 +8,16 @@ I have just gotten back from some time away during which I was living very remot
 By no means do I have all the answers, but in an attempt to share some of my experience/resulting conclusions, I have distilled some of my thoughts below:
 
 ### 1. Be deliberate ###
-The family whose land I was staying on has lived an incredibly alternative and adventurous life. Cambridge educated, in the 1960's, the couple decided to abandon their conventional, professional paths for a shared on of extremely rural living.
+The family whose land I was staying on has lived an incredibly alternative and adventurous life. Cambridge educated, in the 1960's the couple decided to abandon their conventional, professional paths for a shared one of extremely rural living.
 
-I have recently been grappling with the fact that the default state of humans is to meander through life and end up somewhere. However, I believe we feed ourselves the illusion that each decision we have made is calculated and part of a consistent narrative.
+I have recently been grappling with the fact that the default state of humans is to meander through life and just end up somewhere. However, I also believe we feed ourselves the illusion that each decision we have made has been calculated and was part of a consistent narrative.
 
 One lesson I took away from this couple is that living adventurously is to live randomly—to position one's self in situations that present countless potentialities and to continue to choose the option most fitting in that exact moment of one's life. This is a deliberate choice to chase randomness. **To deliberately meander is different than to meander under the guise of deliberation.** I think most people don't appreciate that fact, but this family certainly did. They chose a life of randomness. Most people live such a life with the illusion that they do not...
 
-My conclusion from this insight is that my own ideal circumstance is to live more deliberately than "adventurously" and insert occasional stochasticity/noise to the process to let randomness present a raffle of potentially more meaningful/rich experiences.
+My conclusion from this insight is that my own ideal circumstance is to live more deliberately than "adventurously" and insert *occasional* stochasticity/noise to the process to let randomness present a raffle of potentially more meaningful/rich experiences.
 
 ### 2. Express gratitude ###
-At almost every junction in our life, there is a collection of characters that influence our pursuit of a specific path. I think it is incredibly important to commit time to identifying these characters that have direct or indirect influence (they may have been so seemingly peripheral in your life that they may not even realize) and to explicitly express gratitude for their influence.
+At almost every junction in our life, there is a collection of characters that influences our ultimate pursuit of a given path. I think it is incredibly important to commit time to identifying these characters that have direct or indirect influence (they may have been so seemingly peripheral in your life that they may not even realize) and to explicitly express gratitude for their influence.
 
 Take this as a CTA to send a text or email to at least 1 person who fits that description right now. I believe the greatest gift we can receive in life is to have some sense of impact. Impact in others affirms our existence and begets a deep sense of joy. Go package that gift to someone as a quick message now! :)
 
@@ -26,7 +26,8 @@ In order to make a judgement, especially in the context of interpersonal relatio
 
 Finding the right person (a friend, partner, etc.) is about being the right version of yourself. **A healthy question to ask regularly is whether you feel confident in your current self to make a judgement call on someone with whom you may spend years.** This puts more of an onus on the prospector and less on fate to present you with the "perfect person". That person may have slipped right under your nose because you simply weren't ready.
 
-### 4. 
+### 4. The opportunity cost of learning is extremely low ###
+Learning is perhaps the most 
 
 
 ### *March 26th, 2021*
