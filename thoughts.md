@@ -23,7 +23,7 @@ I whip together a sufficiently scalable backend and clean up my script. My frien
 
 After some basic stress tests, we feel we are ready and the first TikTok post goes out on Jan. 16th. Within the first 22 days we get the following data:
 
-<img style="float: left; margin: 0px 25px 25px 0px;" src="{{site.imgurl}}/blogContent/sideProject_stats.png" height="35%"/>
+<img style="float: left; margin: 0px 25px 25px 0px;" src="{{site.imgurl}}/blogContent/sideProject_stats.png" height="50%"/>
 
 TL;DR this project is still in its infancy and we initially got obliterated by the demand (crashing servers, blocking/delaying services, etc..) We have a lot of conviction in the project and are going to start properly ramping up the growth. This was all just a very prelimenary test-run.
 
