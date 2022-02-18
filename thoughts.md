@@ -9,7 +9,7 @@ permalink: /thoughts/
 ---
 # **My secret side project**
 
-<img style="float: left; margin: 0px 25px 25px 0px;" src="{{site.imgurl}}/blogContent/hawaii.heic" height="50%" width="50%"/>
+<img style="float: left; margin: 0px 25px 25px 0px;" src="{{site.imgurl}}/blogContent/hawaii.png" height="50%" width="50%"/>
 
 &nbsp; 
 
