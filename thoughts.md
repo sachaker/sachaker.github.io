@@ -37,7 +37,7 @@ If you are toying with an idea, I suggest you:
 3. Make a compelling landing page with at least a sign up field
 4. Launch using TikTok and make an assessment in 2 weeks as to whether the product is worth pursuing further (spend no more than $2,000)
 
-The opportunity cost is completely overshadowed by the potential upside for these side projects.  I want to advocate heavily for lowering the mental friction of starting a project. Starting putting together something cool tomorrow and let me know how it goes (DM’s open on [Twitter](https://twitter.com/sachaker)!)
+The opportunity cost is completely overshadowed by the potential upside for these side projects.  I want to advocate heavily for lowering the mental friction of starting a project. Start putting together something cool tomorrow and let me know how it goes (DM’s open on [Twitter](https://twitter.com/sachaker)!)
 
 
 &nbsp; 
