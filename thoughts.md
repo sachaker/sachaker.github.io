@@ -9,8 +9,9 @@ permalink: /thoughts/
 ---
 # **My secret side project**
 
-<img style="float: left; margin: 0px 25px 25px 0px;" src="{{site.imgurl}}/blogContent/hawaii.png" height="50%" width="50%"/>
+<img style="float: left; margin: 0px 25px 25px 0px;" src="{{site.imgurl}}/blogContent/hawaii.png" height="75%" width="75%"/>
 
+&nbsp;
 &nbsp; 
 
 On a gorgeous Hawaiian day in late December I whipped together a little script. For various reasons, I am keeping the purposes of this script secret. What you need to know is that this little script was birthed from the confluence of my boredom and my randomly reading API docs of a popular mobile app. I thought of a cool feature one could build using the API and built out a pretty basic service in a few hours. I sent my MVP to a close friend in consumer social. 10sec later he texts back...
