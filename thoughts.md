@@ -13,7 +13,7 @@ permalink: /thoughts/
 
 On a gorgeous Hawaiian day in late December I whipped together a little script. For various reasons, I am keeping the purposes of this script secret. What you need to know is that this little script was birthed from the confluence of my boredom and my randomly reading API docs of a popular mobile app. I thought of a cool feature one could build using the API and built out a pretty basic service in a few hours. I sent my MVP to a close friend in consumer social. 10sec later he texts back...
 
-<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/blogContent/sideProject_imessage.png" height="100%" width="100%"/>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/blogContent/sideproject_imessage.png" height="100%" width="100%"/>
 
 He suggests we productize it and ship something in the next 2 weeks. We partner up with one of his colleagues to build out a website and productionize my little MVP. 
 
@@ -21,7 +21,7 @@ I whip together a sufficiently scalable backend and clean up my script. My frien
 
 After some basic stress tests, we feel we are ready and the first TikTok post goes out on Jan. 16th. Within the first 22 days we get the following data:
 
-<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/blogContent/sideProject_stats.png" height="100%" width="100%"/>
+<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/blogContent/sideProject_stats.png" height="15%" width="15%"/>
 
 TL;DR this project is still in its infancy and we initially got obliterated by the demand (crashing servers, blocking/delaying services, etc..) We have a lot of conviction in the project and are going to start properly ramping up the growth. This was all just a very prelimenary test-run.
 
