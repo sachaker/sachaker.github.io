@@ -5,6 +5,42 @@ mathjax: true
 permalink: /thoughts/
 ---
 
+### *February 18th, 2022*
+---
+# **My secret side project**
+
+<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/blogContent/hawaii.png" height="100%" width="100%"/>
+
+On a gorgeous Hawaiian day in late December I whipped together a little script. For various reasons, I am keeping the purposes of this script secret. What you need to know is that this little script was birthed from the confluence of my boredom and my randomly reading API docs of a popular mobile app. I thought of a cool feature one could build using the API and built out a pretty basic service in a few hours. I sent my MVP to a close friend in consumer social. 10sec later he texts back...
+
+<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/blogContent/sideProject_imessage.png" height="100%" width="100%"/>
+
+He suggests we productize it and ship something in the next 2 weeks. We partner up with one of his colleagues to build out a website and productionize my little MVP. 
+
+I whip together a sufficiently scalable backend and clean up my script. My friend designs a simple website which his colleague builds with a basic API layer to interface with our db. We reach out to some TikTokers to post and within a day we’ve locked in the campaign.
+
+After some basic stress tests, we feel we are ready and the first TikTok post goes out on Jan. 16th. Within the first 22 days we get the following data:
+
+<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/blogContent/sideProject_stats.png" height="100%" width="100%"/>
+
+TL;DR this project is still in its infancy and we initially got obliterated by the demand (crashing servers, blocking/delaying services, etc..) We have a lot of conviction in the project and are going to start properly ramping up the growth. This was all just a very prelimenary test-run.
+
+I’ve realized in pursuing this side project the power of rapid exploration. This flies in the face of what most founders are taught to believe. People in tech overindex on the merits of shipping products the conventional way (i.e. come up with an idea, make a pitch deck, reach out to investors, build out an MVP after hiring the 10x engineers you convinced to join, tell everyone on LinkedIn you’re the CEO of a future unicorn despite the fact that all you’ve done thus far is incorporate with Stripe Atlas, etc..) Even as kids we are trained to think so definitively about things—”I *will* be an X one day”. Why not just give it a shot and reassess in a couple of weeks?
+
+This approach is not per se a prescription for anyone considering pursuing a startup but moreso a recommendation to those who are capable enough to build products and curious enough to indulge that capability. Just build something casually for 2 weeks and make sure to get it to market fast enough to determine whether it’s worth pursuing further.
+
+If you are toying with an idea, I suggest you:
+
+1. Quickly (1 week MAX) build an MVP (if you are technical—if not, then make a Figma protoype)
+2. Text the absolute minimum number of people you need to see this project through to completion to collaborate with you (2 other people MAX, in my opinion)
+3. Make a compelling landing page with at least a sign up field
+4. Launch using TikTok and make an assessment in 2 weeks as to whether the product is worth pursuing further (spend no more than $2,000)
+
+The opportunity cost is completely overshadowed by the potential upside for these side projects.  I want to advocate heavily for lowering the mental friction of starting a project. Starting putting together something cool tomorrow and let me know how it goes (DM’s open on [Twitter](https://twitter.com/sachaker)!)
+
+
+&nbsp; 
+
 ### *March 23rd, 2021*
 ---
 # **Change vs. Progress**
