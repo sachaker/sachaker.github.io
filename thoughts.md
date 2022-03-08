@@ -16,7 +16,9 @@ On a gorgeous Hawaiian day in late December I whipped together a little script. 
 
 <img style="float: left; margin: 0px 25px 25px 0px;" src="{{site.imgurl}}/blogContent/sideproject_imessage.png" height="35%" width="35%"/>
 
-He suggests we productize it and ship something in the next 2 weeks. We partner up with one of his colleagues to build out a website and productionize my little MVP. 
+He suggests we productize it and ship something in the next 2 weeks. We partner up with one of his colleagues to build out a website and productionize my little MVP.<sup>1</sup>
+
+> ##### <sup>1</sup> EDIT: Apparently my recollection might not be fully accurate. Instead it was suggested that he came to me with the idea and I built it. Upon reexamination I recall it being somewhere in between; i.e. I sent him a related product I built and he came back with a derivative product that I built. Either way, this is my fault and I should keep this clear!
 
 I whip together a sufficiently scalable backend and clean up my script. My friend designs a simple website which his colleague builds with a basic API layer to interface with our db. We reach out to some TikTokers to post and within a day we’ve locked in the campaign.
 
