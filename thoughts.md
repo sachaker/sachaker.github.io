@@ -5,6 +5,101 @@ mathjax: true
 permalink: /thoughts/
 ---
 
+### *March 29th, 2022*
+---
+# **A way to think about thought**
+### Preface
+
+This is not a mathematical piece, this is just a piece that uses math to help us grok the concept of thought. It is pseudomathematical in both terminology and implementation—sometimes by design, other times by my ignorance. In either event, this is just the way I thought through everything and this piece is my attempt to bring you into that process. 
+
+Also, this essay ended up being more of a mind dump than a careful and calculated exposition about my framework. Please keep that in mind. Feel free to fork this and make whatever changes you think make sense—and, of course, to let me know when you do so. I hope you enjoy :)
+
+### Overview/Terminology
+
+In trying to articulate something for another *thought* piece I was writing, I inadvertently devised a new framework I found even more exciting...
+
+<img style="float: center; margin: 0px 25px 25px 0px;" src="{{site.imgurl}}/thoughtspace_fig1.png" height="100%" width="100%"/>
+
+Consider two ideologies, A and B, projected into some n-dimensional idea or thought space. Each dot is an individual in that thought space, each with their own ideological composition that places them in a certain position in this thought space.
+
+That weird shape “A” in my figure is an ideology, which I’ll call a “subspace”—that is, the minimum bounded thought space that encapsulates all individuals belonging to that ideology. People (again, those dots) with minor deviations from the accepted school of thought push the bounds of that ideology outward into new pockets of thought space. The morphology of the subspace is therefore determined by the ideologies of its constituent individuals.
+
+“B” is an ideological antagonist to A. That is, there is no set of shared coordinates in thought space between A and B (i.e. A ⋂ B = Ø.) “x” is an individual whose current ideology is not readily defined (i.e. there is no publicly accepted label<sup>*</sup> for that individual’s ideas and therefore their position in thought space.)
+
+<sup>*</sup>This is slightly misleading and so the nuance is captured below.
+
+### Expanded model
+
+The proximity of x in thought space to a given subspace is an important component in determinining whether x will be subsumed by that subspace. One can think of it as the extent of ideological alignment—someone whose opinions may be aligned with Socialism but who has yet to classify themselves as such.
+
+However, an important distinction is that it is not *actual* proximity in thought space to a given subspace but is instead the proximity to the nearest *known* subspace that is the relevant factor. If one is unaware of the existence of Buddhism but arrives at conclusions similar to Buddhist tenets, one will not become a Buddhist until it appears on their map of known thought space. They are only then even remotely likely to classify themselves as a Buddhist.
+
+Now it only naturally follows that the likelihood of someone being sucked into that ideology, or subspace, is directly proportional to their proximity in thought space to that subspace. That is, the more aligned with a given ideology a person is, the more likely they are to convert. A corollary to this is that the likelihood of an individual not joining *any* defined ideology is directly proportional to the distance to their nearest ideology (again, not globally, but in *known* thought space.)
+
+It might be conceptually convenient to think of each subspace in known thought space as having a certain graviational pull on all individuals. That gravitational pull seems most likely to be a function of its proximity to a given individual in thought space as well as its size (i.e. how many people are contained within the subspace, or ideology.)
+
+<img style="float: left; margin: 0px 25px 25px 0px;" src="{{site.imgurl}}/thoughtspace_eq1.png" height="400px"/>
+
+Where the numerator $m_{A}$ is the number of known individuals in subspace A and the denominator $d_{xA}$ is the [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance#Higher_dimensions) in thought space between person x and the centroid of subspace A.
+
+It is important to underscore the fact that both variables are determined by the known thought space—that is, the ideologies, the number of individuals in each ideology, and the nuances of each ideology *known to the individual*. In instances where people’s average awareness of other ideologies is limited, a certain ideology can very readily claim dominance.
+
+Another factor that feels important to capture in this model is the innate malleability of any individual, given their age. We can likely agree (I hope definitively) that one’s adolescent years are more formative than one’s late 60’s. This is not to say that ideological conversion is impossible at a later stage, it is just to acknowledge that there is an innate bias that predisposes people to being more receptive to ideologies at certain ages than at others.
+
+<img style="float: center; margin: 0px 25px 25px 0px;" src="{{site.imgurl}}/thoughtspace_fig2.png" height="100%" width="100%"/>
+
+You might argue with the shape of this curve (and we’d definitely both disagree about its relative proportions) but the important thing is that this malleability curve, let’s say M(t), is a nonlinear function normalized to the peak malleability of an individual throughout their lifetime. This serves as a weighting function for our “gravitational pull” equation. People are more malleable, or receptive, to the pull of ideologies at certain points in their life. We’re just looking for a way to express this “mathematically”.
+
+So now to update the original equation...
+
+<img style="float: center; margin: 0px 25px 25px 0px;" src="{{site.imgurl}}/thoughtspace_eq2.png" height="100%" width="100%"/>
+
+With the only difference being that we are now also weighting the influence of an ideology by the malleability/receptiveness of that individual based on their age at the time of exposure.
+
+Peak likelihood of indoctrination is likely during adolescence when the known thought space is minimal and the malleability is high. This basically affords an ideology unfettered influence over that individual, especially if the exposure to other ideologies is negligible.
+
+Peak likelihood of conversion might come during college, where exposure to more ideologies is extreme (i.e. the known thought space broadens) and malleability is high.
+
+### Outliers
+
+Given the information above, it follows that there must be some threshold of dissonance between the individual’s beliefs and the “mean ideology” (i.e. the centroid of the subspace to which that individual belongs) that causes a fracturing between the two (i.e. x no longer is part of A.) I see this as the point at which the individual would openly dissociate from the label of that subspace. 
+
+As nodes (individuals) start to cluster around a particular region, especially near the boundaries of a subspace, it makes sense that they might collectively split from the subspace with enough momentum (ideological meiosis?.)
+
+Their likelihood of splitting is similar to the equation outlined above. The further on the periphery of an ideology they are and the more frequent and raw the exposure to each other’s deviations from that mean ideology, the more likely they are to split and form their own subspace. Think: denominations of Christianity that formed and continue to form.
+
+Requisite for these types of subspaces to form is some medium through which these individuals/nodes can be made aware of one another. Prior to Gutenberg’s invention of the movable-type printing press, new subspaces were not able to form as easily given that the set of nodes whose position was known to other nodes was limited. That is, the known thought space for the average node was significantly more limited than it is today (duh.)
+
+As communication technologies emerged they made more people more aware of other people and their respective ideologies. The average known thought space was broadened.
+
+History has provided us with many such communication technologies (of all scales.) From books/literacy to cities to IRC to 4chan to [Pioneer](https://pioneer.app) and more, substrates have and continue to emerge to facilitate quicker development of known thought space. As more nodes become more aware of global thought space more subspaces and conversions emerge.
+
+As more nodes join each subspace, they strengthen its existence by broadening its boundaries (in both physical and thought spaces!.) This reflexively increases the likelihood of subsuming new nodes.
+
+With increasing means of exposing individuals to global thought space, we can expect to see more ideologies/communities continue to emerge. This is already expected, of course, it is just pleasing to arrive to the same conclusion using this framework.
+
+### Nascent subspaces and their formation
+
+Martin Luther would not have been able to spark the Reformation without making people aware that other people were aware of his nascent ideology (early use of network effects.) Communication tools serve as a substrate through which the average known thought space of its participants broadens.
+
+### Real-world implications
+
+I believe there are some real-world implications for this framework. Consider for instance the targeting of youth for ideologies of various kinds (e.g. Christian Camp, Hitler Youth, Boy Scouts, etc.) Indoctrination 101... This framework potentially offers a crude way of modeling the various factors that drive the adoption of those ideologies—that is:
+
+- the innate malleability or plasticity of people of a certain age
+- the number of people they are exposed to who believe that ideology
+- the extent of their awareness of other ideologies
+- the extent of ideological alignment with other ideologies of which the individual is aware
+
+This also provides a convenient way to think about how limited exposure to other ideologies breeds blind dogma—think: the feedback loop of social media echo chambers, people in remote regions who have limited exposure to people of the “opposite” political persuasion, etc. Conversely, we can also see how exposure breeds intellectual diversity—in this framework, new subspaces (or ideologies) invariably emerge from exposure (i.e. expanding known thought space.) People who live in big cities likely have broader known thought spaces than those who live in rural regions. For politically inclined adults who move to big cities but still are blinded by dogma, this is also explained: their M(t) (malleability) is so low that the gravitational pull of another ideology that would otherwise exist is significantly reduced. This is not at all to say that it is impossible to have conviction in a big city—it is just to say that the constant exposure will on average erode that hypothetical max degree of conviction.
+
+### Final thoughts
+
+This framework is incomplete (and possibly incoherent..?) I will plan to expand on it as both time and my headspace allows. For now, I’m posting prematurely to feel the pressure of random eyeballs as well as to get feedback in the process. Thanks for reading!
+
+&nbsp; 
+
+
 ### *February 18th, 2022*
 ---
 # **My secret side project**
