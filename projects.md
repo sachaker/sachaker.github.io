@@ -4,6 +4,16 @@ title: Projects
 permalink: /projects/
 ---
 
+## wya
+<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/wya_banner.png" width="25%"/>
+
+I built wya with a friend so we could better keep track of our friends. How many times have you travelled to a city and not known who was around? How many times have people you know come to town and you've missed each other because you had no idea? How many times have you happened to overlap with someone in a city without realizing it?
+
+wya is our attempt to avoid repeating these extremely avoidable scenarios. Think of it as a city-level Zenly. Fun *and* useful, but without the undercurrent of creepy surveillance (location is shown at the city-level only.) Currently in TestFlight!
+
+
+&nbsp;
+
 ## Fig Finance
 <img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/fig.png" width="25%"/>
 
