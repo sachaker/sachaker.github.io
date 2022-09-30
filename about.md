@@ -16,7 +16,7 @@ Work-wise, I did ~8 years in neuroscience before getting into startups. My time 
        
 After getting into [Pioneer](https://pioneer.app) I co-founded [Lolly](https://www.thelollyapp.com) (more on us [here](https://www.forbes.com/sites/rachelsandler/2021/01/15/meet-lolly-the-new-gen-z-dating-app-combining-tiktok-and-tinder/).) I can't tell you how much those experiences changed my life. I am so lucky.
 
-Currently, I'm helping startups with product and growth as well as hacking away at some side projects! For various reasons, I'm keeping those startups and side projects private (at least for now.)
+Currently building a new company in stealth.
 
 If you'd like to know more about my work background, it's all on [my LinkedIn](https://www.linkedin.com/in/sachamce/). Feel free to connect with me!
 
