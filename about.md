@@ -16,6 +16,8 @@ Work-wise, I did ~8 years in neuroscience before getting into startups. My time 
        
 After building 8 or so products during the initial COVID lockdown, I got into [Pioneer](https://pioneer.app), through which I met my cofounder for [Lolly](https://www.thelollyapp.com) (more on us [here](https://www.forbes.com/sites/rachelsandler/2021/01/15/meet-lolly-the-new-gen-z-dating-app-combining-tiktok-and-tinder/).) I can't tell you how much those experiences changed my life. I am so lucky.
 
+I obsessively collect data on a lot of things in my life. Some examples include: places I've eaten, people I've seen, phone calls I've had, movies I've seen, times I wake up, Wikipedias I've read, dreams I've had, coffees I've had, etc. These lists have been going for >2 years and are not unique (I've been to Sweetgreen 68 times since October 16th, 2020.) I also wrote some code to track every keystroke, my mouse position (@ 40Hz!), as well as the apps I use at any given time (a la [Wolfram](https://writings.stephenwolfram.com/2012/03/the-personal-analytics-of-my-life/)).
+
 Currently, I am building a new company in stealth.
 
 If you'd like to know more about my work background, it's all on [my LinkedIn](https://www.linkedin.com/in/sachamce/). Feel free to connect with me!

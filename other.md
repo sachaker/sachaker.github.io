@@ -8,7 +8,7 @@ permalink: /other/
 ### Cooking
 *It's a secret passion*
 <p float="left">
-  <img src="{{site.imgurl}}/7B7F80F2-E2C8-4B18-9D76-E9CC082C8740.JPG" width="530px" /> <br>
+  <img src="{{site.imgurl}}/7B7F80F2-E2C8-4B18-9D76-E9CC082C8740.JPG" width="468px" /> <br>
   <img src="{{site.imgurl}}/cook2.gif" width="230px" />
   <img src="{{site.imgurl}}/IMG_2311.jpeg" width="230px" />
   <img src="{{site.imgurl}}/IMG_5794.jpeg" width="230px" />
