@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/boat.png" width="33%" />
+<img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/withLenny.JPG" width="33%" />
 
 My name is Sacha (McElligott) Schermerhorn—welcome to my website! 
 
