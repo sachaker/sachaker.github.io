@@ -8,12 +8,13 @@ permalink: /other/
 ### Cooking
 *It's a secret passion*
 <p float="left">
-  <img src="{{site.imgurl}}/cook1.JPG" width="230px" />
+  <img src="{{site.imgurl}}/7B7F80F2-E2C8-4B18-9D76-E9CC082C8740.JPG" width="530px" />
   <img src="{{site.imgurl}}/cook2.gif" width="230px" />
-  <img src="{{site.imgurl}}/cook2.JPG" width="230px" />
-  <img src="{{site.imgurl}}/cook8.JPG" width="230px" />
-  <img src="{{site.imgurl}}/cook9.JPG" width="230px" />
-  <img src="{{site.imgurl}}/cook10.JPG" width="230px" />
+  <img src="{{site.imgurl}}/IMG_2311.jpeg" width="230px" />
+  <img src="{{site.imgurl}}/IMG_5794.jpeg" width="230px" />
+  <img src="{{site.imgurl}}/IMG_6077.JPG" width="230px" />
+  <img src="{{site.imgurl}}/IMG_7014.jpeg" width="230px" />
+  <img src="{{site.imgurl}}/IMG_8506.jpeg" width="230px" />
   <!-- <img src="{{site.imgurl}}/cook3.JPG" height="300px" />
   <img src="{{site.imgurl}}/cook5.JPG" height="300px" />
   <img src="{{site.imgurl}}/cook6.JPG" height="300px" />
