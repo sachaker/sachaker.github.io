@@ -8,7 +8,7 @@ permalink: /other/
 ### Cooking
 *It's a secret passion*
 <p float="left">
-  <img src="{{site.imgurl}}/7B7F80F2-E2C8-4B18-9D76-E9CC082C8740.JPG" width="530px" />
+  <img src="{{site.imgurl}}/7B7F80F2-E2C8-4B18-9D76-E9CC082C8740.JPG" width="530px" /> <br>
   <img src="{{site.imgurl}}/cook2.gif" width="230px" />
   <img src="{{site.imgurl}}/IMG_2311.jpeg" width="230px" />
   <img src="{{site.imgurl}}/IMG_5794.jpeg" width="230px" />
@@ -28,7 +28,7 @@ permalink: /other/
 *Some of my past work... Art has always been a huge part of my life but I still don't indulge it as much as I'd like.*
 
 <p float="center">
-  <img src="{{site.imgurl}}/art2.png" height="460px" style="border:5px white" /> <br>
+  <img src="{{site.imgurl}}/art2.png" height="460px" style="border:5px white" />
   <img src="{{site.imgurl}}/art1.jpg" width="440px" style="border:5px white" />
   <img src="{{site.imgurl}}/art3.jpg" width="270px" style="border:5px white"/>
   <img src="{{site.imgurl}}/art4.JPG" width="270px" style="border:5px white"/>
