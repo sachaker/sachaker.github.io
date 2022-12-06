@@ -10,6 +10,8 @@ permalink: /thoughts/
 # **Don't draw trendlines where they don't belong**
 One of the great things about the human brain is its ability to accurately extrapolate out trendlines using very few data. While this ability proves largely valuable, we can become victim to it in ways that affect us negatively. In moments of emotional distress, we default to extrapolating out the trendline prematurely and can often find ourselves feeling as though this distress represents some broader issue in our lives. Sometimes data are not part of some broader trend are indeed just represent the current status of a particular situation. I try to be acutely aware of this tendency for either emotional valence. Be wary of extrapolating prematurely—with people, emotions, circumstance, or anything else.
 
+&nbsp;
+
 ### *March 29th, 2022*
 ---
 # **A way to think about thought**
