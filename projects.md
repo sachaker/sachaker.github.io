@@ -1,7 +1,7 @@
 ---
 layout: gallery
 title: Projects
-permalink: /projects/
+permalink: /projects
 ---
 
 ## wya
