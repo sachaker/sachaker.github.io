@@ -5,7 +5,8 @@ mathjax: true
 permalink: /thoughts
 ---
 
-### *December 22nd, 2022**
+
+### **December 22nd, 2022**
 ---
 # **Do you optimize for information or ignorance?**
 Everyone should be an information optimizer. I think an important reframing of difficult situations is the following: where most people would see difficult situations as ones to avoid or delay, you, as a founder who cares about greatness, should be focused on minimizing ignorance and optimizing for information. A good way to optimize for information is to increase your surface area with difficult situations. This is beyond just “extracting lessons from difficult things”, a business/life platitude with which we are all familiar. Instead, this is about just having the most amount of information at your disposal to make the most informed decisions possible at all times.
