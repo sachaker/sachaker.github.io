@@ -9,7 +9,7 @@ permalink: /thoughts
 ### **December 22nd, 2022**
 ---
 # **Do you optimize for information or ignorance?**
-Everyone should be an information optimizer. I think an important reframing of difficult situations is the following: where most people would see difficult situations as ones to avoid or delay, you, as a founder who cares about greatness, should be focused on minimizing ignorance and optimizing for information. A good way to optimize for information is to increase your surface area with difficult situations. This is beyond just “extracting lessons from difficult things”, a business/life platitude with which we are all familiar. Instead, this is about just having the most amount of information at your disposal to make the most informed decisions possible at all times.
+Everyone should be an information optimizer. We all encounter difficult situations, but how we engage with them varies. I think an important reframing of difficult situations is the following: where most people would see difficult situations as ones to avoid or delay, you, as a founder who cares about greatness, should be focused on minimizing ignorance and optimizing for information. A good way to optimize for information is to increase your surface area with difficult situations. This is beyond just “extracting lessons from difficult things”, a business/life platitude with which we are all familiar. Instead, this is about just having the most amount of information at your disposal to make the most informed decisions possible at all times.
 
 For example, let’s say there is a possible rejection looming from a key investor, this should not be a process of procrastination and anxiety while waiting for the answer, this should be a process of running head-first into the situation such that you have the information you need **quickly** to queue up the downstream decisions. This framework is really a corollary of Ben Horowitz’s notion of *running the right way* ([here](https://a16z.com/2019/10/17/how-to-be-effective-ceo-leader/)). I think the reframing from an information perspective is key in that is emphasizes the constant game of information optimization.
 
@@ -41,7 +41,7 @@ Also, this essay ended up being more of a mind dump than a careful and calculate
 
 In trying to articulate something for another *thought* piece I was writing, I inadvertently devised a new framework I found even more exciting...
 
-<img style="float: center; margin: 0px 25px 25px 0px;" src="{{site.imgurl}}/thoughtspace_fig1.png" height="100%" width="100%"/>
+<img style="float: center; margin: 0px 25px 25px 0px;" src="{{site.imgurl}}/thoughtspace_fig1.png" height="60%" width="60%"/>
 
 Consider two ideologies, A and B, projected into some n-dimensional idea or thought space. Each dot is an individual in that thought space, each with their own ideological composition that places them in a certain position in this thought space.
 
