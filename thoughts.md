@@ -2,7 +2,7 @@
 layout: gallery
 title: Thoughts (blog space)
 mathjax: true
-permalink: /thoughts/
+permalink: /thoughts
 ---
 
 ### *December 22nd, 2022**
