@@ -61,7 +61,7 @@ Now it only naturally follows that the likelihood of someone being sucked into t
 
 It might be conceptually convenient to think of each subspace in known thought space as having a certain graviational pull on all individuals. That gravitational pull seems most likely to be a function of its proximity to a given individual in thought space as well as its size (i.e. how many people are contained within the subspace, or ideology.)
 
-<img style="float: left; margin: 0px 25px 25px 0px;" src="{{site.imgurl}}/thoughtspace_eq1.png" height="400px"/>
+<img style="float: left; margin: 0px 25px 25px 0px;" src="{{site.imgurl}}/thoughtspace_eq1.png" height="150px"/>
 
 Where the numerator $m_{A}$ is the number of known individuals in subspace A and the denominator $d_{xA}$ is the [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance#Higher_dimensions) in thought space between person x and the centroid of subspace A.
 
