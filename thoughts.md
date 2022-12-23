@@ -5,6 +5,20 @@ mathjax: true
 permalink: /thoughts/
 ---
 
+### *December 22nd, 2022**
+# **Do you optimize for information or ignorance?**
+Everyone should be an information optimizer. I think an important reframing of difficult situations is the following: where most people would see difficult situations as ones to avoid or delay, you, as a founder who cares about greatness, should be focused on minimizing ignorance and optimizing for information. A good way to optimize for information is to increase your surface area with difficult situations. This is beyond just “extracting lessons from difficult things”, a business/life platitude with which we are all familiar. Instead, this is about just having the most amount of information at your disposal to make the most informed decisions possible at all times.
+
+For example, let’s say there is a possible rejection looming from a key investor, this should not be a process of procrastination and anxiety while waiting for the answer, this should be a process of running head-first into the situation such that you have the information you need ********quickly******** to queue up the downstream decisions. This framework is really a corollary of Ben Horowitz’s notion of *running the right way* ([here](https://a16z.com/2019/10/17/how-to-be-effective-ceo-leader/)). I think the reframing from an information perspective is key in that is emphasizes the constant game of information optimization.
+
+This applies when it comes to interactions with colleagues, investors, friends, etc. I believe in radical transparency and that true transparency is about giving the other person the respect of full access to information that will help make the right decision. More information means more degrees of freedom for the final solution. Frontloading your access to those degrees of freedom quickly is important for obvious reasons.
+
+That all said, there are downsides to this approach. Sometimes, optimizing purely for information can lead to optimization daemons that lead you down infinite rabbit holes without forcing a decision. One must be acutely aware at all times of what the right information threshold is to pull the trigger on a particular decision. I’ve fallen victim several times to *information greed*. Having an awareness of roughly where that correlation between data (input) and information (data relevant to decision) falls off is probably something that just takes time/experience. I’ve noticed my awareness of it get better with experience, at least.
+
+So, in those moments where you feel a certain anxiety around the outcome of a particular situation, make sure to remember that you have the privilege of getting access to information that would otherwise be withheld from you and that your ability to make decisions will be augmented by the amount of relevant information you have available. If it’s an investor decision, for example, then either a rejection or confirmation will help you decide what the best action space is to pursue next. Be thankful for that opportunity.
+
+&nbsp;
+
 ### *December 6th, 2022*
 ---
 # **Don't draw trendlines where they don't belong**
