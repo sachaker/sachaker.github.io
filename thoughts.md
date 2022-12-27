@@ -9,7 +9,7 @@ permalink: /thoughts
 ---
 # **Ikigai 2.0**
 
-<img style="float: center; margin: 0px 25px 25px 0px;" src="{{site.imgurl}}/ikigai.png" height="60%" width="60%"/>
+<img style="float: center; margin: 0px 25px 25px 0px;" src="{{site.imgurl}}/blogContent/ikigai.png" height="60%" width="60%"/>
 
 Ikigai is a Japanese concept that suggests your life pursuit (as it relates to your sense of purpose/meaning) should be the union set of 3 things:
 
@@ -25,7 +25,7 @@ I would like to put forth an extension of ikigai which emphasizes pursuing the t
 
 For the visualization below, assume the size of the circles (fixed here for aesthetic purposes) represents the number of people in the world who share each quality (e.g. the number of people on Earth who also can do well what you’re good at). The area of the yellow space therefore represents Earth’s population size of people who exist at the intersection of those three sets.
 
-<img style="float: center; margin: 0px 25px 25px 0px;" src="{{site.imgurl}}/ikigai2.png" height="60%" width="60%"/>
+<img style="float: center; margin: 0px 25px 25px 0px;" src="{{site.imgurl}}/blogContent/ikigai2.png" height="60%" width="60%"/>
 
 The takeaway is that you should find something you are exceptionally good at, that you love to do, that the world needs, and that very few people can do. In fact, the fewest number of people possible. I believe contextualizing the number of people is a critical element of your calculation on the above that has not been captured by the conventional ikigai framework.
 
