@@ -7,7 +7,7 @@ permalink: /thoughts
 
 ### **December 27nd, 2022**
 ---
-# **Ikigai 2.0**
+# **Ikigai 2.0—how to think about what to do**
 
 <img style="float: center; margin: 0px 25px 25px 0px;" src="{{site.imgurl}}/blogContent/ikigai.png" height="60%" width="60%"/>
 
