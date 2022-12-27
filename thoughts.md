@@ -5,6 +5,31 @@ mathjax: true
 permalink: /thoughts
 ---
 
+### **December 27nd, 2022**
+---
+# **Ikigai 2.0**
+
+<img style="float: center; margin: 0px 25px 25px 0px;" src="{{site.imgurl}}/ikigai.png" height="60%" width="60%"/>
+
+Ikigai is a Japanese concept that suggests your life pursuit (as it relates to your sense of purpose/meaning) should be the union set of 3 things:
+
+1. What you love to do
+2. What you are especially good at
+3. What the world needs
+
+This is not the actual definition (it’s almost surely a Western bastardization of the concept) but it’s a convenient one whose purpose we can all appreciate.
+
+There are probably several things that exist at this intersection for each person and it’s considered up to the individual to determine which of those to choose.
+
+I would like to put forth an extension of ikigai which emphasizes pursuing the thing that has the least number of people who exist in that same intersection. That is to say, if the yellow area represents the union set of the three aforementioned sets, then one should find the element (or life pursuit) within that union set that is shared by the least number of people in the world.
+
+For the visualization below, assume the size of the circles (fixed here for aesthetic purposes) represents the number of people in the world who share each quality (e.g. the number of people on Earth who also can do well what you’re good at). The area of the yellow space therefore represents Earth’s population size of people who exist at the intersection of those three sets.
+
+<img style="float: center; margin: 0px 25px 25px 0px;" src="{{site.imgurl}}/ikigai2.png" height="60%" width="60%"/>
+
+The takeaway is that you should find something you are exceptionally good at, that you love to do, that the world needs, and that very few people can do. In fact, the fewest number of people possible. I believe contextualizing the number of people is a critical element of your calculation on the above that has not been captured by the conventional ikigai framework.
+
+&nbsp;
 
 ### **December 22nd, 2022**
 ---
