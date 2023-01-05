@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-permalink: /about
+permalink: /about/
 ---
 
 <img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/withLenny.JPG" width="43%" />
