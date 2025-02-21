@@ -4,7 +4,8 @@ title: Projects
 permalink: /projects
 ---
 
-# 2020-2022
+### **2020-2022**
+---
 
 ## wya
 <img style="float: left; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/wya_banner.png" width="50%"/>
@@ -36,7 +37,9 @@ You simply speak into the microphone and out comes the same audio, only your voi
 
 &nbsp;
 
-# 2019
+
+### **2019**
+---
 
 ## [Analyzing rideshare data](https://medium.com/@skm440/analyzing-rideshare-data-a7c83f95cd65)
 <img style="float: right; margin: 0px 15px 15px 0px;" src="{{site.imgurl}}/map.gif" width="65%" />
@@ -54,7 +57,9 @@ The DLC labeling process for whiskers can be laborious and repetitive. This alte
 
 &nbsp;
 
-# 2016-2018
+
+### **2016-2018**
+---
 
 ## [Discovering a new protein in Alzheimer's disease](https://drive.google.com/file/d/1cGzeoDXuqn-UVnipOR9pSiZqdJP9OBgw/view?usp=sharing)
 
