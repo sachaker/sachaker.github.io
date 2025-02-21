@@ -11,36 +11,36 @@ permalink: /thoughts
 
 Relatively idiosyncratic things that I look for in prospective hires:
 
-1. How long will they meet with me and/or work on behalf of the company before compensation is brought up? (Great candidate: *months*)
+- How long will they meet with me and/or work on behalf of the company before compensation is brought up? (Great candidate: *months*)
 
     * I want people who are so obsessed with their work and our science that they’d do it for free (personally - I still feel guilty for taking a salary)
 	* This is not so we get free labor (obviously). This is simply my proxy for their passion
 &nbsp;
 
-2. If I offer Saturday, Sunday, or Monday mornings as potential interview times, will they wait until Monday to meet?
+- If I offer Saturday, Sunday, or Monday mornings as potential interview times, will they wait until Monday to meet?
 	
     * Corollary: Are they responding to my weekend emails? Nighttime emails? Early morning emails too?
 	* How quickly will they make time to meet? Scheduling >1wk out is a orange flag in 99% of cases.
 &nbsp;
 
-3. Are they willing to chat without an agenda?
+- Are they willing to chat without an agenda?
 
     * Given that 99% of these conversations are essentially just picking each other’s brains on a variety of subjects, this tells me whether they are curious and excited to have an excuse to chat science with a thoughtful person or whether they are simply transactional, prostituting their skills at companies to simply get a paycheck.
 	* Our method for hiring is simply to stay close to talented people for months and only consider hiring them thereafter. We optimize for extreme talent and don't do job postings, so our hiring process is a bit distinct
 &nbsp;
 
-4. Are they thoughtful about other things outside their immediate expertise?
+- Are they thoughtful about other things outside their immediate expertise?
 
     * Can I debate them on subjects? (besides politics - I stay away from this)
 &nbsp;
 
-5. To get to our office, do they take the stairs or the elevator?
+- To get to our office, do they take the stairs or the elevator?
 
     * Shortcuts or self-improvement?
 	* Exceptions to this, of course...
 &nbsp;
 
-6. Do they show enthusiasm / initiative throughout the entirety of knowing each other?
+- Do they show enthusiasm / initiative throughout the entirety of knowing each other?
 
     * This will manifest in beautifully subtle ways. I will keep those ways secret for now in case prospective hires try to hack our process. But if that’s you and you’re reading this: +1 for doing your homework on me !
 &nbsp;
