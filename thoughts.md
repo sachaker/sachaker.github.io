@@ -5,6 +5,37 @@ mathjax: true
 permalink: /thoughts
 ---
 
+### **February 20th, 2025**
+---
+# **Random ramblings about company building**
+
+Relatively idiosyncratic things that I look for in prospective hires:
+
+1. How long will they meet with me and/or work on behalf of the company before compensation is brought up? (Great candidate: *months*)
+    • I want people who are so obsessed with their work and our science that they’d do it for free (personally - I still feel guilty for taking a salary)
+2. If I offer Saturday, Sunday, or Monday mornings as potential interview times, will they wait until Monday to meet?
+	• Corollary: Are they responding to my weekend emails? Nighttime emails? Early morning emails too?
+3. Are they willing to chat without an agenda?
+    • Given that 99% of these conversations are essentially just picking each other’s brains on a variety of subjects, this tells me whether they are curious and excited to have an excuse to chat science with a thoughtful person or whether they are simply transactional, prostituting their skills at companies to simply get a paycheck.
+4. Are they thoughtful about other things outside their immediate expertise?
+    • Can I debate them on subjects? (besides politics - I stay away from this)
+5. To get to our office, do they take the stairs or the elevator?
+    • Shortcuts or self-improvement?
+6. Do they show enthusiasm / initiative throughout the entirety of knowing each other?
+    • This will manifest in beautifully subtle ways. I will keep those ways secret for now in case prospective hires try to hack our process. But if that’s you and you’re reading this: +1 for doing your homework on me !
+
+Separately, I think there needs to be a general reframing of how founders think. One example… Founders should not aspire to get the top tier VCs that they can brag about. They should aspire to build a generational company that the top tier VCs *brag about having invested in.* So many psyops... Another is that you should *not* be working hard as a founder and *should* be going to events. Fuck that. That is simply wrong. Great deal flow for the investors to have founders showing up at their events—yet, ironically, terrible selection bias in terms of the founders themselves. I don’t think I’ve ever met a good founder who routinely attends events. 
+
+How many founders would be an Uber driver to pay their bills to extend runway, I wonder? Not many. Top of funnel is too large these days. Anyone with $500 and access to the internet can become a bona fide ~Chief Executive Officer~ within minutes via Stripe Atlas. It’s too indiscriminate of a process. We’ve also fetishized the very “profession” of being a founder. Since when was being a founder even a profession? It’s worse than that now. It’s a lifestyle. Cosplay CEOs. Their vanity is matched only by their ubiquity. Carbon copies of each other. “Chief Executive Officers” giving talks and podcast interviews without ever having built something of substance. Silly and strange phenomenon. I imagine it will only get worse.
+
+I am also not sure when believing in hard work became contrarian, but finding founders who honor this is increasingly rare. We are living through a pandemic of laziness. Whereas 80hr+ weeks was once an established norm, we instead hear about “work life balance” and petty productivity hacks. I am not sure why this has become controversial but I believe as strongly as anyone could that working extremely hard is simply a precondition for doing anything of consequence. It goes without saying, but obviously this is necessary but not sufficient. Regardless, I have never met a single person for whom this was an exception.
+
+Focus is a similarly under-appreciated phenomenon. I think it has become too acceptable to be distributed in your focus as a founder. Lots of people serving as advisors to multiple companies (I made that mistake with my last company), investing in the stock market (or trading crypto), actively seeking angel investments, etc. Collectively, these distribute your attention across demanding and highly variable organisms that pervert your focus (even subconsciously). I feel this also applies to the location in which your company is headquartered. For location, I believe one should balance optimization of opportunity with minimization of distractions—that’s why SF is such a great city to build in and Miami mostly is not. I suppose I have embodied this to the extreme, selling all of my investments (and putting them into my company) and getting rid of my cell phone over 2 years ago (I remain very happily phoneless). Maybe I am a member of a dying breed, but I do believe an extreme level of focus and being uncompromising about the optimization process is critical.
+
+Overall, I just wish people would be more extreme in their endeavors—it’s how the most outsized outcomes have always occurred. However, maybe that being consensus is what will ultimately render it no longer true. Anyway, will save that for another day…
+
+&nbsp;
+
 ### **December 27nd, 2022**
 ---
 # **Ikigai 2.0—how to think about what to do**
@@ -211,7 +242,7 @@ I suspect that we would benefit greatly from inoculating ourselves to the allure
 # **Reflexivity in politics**
 Distributing poll results to a population before an election degrades the predictiveness of that population by a significant margin. Is there a [psephological](https://en.wikipedia.org/wiki/Psephology) law for this? I'm not sure, but there should be...
 
-In 2016, I warned my family and friends that distributing polls that predict a landslide in Clinton's favor would result in mass complacency, and that this complacency would manifest as poor Democractic turnout. If my community of friends is at all a microcosm to the younger population in the United States, in 2016, ~10 of them (likely more—I only asked a small handful) did not vote because "Hilary [was] going to win in a landslide... No need to go through the pain of voting". 3 of those 10 friends were from Florida, a [crucial swing state](https://en.wikipedia.org/wiki/2016_United_States_presidential_election_in_Florida) in that election. I fear that the same thing may happen with this election today.
+In 2016, I warned my family and friends that distributing polls that predict a landslide in Clinton's favor would result in mass complacency, and that this complacency would manifest as poor Democractic turnout. If my community of friends is at all a microcosm to the younger population in the United States, in 2016, ~10 of them (likely more—I only asked a small handful) did not vote because "Hilary [was] going to win in a landslide... No need to go through the pain of voting". 3 of those 10 friends were from Florida, a [crucial swing state](https://en.wikipedia.org/wiki/2016_United_States_presidential_election_in_Florida) in that election. I suspect the same thing may happen with this election today.
 
 While I am not confident in the final outcome of this election, I do feel comfortable positing that the final result will be *much* closer than predicted by any leading pollsters.
 
